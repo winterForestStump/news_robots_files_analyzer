@@ -2,6 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 
+month_folder = 'march_2025'
+
 headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"}
 url = 'https://ahrefs.com/websites/news'
 
@@ -20,12 +22,12 @@ def main():
             row_data = [cell.text.strip() for cell in cells]
             rows.append(row_data)
     # Save to CSV
-    with open("data/news_best_100.csv", "w", newline="", encoding="utf-8") as file:
+    with open(f"data/{month_folder}/news_best_100.csv", "w", newline="", encoding="utf-8") as file:
         writer = csv.writer(file)
         writer.writerow(headers)  # Write headers
         writer.writerows(rows)  # Write rows
 
-    print("Data saved to data/news_best_100.csv")
+    print(f"Data saved to data/{month_folder}/news_best_100.csv")
 
 if __name__ == '__main__':
     main()

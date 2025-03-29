@@ -4,12 +4,13 @@ import pandas as pd
 from tqdm import tqdm
 from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 
-headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"}
+month_folder = 'march_2025'
 
+headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"}
 today = str(date.today())
 
 def main():
-    df = pd.read_csv('data/news_best_100.csv')
+    df = pd.read_csv(f'data/{month_folder}/news_best_100.csv')
     for i in tqdm(range(len(df))):
         try:
             url = f"https://www.{df['Website'].iloc[i]}/robots.txt"
@@ -32,7 +33,7 @@ def main():
             print(f"An unexpected error occurred: {e}")
             continue
 
-    df.to_csv(f'data/robots_txt_{today}.csv')
+    df.to_csv(f'data/{month_folder}/robots_txt_{today}_agents.csv')
 
 
 if __name__ == "__main__":
