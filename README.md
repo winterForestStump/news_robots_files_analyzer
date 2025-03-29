@@ -22,7 +22,7 @@ Methodology:
 ### Findings
 A significant number of news websites disallow certain LLM agents from accessing their content.
 
-Here is a [list of bots](list_ai.txt), agents, and crawlers used by AI companies, extracted from the provided data and gathered from the official AI developers websites:
+Here is a [list of bots](data/list_ai.txt), agents, and crawlers used by AI companies, extracted from the provided data and gathered from the official AI developers websites:
 
 #### OpenAI
 * GPTBot
