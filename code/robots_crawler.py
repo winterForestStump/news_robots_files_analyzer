@@ -4,7 +4,7 @@ import pandas as pd
 from tqdm import tqdm
 from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 
-month_folder = 'april_2025'
+month_folder = 'may_2025'
 
 headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"}
 today = str(date.today())
@@ -29,7 +29,7 @@ def main():
         except TooManyRedirects:
             print("Too many redirects. Check the URL or handle redirects manually.")
             continue
-        except TooManyRedirects:
+        except TooManyRedirects as e:
             print(f"An unexpected error occurred: {e}")
             continue
 

@@ -3,7 +3,7 @@
 ---
 The rise of generative AI has transformed how users interact with information. Tools like ChatGPT, Claude, and Perplexity now summarize news, answer queries, and even rewrite articles—all while bypassing the websites that originally published the content. For publishers, this poses an existential threat: if AI bots scrape their content without driving traffic, their advertising revenue and subscription models collapse.  
 
-In response, a quiet revolution is unfolding. Website owners are updating their `robots.txt` files—the decades-old standard for controlling web crawlers—to block AI agents. To understand the scale of this movement, I analyzed the top 100 news websites (ranked by search traffic) and discovered that **82.8% now disallow at least one AI bot**. This article reveals how I conducted the study, the tools used, key findings, and what this means for the future of AI and the open web.  
+In response, a quiet revolution is unfolding. Website owners are updating their `robots.txt` files—the decades-old standard for controlling web crawlers—to block AI agents. To understand the scale of this movement, I analyzed the top 100 news websites (ranked by search traffic) and discovered that **81% now disallow at least one AI bot**. This article reveals how I conducted the study, the tools used, key findings, and what this means for the future of AI and the open web.  
 
 ---
 
@@ -21,13 +21,13 @@ The experiment involved three phases:
    - **Output:** A dataset (`disallowed_bots.csv`) listing blocked bots per website.  
 
 3. **Analysis**  
-   - **Tools:** Jupyter Notebooks (`disallowed_analyzer_march_2025.ipynb` and `april_2025.ipynb`).  
+   - **Tools:** Jupyter Notebooks (`disallowed_analyzer_may_2025.ipynb` and `may_2025.ipynb`).  
    - **Key Metrics:**  
      - Percentage of websites blocking AI bots.  
      - Most-blocked AI agents.  
      - Websites with the strictest policies.  
 
-A predefined list (`list_ai.txt`) included 85 AI-related crawlers.
+A predefined list (`list_ai.txt`) included 42 AI-related crawlers.
 
 ---
 
@@ -50,15 +50,15 @@ In the Jupyter notebooks, I:
 
 ## **Results**  
 ### 1. Widespread AI Bot Blocking  
-- **82.8% of Websites** (53/64 unique domains) blocked at least one AI bot.  
-- **33.1% of All Disallowed Bots** were AI-related (445/1,344 entries in April 2025).  
+- **81% of Websites** (52/64 unique domains) blocked at least one AI bot.  
+- **35% of All Disallowed Bots** were AI-related (468/1,345 entries in May 2025).  
 
 ### 2. Top Blocked AI Bots  
 | Rank | Bot                | Blocked By |  
 |------|---------------------|------------|  
-| 1    | GPTBot (OpenAI)    | 46 sites   |  
+| 1    | GPTBot (OpenAI)    | 45 sites   |  
 | 2    | CCBot (Common Crawl)| 36 sites   |  
-| 3    | anthropic-ai       | 31 sites   |  
+| 3    | anthropic-ai       | 30 sites   |  
 
 *Why GPTBot?* OpenAI’s crawler is notoriously aggressive, scraping high-quality articles for training data.  
 
@@ -71,10 +71,6 @@ In the Jupyter notebooks, I:
 
 The *New York Times* blocked 22 AI bots, including niche crawlers like "DuckAssistBot."  
 
-### 4. The Rise of AI-Specific Blocks  
-From March to April 2025:  
-- **AI disallowances increased by 3%** (432 to 445).  
-- **New entrants**: Google-Extended (+1), PerplexityBot (+2).  
 
 ---
 

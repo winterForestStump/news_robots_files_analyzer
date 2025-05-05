@@ -24,53 +24,47 @@ A significant number of news websites disallow certain LLM agents from accessing
 
 Here is a [list of bots](data/list_ai.txt), agents, and crawlers used by AI companies, extracted from the provided data and gathered from the official AI developers websites:
 
-#### OpenAI
-* GPTBot
-* ChatGPT-User
-* OAI-SearchBot
-
-#### Anthropic
-* anthropic-ai
-* ClaudeBot
-* Claude-Web
-* Claude-User
-* Claude-SearchBot
-
-#### Google
-* Google-Extended
-* Google-CloudVertexBot
-
-#### Cohere
-* cohere-ai
-
-#### Perplexity
-* PerplexityBot
-* Perplexity-ai
-
-#### DeepSeek
-* DeepSeek
-* DeepSeekBot
-
-#### ByteDance
-* Bytespider
-
-#### Meta/ Facebook
-* meta-externalagent
-* meta-externalfetcher
-* FacebookBot
-
-#### Other AI-related Bots
-* huggingface
-* img2dataset
-* ImagesiftBot
-* Diffbot
-* PetalBot (likely related to AI or search)
-* MAZBot (possibly AI-related)
-* DataForSeoBot (AI-driven SEO tool)
-* Applebot-Extended
-
-#### Notable Mentions
-* CCBot (Common Crawl, used for AI training data)
-* Scrapy (often used for AI data collection)
-* NewsNow (AI-driven news aggregator)
-* TurnitinBot (AI-powered plagiarism detection)
+| Bot Name                          | Description                                                                                                      | Maintainer/Company         |
+|-----------------------------------|------------------------------------------------------------------------------------------------------------------|----------------------------|
+| GPTBot                            | OpenAI's web crawler for improving AI models through website data collection                                     | OpenAI                     |
+| ChatGPT-User                      | User agent string used by ChatGPT browser interactions                                                          | OpenAI                     |
+| OAI-SearchBot                     | OpenAI's search engine crawler for AI training data                                                              | OpenAI                     |
+| anthropic-ai                      | Anthropic's AI agent for website interactions and data processing                                               | Anthropic                  |
+| ClaudeBot                         | Anthropic's web crawler for Claude AI training                                                                   | Anthropic                  |
+| Claude-Web                        | Claude AI's web browsing interface agent                                                                         | Anthropic                  |
+| Claude-User                       | User agent for Claude AI browser-based interactions                                                             | Anthropic                  |
+| Claude-SearchBot                  | Claude AI's specialized search engine crawler                                                                    | Anthropic                  |
+| Google-Extended                   | Google's AI training data crawler (for Bard/Gemini)                                                              | Google                     |
+| Google-CloudVertexBot             | Crawler for Google Cloud's Vertex AI platform                                                                    | Google                     |
+| cohere-ai                         | Cohere's AI agent for natural language processing tasks                                                          | Cohere                     |
+| cohere-training-data-crawler      | Cohere's web crawler for collecting AI training data                                                            | Cohere                     |
+| PerplexityBot                     | Perplexity AI's primary web crawler                                                                              | Perplexity AI              |
+| Perplexity-ai                     | Secondary crawler for Perplexity's AI search engine                                                              | Perplexity AI              |
+| Perplexity-User                   | User agent for Perplexity's browser-based AI interactions                                                        | Perplexity AI              |
+| DeepSeek                          | DeepSeek's main AI agent for search and interactions                                                             | DeepSeek                   |
+| DeepSeekBot                       | DeepSeek's web crawler for AI training data                                                                      | DeepSeek                   |
+| huggingface                       | Crawler for Hugging Face's AI model repository                                                                   | Hugging Face               |
+| img2dataset                       | Image-focused web crawler for AI training datasets                                                               | Hugging Face (community)   |
+| ImagesiftBot                      | Image analysis and filtering bot for AI training                                                                 | Various AI companies       |
+| Diffbot                           | AI-powered web scraper and data extractor                                                                        | Diffbot                    |
+| Bytespider                        | ByteDance's web crawler for AI training data                                                                     | ByteDance                  |
+| PetalBot                          | Huawei's web crawler for AI/machine learning purposes                                                            | Huawei                     |
+| MAZBot                            | Media-focused AI crawler for content analysis                                                                    | MAZ Systems                |
+| DataForSeoBot                     | SEO data crawler used for AI-powered marketing insights                                                          | DataForSeo                 |
+| Amazonbot                         | Amazon's AI/ML web crawler for product data and Alexa training                                                   | Amazon                     |
+| Applebot                          | Apple's web crawler for Siri and machine learning                                                                | Apple                      |
+| Applebot-Extended                 | Extended version of Apple's AI crawler for specialized data collection                                           | Apple                      |
+| meta-externalagent                | Meta's external AI agent for platform interactions                                                               | Meta (Facebook)            |
+| meta-externalfetcher              | Meta's data collection bot for AI training                                                                       | Meta (Facebook)            |
+| FacebookBot                       | Meta's primary web crawler for AI/ML applications                                                                | Meta (Facebook)            |
+| YandexDialogs                     | Yandex's AI assistant (Alice) interaction bot                                                                    | Yandex                     |
+| YandexAdditional                  | Yandex's supplemental AI data crawler                                                                            | Yandex                     |
+| YandexAdditionalBot               | Secondary Yandex bot for AI-related data collection                                                              | Yandex                     |
+| scalepostAI                       | AI-powered social media content analysis bot                                                                     | Scalepost                  |
+| AI2Bot                            | Allen Institute for AI's research crawler                                                                        | Allen Institute for AI     |
+| Ai2Bot-Dolma                      | Specialized crawler for the Dolma AI training dataset                                                            | Allen Institute for AI     |
+| Twitterbot                        | Twitter's official crawler for AI-powered features                                                               | Twitter (X Corp)           |
+| CCBot                             | Common Crawl's open dataset web crawler                                                                          | Common Crawl Foundation    |
+| Scrapy                            | Open-source web crawling framework (used by many AI projects)                                                    | Scrapy community           |
+| NewsNow                           | AI-powered news aggregation crawler                                                                              | NewsNow Group              |
+| TurnitinBot                       | AI plagiarism detection system crawler                                                                           | Turnitin                   |
