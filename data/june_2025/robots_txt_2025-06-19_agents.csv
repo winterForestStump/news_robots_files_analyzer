@@ -1,0 +1,6761 @@
+,Rank,Unnamed: 1,Website,Unnamed: 3,Search traffic,Unnamed: 5,robots
+0,1,,yahoo.com,,256M,−96M,
+1,2,↑1,yahoo.co.jp,,204M,−49M,"User-agent: Google-Extended
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: *
+"
+2,3,↓1,globo.com,,184M,−80M,"#
+# robots.txt
+#
+
+User-Agent: *
+Disallow: /busca/
+Disallow: /beta/
+Disallow: /historico-home/
+Disallow: *globo-cdn-src/*
+Disallow: /alt-a/
+Disallow: /alt-b/
+Disallow: /alt-c/
+Disallow: /alt-d/
+Disallow: /recomendado/
+Disallow: /explore/
+Sitemap: http://www.globo.com/sitemap-image.xml
+
+
+###### 
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+######
+
+"
+3,4,,nytimes.com,,172M,−43M,"# New York Times content is made available for your personal, non-commercial
+# use subject to our Terms of Service here:
+# https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-Service.
+# Use of any device, tool, or process designed to data mine or scrape the content
+# using automated means is prohibited without prior written permission from
+# The New York Times Company.  Prohibited uses include but are not limited to:
+# (1) text and data mining activities under Art. 4 of the EU Directive on Copyright in
+# the Digital Single Market;
+# (2) the development of any software, machine learning, artificial intelligence (AI),
+# and/or large language models (LLMs);
+# (3) creating or providing archived or cached data sets containing our content to others; and/or
+# (4) any commercial purposes.
+# Contact https://nytlicensing.com/contact/ for assistance.
+
+User-agent: *
+User-agent: Googlebot
+Disallow: /ads/
+Disallow: /adx/bin/
+Disallow: /athletic/wp/wp-admin/
+Allow: /athletic/wp/wp-admin/admin-ajax.php
+Disallow: /athletic/async-*
+Disallow: /athletic/search/*
+Allow: /athletic/search/$
+Disallow: /athletic/checkout/
+Disallow: /athletic/checkout?plan_id*
+Allow: /athletic/checkout/$
+Disallow: /athletic/checkout2*
+Disallow: /athletic/login/
+Disallow: /athletic/login?login_source*
+Disallow: /athletic/login?ref_page*
+Allow: /athletic/login/$
+Disallow: /athletic/login2/
+Disallow: /athletic/login2?login_source*
+Disallow: /athletic/login2?ref_page*
+Allow: /athletic/login2/$
+Disallow: /athletic/report/
+Disallow: /athletic/*/discuss/*
+Disallow: /athletic/register/
+Disallow: /athletic/register?welcome_redirect*
+Disallow: /athletic/register2/
+Disallow: /athletic/register2?welcome_redirect*
+Disallow: /athletic/betmgm-redirect*
+Disallow: /athletic/cdn-cgi/
+Disallow: /athletic/verizon/*
+Disallow: /athletic/forgot-password/*
+Allow: /athletic/forgot-password/$
+Disallow: /athletic/forgot-password2/*
+Allow: /athletic/forgot-password2/$
+Disallow: /athletic/amp-social-login*
+Disallow: /athletic/track-analytics/
+Disallow: /athletic/amp-auth/
+Disallow: /athletic/rss-feed/
+Disallow: /athletic/*?*rss=1
+Disallow: /athletic/global-color-test.php
+Disallow: /athletic/global-font-test.php
+Disallow: /athletic/graphql*
+Disallow: /athletic/api*
+Disallow: /athletic/ip*
+Disallow: /athletic/call-set-cookie-with-context/*
+Disallow: /athletic/get-current-user/
+Disallow: /athletic/pv.json
+Disallow: /athletic/following-feed-test/*
+Disallow: /athletic*/boxscore/*
+Disallow: /athletic/feed-test/
+Disallow: /athletic*/signed-mp3-redirect-url/*
+Disallow: /athletic/embedded-interactive/*
+Disallow: /athletic/interactive/*
+Disallow: /card/panel/
+Disallow: /panel/
+Disallow: /puzzles/leaderboards/invite/*
+Disallow: /svc
+Allow: /svc/crosswords
+Allow: /svc/games
+Allow: /svc/letter-boxed
+Allow: /svc/spelling-bee
+Allow: /svc/vertex
+Allow: /svc/wordle
+Disallow: /video/embedded/*
+Disallow: /search
+Disallow: /multiproduct/
+Disallow: /hd/
+Disallow: /inyt/
+Disallow: /*?*query=
+Disallow: /*.pdf$
+Disallow: /*?*login=
+Disallow: /*?*searchResultPosition=
+Disallow: /*?*campaignId=
+Disallow: /*?*mcubz=
+Disallow: /*?*smprod=
+Disallow: /*?*ProfileID=
+Disallow: /*?*ListingID=
+Disallow: /*?*campaign_id=
+Disallow: /*?*hybrid=
+Disallow: /*?*entry=
+Disallow: /*?*embed=
+Disallow: /*?ls=
+Disallow: /*?*&ls=
+Disallow: /wirecutter/wp-admin/
+Disallow: /wirecutter/*.zip$
+Disallow: /wirecutter/*.csv$
+Disallow: /wirecutter/deals/beta
+Disallow: /wirecutter/data-requests
+Disallow: /wirecutter/search
+Disallow: /wirecutter/*?s=
+Disallow: /wirecutter/*&xid=
+Disallow: /wirecutter/*?q=
+Disallow: /wirecutter/*?l=
+Disallow: /wirecutter/*?merchant=
+Disallow: /search
+Disallow: /subscription/*?*source=
+Disallow: /subscription/*?*onboarded=
+Disallow: /*?*smid=
+Disallow: /*?*partner=
+Disallow: /*?*utm_source=
+Allow: /wirecutter/*?*utm_source=
+Allow: /ads/public/
+Allow: /svc/news/v3/all/pshb.rss
+
+
+# Googlebot Specific Rules
+
+User-agent: Googlebot
+Disallow: /athletic*adgroupid*
+Disallow: /athletic*campaignid*
+Disallow: /athletic*ad_id*
+Disallow: /athletic*access_token*
+Disallow: /athletic*amp_reader_id*
+Disallow: /athletic*/?source=*
+Disallow: /athletic/*?*embed=1
+
+
+# Disallow Rules
+
+User-agent: AliyunSecBot
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: AudigentAdBot
+Disallow: /
+
+User-agent: AwarioRssBot
+User-agent: AwarioSmartBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: DuckAssistBot
+Disallow: /
+
+User-agent: EchoboxBot
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: FriendlyCrawler
+Disallow: /
+
+User-agent: Google-CloudVertexBot
+Disallow: /
+Allow: /wirecutter/
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+User-agent: Jetslide
+Disallow: /
+
+User-agent: magpie-crawler
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+User-agent: meta-externalagent
+Disallow: /
+
+User-agent: Meta-ExternalFetcher
+User-agent: meta-externalfetcher
+Disallow: /
+
+User-agent: MyCentralAIScraperBot
+Disallow: /
+
+User-agent: NewsNow
+Disallow: /
+
+User-agent: news-please
+Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+User-agent: omgili
+Disallow: /
+
+User-agent: omgilibot
+Disallow: /
+
+User-agent: peer39_crawler
+User-agent: peer39_crawler/1.0
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Poseidon Research Crawler
+Disallow: /
+
+User-agent: quillbot.com
+Disallow: /
+
+User-agent: Quora-Bot
+Disallow: /
+
+User-agent: Scrapy
+Disallow: /
+
+User-agent: SeekrBot
+Disallow: /
+
+User-agent: SeznamHomepageCrawler
+Disallow: /
+
+User-agent: TaraGroup Intelligent Bot
+Disallow: /
+
+User-agent: Timpibot
+Disallow: /
+
+User-agent: TurnitinBot
+Disallow: /
+
+User-agent: ViennaTinyBot
+Disallow: /
+
+User-agent: YouBot
+Disallow: /
+
+# Other Bot Rules
+
+User-agent: facebookexternalhit
+Allow: /*?*smid=
+
+User-agent: Twitterbot
+Allow: /*?*smid=
+
+
+# Sitemaps
+
+Sitemap: https://www.nytimes.com/sitemaps/new/news.xml.gz
+Sitemap: https://www.nytimes.com/sitemaps/new/sitemap.xml.gz
+Sitemap: https://www.nytimes.com/sitemaps/new/collections.xml.gz
+Sitemap: https://www.nytimes.com/sitemaps/new/video.xml.gz
+Sitemap: https://www.nytimes.com/sitemaps/new/cooking.xml.gz
+Sitemap: https://www.nytimes.com/sitemaps/new/recipe-collects.xml.gz
+Sitemap: https://www.nytimes.com/sitemaps/new/regions.xml
+Sitemap: https://www.nytimes.com/sitemaps/new/best-sellers.xml
+Sitemap: https://www.nytimes.com/sitemaps/new/weather.xml.gz
+Sitemap: https://www.nytimes.com/sitemaps/new/espanol.xml.gz
+Sitemap: https://www.nytimes.com/sitemaps/new/espanol-collects.xml.gz
+Sitemap: https://www.nytimes.com/wirecutter/sitemapindex.xml
+Sitemap: https://www.nytimes.com/athletic/sitemap-authors.xml
+Sitemap: https://www.nytimes.com/athletic/sitemap-verticals.xml
+Sitemap: https://www.nytimes.com/athletic/sitemap-teams.xml
+Sitemap: https://www.nytimes.com/athletic/sitemap-cities.xml
+Sitemap: https://www.nytimes.com/athletic/sitemap.xml
+Sitemap: https://www.nytimes.com/games-assets/v2/assets/sitemap/games.xml
+
+"
+4,5,↑1,bbc.co.uk,,121M,−26M,
+5,6,↑2,detik.com,,106M,−23M,"User-agent: Googlebot
+Disallow: */komentar$
+Disallow: */main$
+Disallow: */main/*
+Disallow: /ajax/
+Disallow: /api/
+Disallow: /search/*
+Disallow: /tag/news/*
+Disallow: /tag/foto/*
+Disallow: *&sortby
+Disallow: *&device=desktop
+Disallow: */?
+Disallow: *edu/pov/d-*
+Disallow: */indeks/*
+Disallow: /*?
+Disallow: /video/
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: *
+Allow: /
+Sitemap: https://www.detik.com/sitemap.xml
+"
+6,7,,uol.com.br,,100M,−46M,"# robots.txt
+#
+User-agent: *
+Sitemap: https://www.uol.com.br/carros/sitemap/v2/news-01.xml
+Sitemap: https://www.uol.com.br/ecoa/sitemap/news-01.xml
+Sitemap: https://www.uol.com.br/esporte/sitemap/v2/news-01.xml
+Sitemap: https://www.uol.com.br/nossa/sitemap/news-01.xml
+Sitemap: https://www.uol.com.br/splash/sitemap/news-01.xml
+Sitemap: https://www.uol.com.br/tilt/sitemap/news-01.xml
+Sitemap: https://www.uol.com.br/universa/sitemap/v2/news-01.xml
+Sitemap: https://www.uol.com.br/vivabem/sitemap/v2/news-01.xml
+Sitemap: https://www.uol.com.br/apostas/api/?resource-id=sitemap&source=apostas/v1/articles.xml
+Sitemap: https://www.uol.com.br/apostas/api/?resource-id=sitemap&source=apostas/v1/authors.xml
+Sitemap: https://www.uol.com.br/apostas/api/?resource-id=sitemap&source=apostas/v1/content.xml
+Sitemap: https://www.uol.com.br/apostas/api/?resource-id=sitemap&source=apostas/v1/news.xml
+Sitemap: https://c.jsuol.com.br/assets/jupiter-news/?resource-id=sitemap&source=toca/index.xml
+Allow: /
+Disallow: /carros/dev/
+User-agent: GPTBot
+Disallow: /
+User-agent: Google-Extended
+Disallow: /
+"
+7,8,↑3,bbc.com,,99M,−13M,
+8,9,↑1,indiatimes.com,,85M,−29M,"#robots.txt 
+
+User-agent: *
+Allow: /
+Disallow: *.php*
+Disallow: */7176/*
+Disallow: */whatshot/*
+Disallow: */wattpad/*
+Disallow: */uc_feed/*
+Disallow: */brief/*
+Disallow: */search/*
+Disallow: */user/*
+Disallow: */idtoin/*
+Disallow: */video_player/*
+Disallow: */blog/*
+Disallow: */content/*
+Disallow: */seoarchive/*
+Disallow: */trends/audios/*
+Disallow: */trends/videos/*
+Disallow: *{*
+Disallow: *?ref=*
+Disallow: *?v=*
+Disallow: *?no_fullscreen_*
+Disallow: *?symbol=*
+Disallow: */?date=*
+Disallow: *?fb_comment_id=*
+Disallow: *?_twitter*
+Disallow: */2011/*
+Disallow: */2012/*
+Disallow: */2013/*
+Disallow: */2014/*
+Disallow: */2015/*
+Disallow: */2016/*
+Disallow: */2017/*
+Disallow: */2018/*
+Disallow: */2019/*
+Disallow: */2020/*
+Disallow: */2021/*
+Disallow: */2022/*
+Disallow: */2023/*
+Disallow: */2024/*
+
+#Sitemaps
+Sitemap:https://www.indiatimes.com/sitemap.xml
+Sitemap:https://www.indiatimes.com/sitemap-news.xml
+Sitemap:https://www.indiatimes.com/sitemap-posts-index-2024.xml
+Sitemap:https://www.indiatimes.com/hindi/sitemap-ampstories-2024.xml
+
+			"
+9,10,↑4,hurriyet.com.tr,,53M,−9.2M,"User-agent:*
+Disallow: /ad/
+Disallow: /api/
+Disallow: /arkadasimamektup/
+Disallow: /okurtemsilcisi/
+Disallow: /widgets/
+Disallow: /_includes/
+Disallow: /_othernews/
+Disallow: /_test/
+Disallow: /_includescms/
+Disallow: /arama/
+
+User-agent: Flipboard
+User-agent: FlipboardProxy
+Allow: /api/
+
+User-agent: GPTBot
+Disallow: /"
+10,11,↓6,hindustantimes.com,,47M,−103M,"ï»¿User-agent: *
+Allow: /
+Disallow: /what-now/card-details/
+Disallow: /*/url
+Disallow: /*/imageURL
+Disallow: /fragment/
+Disallow: /Fragment/
+Disallow: /Error/
+Disallow: /error/
+Disallow: /intfeeds/
+Disallow: /Images/HTEditImages
+Disallow: /images/HTPopups/
+Disallow: /Images/Popup/
+Disallow: /images/Popup/
+Disallow: /homenew
+Disallow: /dummytestpage/*
+Disallow: /brand-stories/international/*
+Disallow: /origin-pre-prod/*
+Disallow: /sponsored-stories/*
+Disallow: /brand-stories/*
+Disallow: /brand-post/*
+Disallow: /static-content/10s/us-election.html
+Disallow: /cdp/api/*
+Disallow: /cdp/user/*
+Disallow: /sponsored-post/*
+
+Sitemap: https://www.hindustantimes.com/sitemap/section.xml
+Sitemap: https://www.hindustantimes.com/sitemap/news.xml
+Sitemap: https://www.hindustantimes.com/sitemap/index.xml
+Sitemap: https://www.hindustantimes.com/sitemap/liveblog.xml
+Sitemap: https://www.hindustantimes.com/sitemap/education-static.xml"
+11,12,↓3,ndtv.com,,47M,−76M,
+12,13,↑5,kumparan.com,,45M,−2.1M,"User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Allow: *
+
+User-agent: Twitterbot
+Allow: *
+
+User-agent: Googlebot-Image
+Allow:*
+Allow: /
+Sitemap: https://kumparan.com/sitemap.xml
+Sitemap: https://kumparan.com/sitemap_basic.xml
+Sitemap: https://kumparan.com/sitemap_image.xml
+Sitemap: https://kumparan.com/sitemap_video.xml
+Sitemap: https://kumparan.com/sitemap_channels.xml
+Sitemap: https://kumparan.com/sitemap_imsak_schedules.xml
+Sitemap: https://kumparan.com/sitemap_channel_news.xml
+Sitemap: https://kumparan.com/sitemap_channel_entertainment.xml
+Sitemap: https://kumparan.com/sitemap_channel_mom.xml
+Sitemap: https://kumparan.com/sitemap_channel_food-travel.xml
+Sitemap: https://kumparan.com/sitemap_channel_tekno-sains.xml
+Sitemap: https://kumparan.com/sitemap_channel_otomotif.xml
+Sitemap: https://kumparan.com/sitemap_channel_woman.xml
+Sitemap: https://kumparan.com/sitemap_channel_bola-sports.xml
+Sitemap: https://kumparan.com/sitemap_channel_bisnis.xml
+Sitemap: https://kumparan.com/sitemap_channel_buzz.xml
+Sitemap: https://kumparan.com/sitemap_channel_bolanita.xml
+Sitemap: https://kumparan.com/sitemap_collection.xml
+
+User-agent: *
+Allow: /.well-known/amphtml/apikey.pub"
+13,14,↑2,msn.com,,44M,−9.7M,"User-agent: *
+Disallow: /*/health/search/filter
+Disallow: /spartan
+Disallow: /pt-ao
+Disallow: /*preview=*
+Disallow: /*/autos/marketplace/product/*
+Disallow: /*/cars/marketplace/product/*
+Disallow: /*?item=*
+Disallow: /*&item=*
+Disallow: /codeCoverage
+Disallow: /vpBaselines
+Disallow: /msnBaselines
+Disallow: /*/studio
+
+Allow: /*/shopping/*/ar-*
+Allow: /*/shopping/*/ss-*
+Allow: /*/shopping/*/vi-*
+Disallow: /*/shopping/
+
+User-agent: AdsBot-Google
+Allow: /
+Disallow: /*/health/search/filter
+
+User-agent: Verity
+Crawl-delay: 3
+
+User-agent: ias_crawler
+Crawl-delay: 0.1
+
+User-agent: Mediapartners-Google
+Crawl-delay: 0.5
+
+User-agent: CriteoBot
+Crawl-delay: 0.5
+
+User-agent: yandex.com/bot
+Crawl-delay: 1
+Disallow: /*/weather/
+Disallow: /*/clima/
+Disallow: /*/cuaca/
+Disallow: /*/eltiempo/
+Disallow: /*/el-tiempo/
+Disallow: /*/havadurumu/
+Disallow: /*/idojaras/
+Disallow: /*/meteo/
+Disallow: /*/meteorologia/
+Disallow: /*/pocasi/
+Disallow: /*/pogoda/
+Disallow: /*/saa/
+Disallow: /*/vader/
+Disallow: /*/vejr/
+Disallow: /*/weer/
+Disallow: /*/wetter/
+
+User-agent: admantx-ussy04/3.2
+Allow: /
+
+User-agent: Amazonbot
+User-agent: anthropic-ai
+User-agent: Applebot
+User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-Web
+User-agent: cohere-ai
+User-agent: FacebookBot
+User-agent: Google-Extended
+User-agent: GPTBot
+User-agent: Meta-ExternalAgent
+User-agent: OAI-SearchBot
+User-agent: omgili
+User-agent: Omgilibot
+User-agent: PerplexityBot
+User-agent: Perplexity-ai
+User-agent: Twitterbot
+User-agent: YouBot
+User-agent: Momentumbot
+Disallow: /
+
+Sitemap: https://www.msn.com/sitemaps/casualgames/sitemap-index.xml
+Sitemap: https://www.msn.com/sitemaps/consumption/index.xml
+Sitemap: https://www.msn.cn/sitemaps/consumption/index.xml
+Sitemap: https://www.msn.com/sitemaps/health/health-sitemap-index.xml
+Sitemap: https://www.msn.com/staticsb/statics/latest/0/casualgames/sitemaps/sitemap-index.xml
+Sitemap: https://www.msn.com/staticsb/statics/latest/0/finance/sitemaps/sitemap-index.xml
+Sitemap: https://www.msn.com/sitemaps/weather/sitemap-index.xml
+"
+14,15,↑2,milliyet.com.tr,,40M,−8.3M,"User-agent: *
+Disallow: /root/*
+Disallow: /arama/
+Disallow: /Milliyet.aspx
+User-agent: GPTBot
+Disallow: /"
+15,16,↑3,infobae.com,,40M,−6.3M,
+16,17,↑5,interia.pl,,39M,−5.7M,"User-agent: *
+
+Allow:/
+
+User-agent: grapeshot
+Disallow: /"
+17,18,↑9,onet.pl,,39M,+644K,"User-Agent: *
+Disallow: /a8f4d8cd95e164917035b64b867a45*"
+18,19,↓7,indianexpress.com,,36M,−71M,
+19,20,↑5,terra.com.br,,34M,−5.6M,"user-agent: *
+
+Disallow: /cengine/
+Disallow: /hotsites/email*
+Disallow: /hotsites/porteira*
+"
+20,21,,kompas.com,,34M,−11M,"User-Agent: *
+Disallow: /search/?q=
+Disallow: /komentar/*
+Disallow: /copy/*
+Disallow: *?jxrecoid=*
+Disallow: *?utm_source=*
+Disallow: *?source=*
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: OpenAI
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-Agent: PerplexityBot
+Disallow: /
+
+Sitemap: https://www.kompas.com/sitemap.xml"
+21,22,↑2,conectate.com.do,,34M,−6.7M,"User-agent: *
+
+Allow: /wp-content/uploads/
+Allow: /wp-admin/admin-ajax.php
+
+Disallow: /wp-admin/
+Disallow: /widgets/
+Disallow: /page
+Disallow: /wp_cron.php
+Disallow: /xmlrpc.php
+"
+22,23,↓10,thehindu.com,,32M,−47M,"User-agent: *
+Disallow: /cgi-bin/
+Disallow: /cdn-cgi/*
+Disallow: /config/
+Disallow: */analysis-logger/*
+Disallow: /todays-paper/*article*.ece*
+Disallow: /migration_catalog/
+Disallow: */getapplink*
+Disallow: /summercamp/
+Disallow: */wf.fragment/*
+Disallow: /poll/vote.do
+Disallow: /photo/10000/
+Disallow: */photo/10000/
+#Disallow: /newsletter/*
+Disallow: /news-service/*
+#Disallow: /ebooks/
+Disallow: /search/
+Disallow: /SEARCH/
+Disallow: /Search/
+Disallow: /22390678/
+Disallow: /walkathon
+Disallow: /heelsonwheels
+Disallow: /archive/print/
+#Disallow: /todays-paper/
+#Disallow: /static/content/
+#Disallow: /static/
+Disallow: /todayspaper/
+Disallow: /today-paper/
+Disallow: /thseweekend
+Disallow: /ywsummercamp
+Disallow: /frnf2014
+Disallow: /summermusic
+Disallow: /summercamp
+Disallow: /yw25
+Disallow: /thischess
+Disallow: /ywquiz
+Disallow: /mumbaiedition
+Disallow: /marathon
+Disallow: /flndrmk-spl
+Disallow: /system/
+Disallow: /sachin
+Disallow: /supermom2016
+Disallow: /ywq2015
+Disallow: /fooddirectory
+Disallow: /chennaicoastalcleanup
+Disallow: /onam-1
+Disallow: /onam-2
+Disallow: /hohkidscarnival
+Disallow: /HOW2014
+Disallow: /how2014
+Disallow: /cookingcontest
+Disallow: /youngworld
+Disallow: /impulse2014
+Disallow: /mssaward2015
+Disallow: /mssaward2016
+Disallow: /wow2015
+Disallow: /wow2017/chennai/
+Disallow: /wow2017/bangalore/
+Disallow: /tickets2016/
+Disallow: /tickets2017/
+Disallow: /tickets2018/
+Disallow: /ticket2018/
+Disallow: /ywsummercamp/
+Disallow: /tags/TH category/
+Disallow: /tags/TopicRoot_TH/
+Disallow: /thehindu/
+Disallow: /200*
+Disallow: /201*
+Disallow: */http:*
+Disallow: */https:*
+Disallow: */mailto:*
+Disallow: *.ecehttp*
+Disallow: *.ece1http*
+Disallow: *.ece2http*
+Disallow: /brandhub/sponsored-content/
+Disallow: /coupons/
+# Blocking ptid and gl parameter URLs that are causing crawl budget wastage
+#Disallow: /*?*_ptid=*
+Disallow: /*?*_gl=*
+# Block picture sitemap because urls are noindex therein
+Disallow: /sitemap/archive/picture/
+# Block all space or %20 suffixed with http or https protocols
+Disallow: * http:*
+Disallow: * https:*
+Disallow: *;http:*
+Disallow: *;https:*
+Disallow: *%20http:*
+Disallow: *%20https:*
+Disallow: */couponRedirect
+Disallow: *?redirect=
+Disallow: *?store=
+Disallow: /tag/*/*/
+# Blocked until duplicate profile bylines fixed
+#Disallow: /profile/
+# profile articles allowed
+Allow: /profile/*article*.ece
+# profile exceptions allowed for pages with page=1 for redirects
+Allow: /profile/contributor/?
+Allow: /profile/photographers/?
+Allow: /profile/author/?
+Allow: /profile/contributor/$
+Allow: /profile/photographers/$
+Allow: /profile/author/$
+Allow: /profile/$
+Disallow: /sitemap/archive*
+Disallow: */fragment/*
+Disallow: /sitemap/
+Allow: /sitemap/$
+Allow: /sitemap/update/all.xml$
+Allow: /sitemap/update/section.xml$
+Allow: /sitemap/googlenews/all/all.xml$
+#Disallow: /*utm_*
+Disallow: /*click_url*
+Disallow: /*theme/images/th-online/th-circle-white.svg
+#Blocking pagination
+Disallow: /*?page=*
+
+#Disallow Wayback machine which is a problem crawler
+User-Agent: ia_archiver
+Disallow: /
+
+
+# Blocking AI crawlers
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: OAI-SearchBot
+User-agent: PerplexityBot
+User-agent: Amazonbot
+User-agent: Bytespider
+User-agent: ClaudeBot
+User-agent: Claude-Web
+User-agent: Meta-ExternalAgent
+User-agent: FacebookBot
+User-agent: CCBot
+User-agent: Anthropic-ai
+User-agent: YouBot
+Disallow: /
+
+
+# Sitemaps
+Sitemap: https://www.thehindu.com/sitemap/googlenews/all/all.xml
+Sitemap: https://www.thehindu.com/sitemap/update/all.xml
+Sitemap: https://www.thehindu.com/sitemap/update/section.xml
+Sitemap: https://www.thehindu.com/feeder/default.rss
+Sitemap: https://www.thehindu.com/?service=videositemap
+Sitemap: https://www.thehindu.com/entertainment/feeder/default.rss
+Sitemap: https://www.thehindu.com/shorts/feeder/default.rss
+Sitemap: https://www.thehindu.com/sport/feeder/default.rss
+Sitemap: https://www.thehindu.com/business/feeder/default.rss
+"
+23,24,↑5,wp.pl,,30M,−4.9M,"User-agent: *
+Disallow: /kodyrabatowe/*?category=
+Disallow: /kodyrabatowe/*?s=
+Disallow: /kodyrabatowe/*?letter=
+Disallow: /trendy/*
+Disallow: /?s=*
+Disallow: /auth/v1/sso/*
+Disallow: /mini.html?*
+
+Noindex: /trendy/*
+Noindex: /?s=*
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /"
+24,25,↑1,theguardian.com,,27M,−12M,"# This is the robots.txt file for theguardian.com
+
+# Guardian content is made available under our terms and conditions of use.
+# Any other uses are not permitted, incl. but not limited to: for large language
+# models (LLMs), machine learning and/or artificial intelligence-related
+# purposes; with any of the aforementioned technologies; and/or for any
+# commercial purposes. Contact licensing@theguardian.com for assistance
+
+User-agent: *
+Disallow: /sendarticle/
+Disallow: /Users/
+Disallow: /users/
+Disallow: /*/print$
+Disallow: /email/
+Disallow: /contactus/
+Disallow: /share/
+Disallow: /websearch
+Disallow: /*?commentpage=
+Disallow: /whsmiths/
+Disallow: /external/overture/
+Disallow: /discussion/report-abuse/*
+Disallow: /discussion/report-abuse-ajax/*
+Disallow: /discussion/comment-permalink/*
+Disallow: /discussion/report-abuse/*
+Disallow: /discussion/user-report-abuse/*
+Disallow: /discussion/handlers/*
+Disallow: /discussion/your-profile
+Disallow: /discussion/your-comments
+Disallow: /discussion/edit-profile
+Disallow: /discussion/search/comments
+Disallow: /discussion/*
+Disallow: /search
+Disallow: /music/artist/*
+Disallow: /music/album/*
+Disallow: /books/data/*
+Disallow: /settings/
+Disallow: /embed/
+Disallow: /*styles/js-on.css$
+Disallow: /sport/olympics/2008/events/*
+Disallow: /sport/olympics/2008/medals/*
+Disallow: /f/healthcheck
+Disallow: /sections
+Disallow: /top-stories
+Disallow: /most-read/sport
+Disallow: /articles
+Disallow: /global$
+Disallow: /*/feedarticle/*
+Disallow: /travel/2013/aug/22/been-there-readers-competition?*
+Disallow: /preference/*
+Disallow: /59666047/
+Disallow: /print/
+Disallow: /info/tech-feedback
+Disallow: /production-monitoring/
+Disallow: *.emailjson
+Disallow: *.emailtxt
+Disallow: /headline.txt
+Disallow: *?*dcr=apps*
+
+User-agent: Mediapartners-Google
+Disallow:
+
+Sitemap: http://www.theguardian.com/sitemaps/news.xml
+Sitemap: http://www.theguardian.com/sitemaps/video.xml
+
+User-agent: NewsNow
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: TurnitinBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: MoodleBot
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Mojeek
+Disallow: /
+
+User-agent: JenkersBot
+Disallow: /
+
+User-agent: Seekr
+Disallow: /
+
+User-agent: YouBot
+Disallow: /
+
+User-agent: Arquivo-web-crawler
+Disallow: /
+
+User-agent: coccocbot-web
+Disallow: /
+
+User-agent: SeznamBot
+Disallow: /
+
+User-Agent: PerplexityBot
+Disallow: /
+
+User-Agent: yacy
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: bingbot
+Disallow: /
+
+User-agent: AwarioRssBot
+Disallow: /
+
+User-agent: AwarioSmartBot
+Disallow: /
+
+User-agent: SentiOne
+Disallow: /
+
+User-agent: ImageSift
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: YandexAdditional
+Disallow: /
+
+User-agent: YandexAdditionalBot
+Disallow: /
+
+User-agent: scalepostAI
+Disallow: /
+
+User-agent: Buck
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /        
+"
+25,26,↑10,liputan6.com,,27M,−1.3M,"User-agent: *
+Disallow: /search
+Disallow: /fimela/
+Disallow: /comment/*
+Disallow: /me/*
+Disallow: /ucnews/
+Disallow: /properti/
+Disallow: /widgets-nocache/analytics_page_request/*
+Disallow: /login*
+Disallow: /dashboard/
+Disallow: /admin/
+Disallow: */livestreaming/
+Disallow: /articles/preview
+Disallow: /gallery/
+Disallow: */indeks/*
+Disallow: *?source=*
+
+User-agent: GPTBot
+Allow: /islami/
+Allow: /citizen6/
+Disallow: /
+
+User-agent: OpenAI
+Allow: /islami/
+Allow: /citizen6/
+Disallow: /
+
+User-agent: ChatGPT-User
+Allow: /islami/
+Allow: /citizen6/
+Disallow: /
+
+User-agent: CCBot
+Allow: /islami/
+Allow: /citizen6/
+Disallow: /
+
+User-agent: anthropic-ai
+Allow: /islami/
+Allow: /citizen6/
+Disallow: /
+
+User-agent: Claude-Web
+Allow: /islami/
+Allow: /citizen6/
+Disallow: /
+
+User-Agent: PerplexityBot
+Allow: /islami/
+Allow: /citizen6/
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+Sitemap: https://www.liputan6.com/sitemap.xml"
+26,27,↑8,sanook.com,,25M,−3.1M,"User-agent: Googlebot-News
+
+Disallow: /news/*/gallery/*
+Disallow: /hot/2012_objects/ 
+Disallow: /a/caravan7/
+Disallow: /a/caravan8/
+Disallow: /announce/
+Disallow: /bookmark.php
+Disallow: /fatherday/home/messages_ajax/
+Disallow: /hot/topten/
+Disallow: /win
+Disallow: /advertorial/
+Disallow: /gallery/*
+Disallow: /music/redirect/*
+Disallow: /music/eeredirect/*
+
+User-agent: *
+
+Disallow: /hot/2012_objects/ 
+Disallow: /a/caravan7/
+Disallow: /a/caravan8/
+Disallow: /announce/
+Disallow: /bookmark.php
+Disallow: /fatherday/home/messages_ajax/
+Disallow: /hot/topten/
+Disallow: /win
+Disallow: /advertorial/
+Disallow: /gallery/*
+Disallow: /music/redirect/*
+Disallow: /music/eeredirect/*
+Disallow: /setstorage
+
+Sitemap: https://www.sanook.com/sitemap.xml"
+27,28,↑4,ouest-france.fr,,24M,−4.8M,"# Allowed search engines directives
+User-agent: Mediapartners-Google
+User-agent: Googlebot
+User-agent: Googlebot-Image
+User-agent: Googlebot-News
+User-agent: Googlebot-Video
+User-agent: GoogleOther
+User-agent: Adsbot-Google
+User-Agent: Storebot-Google 
+User-Agent: AdsBot-Google-Mobile 
+User-Agent: APIs-Google 
+User-agent: Twitterbot
+User-agent: Applebot
+User-agent: Ouestfrancebot
+User-agent: Taboolabot
+User-agent: Proximic
+User-agent: upday
+User-agent: Bingbot
+User-agent: exabot
+User-agent: Slurp
+User-agent: ia_archiver
+User-agent: grapeshot
+User-agent: facebookexternalhit
+
+# Sitemaps
+Sitemap: https://www.ouest-france.fr/sitemap.xml
+Sitemap: https://www.ouest-france.fr/googlenews.xml
+
+# Paths
+Disallow: */mail?id=* 
+Disallow: */newsletters/bundles/*
+Disallow: */test-de-publication-*
+Disallow: /*%2525
+Disallow: /*&edition=*
+Disallow: /*&fbclid=*
+Disallow: /*&mediego*
+Disallow: /*&parution=*
+Disallow: /*?datasport*
+Disallow: /*?dateCompetition=*
+Disallow: /*?edition=*
+Disallow: /*?fbclid=*
+Disallow: /*?login
+Disallow: /login?redirect=*
+Disallow: /logout?redirect=*
+Disallow: /*?logout
+Disallow: /*?mediego*
+Disallow: /*?parution=*
+Disallow: /admin/
+Disallow: /ajax_comment/
+Disallow: /balades/
+Disallow: /balades?
+Disallow: /cinema/film/
+Disallow: /comment/reply/
+Disallow: /communaute/galerie-photo/*/ajout
+Disallow: /economie/entreprises/centrale-des-marches
+Disallow: /economie/entreprises/evenements-des-entreprises
+Disallow: /economie/entreprises/offres-emploi
+Disallow: /espace-contributions/
+Disallow: /espace-debat/utilisateur/
+Disallow: /espace-debat/commentaires/
+Disallow: /etudiant/job-formation/
+Disallow: /examens/
+Disallow: /filter/tips/
+Disallow: /install.php
+Disallow: /jeux-olympiques/resultats/*/?*
+Disallow: /mail?type*
+Disallow: /obseques/search/
+Disallow: /publication-statics/
+Disallow: /recherche/
+Disallow: /rpc/
+Disallow: /scribblelive
+Disallow: /search/
+Disallow: /share/
+Disallow: /sport/running/*/calendrier-des-courses/?*
+Disallow: /stories/
+Disallow: /update.php
+Disallow: /user
+Disallow: /user/
+Disallow: /user/login/
+Disallow: /user/logout/
+Disallow: /user/password/
+Disallow: /user/register?*
+Disallow: /xmlrpc.php
+
+User-agent: Googlebot-News
+Disallow: /cinema/salle/
+Disallow: /espace-debat/
+Disallow: /communaute/
+
+# Crawling limitation fixed for low priority bots
+User-agent: exabot
+User-agent: Slurp
+User-agent: ia_archiver
+Crawl-Delay: 20
+
+User-agent: 5emeRue
+Disallow: /
+User-agent: 5erue
+Disallow: /
+User-agent: adequat
+Disallow: /
+User-agent: adequat-systems
+Disallow: /
+User-agent: AmazonBot
+Disallow: /
+User-agent: AmiSoftware
+Disallow: /
+User-agent: anthropic-ai
+Disallow: /
+User-agent: Applebot-Extended
+Disallow: /
+User-agent: Argus
+Disallow: /
+User-agent: Ask n read
+Disallow: /
+User-agent: asknread.com
+Disallow: /
+User-agent: Augure
+Disallow: /
+User-agent: auramundi
+Disallow: /
+User-agent: Bloodhound
+Disallow: /
+User-agent: Bytespider
+Disallow: /
+User-agent: CCBot
+Disallow: /
+User-agent: ChatGPT-User
+Disallow: /
+User-agent: Cision
+Disallow: /
+User-agent: ClaudeBot
+Disallow: /
+User-agent: Claude-Web
+Disallow: /
+User-agent: coexel
+Disallow: /
+User-agent: ConveraCrawler
+Disallow: /
+User-agent: Corporama
+Disallow: /
+User-agent: cydralspider
+Disallow: /
+User-agent: Digimind
+Disallow: /
+User-agent: Download Ninja
+Disallow: /
+User-agent: downloadexpress
+Disallow: /
+User-agent: DuckAssistBot
+Disallow: /
+User-agent: EDD
+Disallow: /
+User-agent: ellisphere
+Disallow: /
+User-agent: eureka
+Disallow: /
+User-agent: Europresse
+Disallow: /
+User-agent: Explore
+Disallow: /
+User-agent: Factiva
+Disallow: /
+User-agent: Fasterfox
+Disallow: /
+User-agent: Fetch
+Disallow: /
+User-agent: gammaSpider
+Disallow: /
+User-agent: Google-Extended
+Disallow: /
+User-agent: GPTBot
+Disallow: /
+User-agent: grub-client
+Disallow: /
+User-agent: HTTrack
+Disallow: /
+User-agent: ia_archiver
+Disallow: /
+User-agent: ia_archiver-web.archive.org
+Disallow: /
+User-agent: indexer
+Disallow: /
+User-agent: infoseek
+Disallow: /
+User-agent: Jetbot
+Disallow: /
+User-agent: k2spider
+Disallow: /
+User-agent: Kantar
+Disallow: /
+User-agent: kbcrawl
+Disallow: /
+User-agent: Knowings
+Disallow: /
+User-agent: larbin
+Disallow: /
+User-agent: leadbox
+Disallow: /
+User-agent: libwww
+Disallow: /
+User-agent: linkfluence
+Disallow: /
+User-agent: linko
+Disallow: /
+User-agent: manageo
+Disallow: /
+User-agent: mediacompil
+Disallow: /
+User-agent: Meltwater
+Disallow: /
+User-agent: mention
+Disallow: /
+User-agent: Meta-ExternalAgent
+Disallow: /
+User-agent: Meta-ExternalFetcher
+Disallow: /
+User-agent: Moreover
+Disallow: /
+User-agent: MSIECrawler
+Disallow: /
+User-agent: mytwip
+Disallow: /
+User-agent: newscan-online
+Disallow: /
+User-agent: NewsNow
+Disallow: /
+User-agent: Newzbin
+Disallow: /
+User-agent: NPBot
+Disallow: /
+User-agent: OAI-SearchBot
+Disallow: /
+User-agent: ObjectsSearch
+Disallow: /
+User-agent: Offline Explorer
+Disallow: /
+User-agent: opinion-tracker
+Disallow: /
+User-agent: Perplexity-User
+Disallow: /
+User-agent: PerplexityBot
+Disallow: /
+User-agent: Pimptrain
+Disallow: /
+User-agent: proxem
+Disallow: /
+User-agent: QuepasaCreep
+Disallow: /
+User-agent: Qwam content intelligence
+Disallow: /
+User-agent: Raven
+Disallow: /
+User-agent: readability.com
+Disallow: /
+User-agent: scoop.it
+Disallow: /
+User-agent: score3
+Disallow: /
+User-agent: Sindup
+Disallow: /
+User-agent: sitecheck.internetseer.com
+Disallow: /
+User-agent: SiteSnagger
+Disallow: /
+User-agent: spotter
+Disallow: /
+User-agent: Synthesio
+Disallow: /
+User-agent: Talkwater
+Disallow: /
+User-agent: Teleport
+Disallow: /
+User-agent: TeleportPro
+Disallow: /
+User-agent: Timpibot
+Disallow: /
+User-agent: trendeo
+Disallow: /
+User-agent: trendybuzz
+Disallow: /
+User-agent: TunitinBot
+Disallow: /
+User-agent: TurnitinBot
+Disallow: /
+User-agent: up2news
+Disallow: /
+User-agent: vecteurplus
+Disallow: /
+User-agent: Verif
+Disallow: /
+User-agent: verticalsearch
+Disallow: /
+User-agent: vsw
+Disallow: /
+User-agent: wapspider
+Disallow: /
+User-agent: WebCopier
+Disallow: /
+User-agent: WebReaper
+Disallow: /
+User-agent: WebStripper
+Disallow: /
+User-agent: WebZinger
+Disallow: /
+User-agent: WebZIP
+Disallow: /
+User-agent: Wget
+Disallow: /
+User-agent: winello
+Disallow: /
+User-agent: YouBot
+Disallow: /
+User-agent: Youmag
+Disallow: /
+User-agent: Zealbot
+Disallow: /
+User-agent: Zite
+Disallow: /
+User-agent: ZyBORG
+Disallow: /
+
+User-agent: *
+Disallow: /"
+28,29,↑16,liberation.fr,,24M,−694K,
+29,30,↓7,cnnbrasil.com.br,,24M,−19M,"
+# robots.txt
+
+User-Agent: *
+Disallow: /wp-admin/
+Disallow: /wp-json/
+Disallow: /wp-includes/
+Disallow: /_next/
+Allow: /_next/static/
+Disallow: /partners_sdk/
+Disallow: /component/
+Disallow: /obrigado-newsletter-business
+Disallow: /youtube/video
+Disallow: /author
+Disallow: /author/
+Disallow: /author/*
+Disallow: /?search=*
+Disallow: /pagina/*/?search=*
+Disallow: /?s=*
+Disallow: /pagina/*/?s=*
+Disallow: /?orderby=*
+Disallow: /pagina/*/?orderby=*
+Disallow: /?order=*
+Disallow: /pagina/*/?order=*
+Disallow: /?post_type=*
+Disallow: /pagina/*/?post_type=*
+Disallow: /*?hidemenu=true*
+Disallow: /migrate-all-posts/*
+
+# Subdomains
+Disallow: /amp.cnnbrasil.com.br/
+Disallow: /api.cnnbrasil.com.br/
+Disallow: /mediastorage.cnnbrasil.com.br/
+
+Disallow: /esportes/agenda/2026
+Disallow: /esportes/agenda/2027
+Disallow: /esportes/agenda/2028
+Disallow: /esportes/agenda/2029
+Disallow: /esportes/agenda/2030
+Disallow: /esportes/agenda/2031
+Disallow: /esportes/agenda/2032
+Disallow: /esportes/agenda/2033
+Disallow: /esportes/agenda/2034
+Disallow: /esportes/agenda/2035
+Disallow: /esportes/agenda/2036
+Disallow: /esportes/agenda/2037
+Disallow: /esportes/agenda/2038
+Disallow: /esportes/agenda/2039
+Disallow: /esportes/agenda/2040
+Disallow: /esportes/agenda/2041
+Disallow: /esportes/agenda/2042
+Disallow: /esportes/agenda/2043
+Disallow: /esportes/agenda/2044
+Disallow: /esportes/agenda/2045
+Disallow: /esportes/agenda/2046
+Disallow: /esportes/agenda/2047
+Disallow: /esportes/agenda/2048
+Disallow: /esportes/agenda/2049
+Disallow: /esportes/agenda/2050
+Disallow: /esportes/agenda/2051
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+
+Sitemap: https://www.cnnbrasil.com.br/sitemap_index.xml"
+30,31,↑8,tribunnews.com,,24M,−3.1M,"User-agent: *
+Disallow: /api/
+Disallow: /setting/
+Disallow: /ajax/
+Disallow: /json/
+Disallow: /auth/
+Disallow: /member/
+Disallow: /posts/
+Disallow: /socmed.php
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: OpenAI
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+Sitemap: https://www.tribunnews.com/sitemap.xml"
+31,32,↓4,usatoday.com,,24M,−12M,"# robots.txt file for https://www.usatoday.com/
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: AmazonBot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: Googlebot-News
+Disallow: /story/sponsor-story/
+Disallow: /picture-gallery/sponsor-story/
+Disallow: /videos/sponsor-story/
+Disallow: /longform/sponsor-story/
+Disallow: /pages/interactives/sponsor-story/
+Disallow: /interactives/sponsor-story/
+Disallow: /videos/embed/
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: magpie-crawler
+Disallow: /
+
+User-agent: NewsNow
+Disallow: /
+
+User-agent: news-please
+Disallow: /
+
+User-agent: omgili
+Disallow: /
+
+User-agent: omgilibot
+Disallow: /
+
+User-agent: peer39_crawler
+Disallow: /
+
+User-agent: peer39_crawler/1.0
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Scrapy
+Disallow: /
+
+User-agent: TurnitinBot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Claude-User
+Disallow: /
+
+User-agent: Claude-SearchBot
+Disallow: /
+
+User-agent: *
+Disallow: /errors
+Disallow: /interactive/
+Disallow: /userauth/
+Disallow: /ugc/
+Disallow: /feeds/
+Disallow: /services/
+Disallow: /facebook/
+Disallow: /version-info/
+Disallow: /longform/draft/
+Disallow: /story/draft/
+Disallow: /topic/*/smart/
+Disallow: /search
+Disallow: /module-showcase/
+Disallow: /newsletter/
+Disallow: /blended-newsletter/
+Disallow: /story/nletter/
+Disallow: /sports/services/photos/
+Disallow: /optimus
+Disallow: /ux-train
+Disallow: /story/advisory/
+Disallow: /.cam-tangent/
+Disallow: /pbd/
+Disallow: /gciaf/
+Disallow: /gcdn/gciaf/
+Disallow: /dcc/
+Disallow: /gcdn/dcc/
+Disallow: /dc/
+Disallow: /gcdn/dc/
+Disallow: /dcjs/
+Disallow: /gcdn/dcjs/
+Disallow: /content-queries/
+Disallow: /zxc/
+Disallow: /money/homefront/
+Disallow: /exp-cruise
+Disallow: /exp-las-vegas2
+Disallow: /exp-faw
+Disallow: /exp-caribbean
+Disallow: /exp-beach
+Disallow: /exp-cruise2
+Disallow: /yourtake
+Disallow: /story/sports/ncaab/2014/03/20/ge-cfo-challenge-daniel-kelly-amfam/6661213/
+Disallow: /story/2014/03/20/ge-cfo-challenge-david-bartlett-amway/6653003/
+Disallow: /story/sports/ncaab/2014/03/20/ge-cfo-challenge-art-mccarthy-neulion/6655521/
+Disallow: /story/sports/ncaab/2014/03/20/ge-cfo-challenge-david-gross-major-league-lacrosse/6646987/
+Disallow: /money/lookup/stocks/
+Disallow: /money/blueprint/archive/
+Disallow: /money/blueprint/transfer?pname=
+
+Sitemap: https://www.usatoday.com/news-sitemap.xml
+Sitemap: https://www.usatoday.com/web-sitemap-index.xml
+Sitemap: https://www.usatoday.com/video-sitemap-index.xml
+Sitemap: https://www.usatoday.com/money/blueprint/sitemap.xml
+Sitemap: https://www.usatoday.com/money/blueprint/sitemap-news.xml
+Sitemap: https://www.usatoday.com/online-betting/sitemap.xml
+Sitemap: https://www.usatoday.com/online-betting/news-sitemap.xml
+"
+32,33,↓18,cnn.com,,23M,−38M,"Sitemap: https://www.cnn.com/sitemaps/cnn/index.xml
+Sitemap: https://www.cnn.com/sitemaps/cnn/news.xml
+Sitemap: https://www.cnn.com/sitemap/news.xml
+Sitemap: https://www.cnn.com/sitemaps/sitemap-section.xml
+Sitemap: https://www.cnn.com/sitemaps/sitemap-interactive.xml
+Sitemap: https://edition.cnn.com/sitemaps/news.xml
+Sitemap: https://www.cnn.com/sitemap/article/cnn-underscored.xml
+Sitemap: https://www.cnn.com/sitemap/section/cnn-underscored.xml
+Sitemap: https://www.cnn.com/sitemap/section/politics.xml
+Sitemap: https://www.cnn.com/sitemap/article/opinions.xml
+Sitemap: https://www.cnn.com/sitemap/article.xml
+Sitemap: https://www.cnn.com/sitemap/section.xml
+Sitemap: https://www.cnn.com/sitemap/video.xml
+Sitemap: https://www.cnn.com/sitemap/gallery.xml
+Sitemap: https://www.cnn.com/sitemap/markets/stocks.xml
+Sitemap: https://www.cnn.com/sitemap/live-story.xml
+Sitemap: https://www.cnn.com/sitemap/election-center/politics.xml
+User-agent: AI2Bot
+User-agent: Ai2Bot-Dolma
+User-agent: Amazonbot
+User-agent: anthropic-ai
+User-agent: Applebot-Extended
+User-agent: AwarioRssBot
+User-agent: AwarioSmartBot
+User-agent: Brightbot 1.0
+User-agent: Bytespider
+User-agent: CCBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-Web
+User-agent: cohere-ai
+User-agent: cohere-training-data-crawler
+User-agent: Crawlspace
+User-agent: DataForSeoBot
+User-agent: Diffbot
+User-agent: DuckAssistBot
+User-agent: EchoboxBot
+User-agent: FacebookBot
+User-agent: FriendlyCrawler
+User-agent: GPTBot
+User-agent: Google-Extended
+User-agent: GoogleOther
+User-agent: GoogleOther-Image
+User-agent: GoogleOther-Video
+User-agent: iaskspider/2.0
+User-agent: ICC-Crawler
+User-agent: img2dataset
+User-agent: ISSCyberRiskCrawler
+User-agent: ImagesiftBot
+User-agent: Kangaroo Bot
+User-agent: magpie-crawler
+User-agent: Meta-ExternalAgent
+User-agent: Meta-ExternalFetcher
+User-agent: NewsNow
+User-agent: news-please
+User-agent: OAI-SearchBot
+User-agent: omgili
+User-agent: omgilibot
+User-agent: PanguBot
+User-agent: Panscient
+User-agent: PerplexityBot
+User-agent: PiplBot
+User-agent: PetalBot
+User-agent: QuillBot
+User-agent: quillbot.com
+User-agent: SBIntuitionsBot
+User-agent: Scrapy
+User-agent: SemrushBot-OCOB
+User-agent: SemrushBot-SWA
+User-agent: Sidetrade indexer bot
+User-agent: Timpibot
+User-agent: TurnitinBot
+User-agent: VelenPublicWebCrawler
+User-agent: Webzio-Extended
+User-agent: YandexAdditional
+User-agent: YandexAdditionalBot
+User-agent: YouBot
+Disallow: /
+User-agent: *
+Allow: /partners/ipad/live-video.json
+Disallow: /*.jsx$
+Disallow: *.jsx$
+Disallow: /*.jsx/
+Disallow: *.jsx?
+Disallow: /ads/
+Disallow: /aol/
+Disallow: /api/
+Disallow: /beta/
+Disallow: /browsers/
+Disallow: /cl/
+Disallow: /cnews/
+Disallow: /cnn_adspaces
+Disallow: /cnnbeta/
+Disallow: /cnnintl_adspaces
+Disallow: /development
+Disallow: /editionssi
+Disallow: /help/cnnx.html
+Disallow: /NewsPass
+Disallow: /NOKIA
+Disallow: /partners/
+Disallow: /pipeline/
+Disallow: /pointroll/
+Disallow: /POLLSERVER/
+Disallow: /pr/
+Disallow: /privacy
+Disallow: /PV/
+Disallow: /Quickcast/
+Disallow: /quickcast/
+Disallow: /QUICKNEWS/
+Disallow: /search
+Disallow: /subscriptions/video-docs
+Disallow: /terms
+Disallow: /test/
+Disallow: /virtual/
+Disallow: /WEB-INF/
+Disallow: /web.projects/
+Disallow: /webview/
+Disallow: /games
+User-agent: Googlebot-News
+Disallow: /sponsor
+"
+33,34,↑3,tempo.co,,23M,−4.6M,
+34,35,↓5,foxnews.com,,21M,−12M,
+35,36,↑8,bild.de,,20M,−4.5M,
+36,37,↑9,lefigaro.fr,,20M,−3.6M,"# 06/11/2024
+# Toute utilisation de nos contenus protégés autre qu'un usage strictement individuel (incluant notamment l'entraînement des grands modèles de langage (LLM),
+# l'entraînement des outils d'intelligence artificielle, la veille web ou le media monitoring) est conditionnée à la conclusion d'une licence d'utilisation
+# avec la SOCIETE DU FIGARO. Nous vous invitons à cette fin à contacter syndication-service@lefigaro.fr.
+#
+# Toute utilisation non-autorisée de nos contenus protégés est constitutive d'une contrefaçon de droit d'auteur et/ou du droit de producteur
+# de base de données et susceptible d'être poursuivie.
+#
+# Il est interdit de crawler notre site web en utilisant un agent d'utilisateur (user agent) volé qui ne correspond pas à votre identité.
+# L'utilisation des robots d'indexation web ou d'autres méthodes automatiques de feuilletage ou de navigation sur ce site Web n'est pas autorisée.
+
+User-agent: *
+Disallow: /async/
+Disallow: /*?noheader*
+Disallow: /*?*&noheader*
+Disallow: /*?sfdebug*
+Disallow: /*?*&sfdebug*
+Disallow: /brouillon/
+Disallow: /proxy/
+Disallow: /synsearch/
+Disallow: /a-savoir-en-france/
+
+Sitemap: https://sitemaps.lefigaro.fr/lefigaro.fr/articles.xml
+Sitemap: https://sitemaps.lefigaro.fr/lefigaro.fr/sections.xml
+Sitemap: https://sitemaps.lefigaro.fr/lefigaro.fr/topics.xml
+Sitemap: https://www.lefigaro.fr/sitemap_news.xml
+Sitemap: https://www.lefigaro.fr/elections/resultats/sitemap.xml
+
+User-agent: Digimind
+Disallow: /
+
+User-agent: Sindup
+Disallow: /
+
+User-agent: Cision
+Disallow: /
+
+User-agent: Talkwalker
+Disallow: /
+
+User-agent: kbcrawl
+Disallow: /
+
+User-agent: Qwam content intelligence
+Disallow: /
+
+User-agent: scoop.it
+Disallow: /
+
+User-agent: linkfluence
+Disallow: /
+
+User-agent: 5emeRue
+Disallow: /
+
+User-agent: Augure
+Disallow: /
+
+User-agent: Corporama
+Disallow: /
+
+User-agent: grub-client
+Disallow: /
+
+User-agent: ia_archiver
+Allow: /$
+Disallow: /*
+
+User-agent: ia_archiver-web.archive.org
+Allow: /$
+Disallow: /*
+
+User-agent: 5erue
+Disallow: /
+
+User-agent: adequat
+Disallow: /
+
+User-agent: adequat-systems
+Disallow: /
+
+User-agent: auramundi
+Disallow: /
+
+User-agent: coexel
+Disallow: /
+
+User-agent: ellisphere
+Disallow: /
+
+User-agent: leadbox
+Disallow: /
+
+User-agent: mention
+Disallow: /
+
+User-agent: Moreover
+Disallow: /
+
+User-agent: mytwip
+Disallow: /
+
+User-agent: NewsNow
+Disallow: /
+
+User-agent: opinion-tracker
+Disallow: /
+
+User-agent: score3
+Disallow: /
+
+User-agent: trendeo
+Disallow: /
+
+User-agent: vecteurplus
+Disallow: /
+
+User-agent: winello
+Disallow: /
+
+User-agent: Fetch
+Disallow: /
+
+User-agent: infoseek
+Disallow: /
+
+User-agent: Zealbot
+Disallow: /
+
+User-agent: asknread.com
+Disallow: /
+
+User-agent: omgili
+Disallow: /
+
+User-agent: omgilibot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: YouBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: Webzio-Extended
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: Alexibot
+Disallow: /
+
+User-agent: AlvinetSpider
+Disallow: /
+
+User-agent: AmiSoftware
+Disallow: /
+
+User-agent: Antenne Hatena
+Disallow: /
+
+User-agent: ApocalXExplorerBot
+Disallow: /
+
+User-agent: Argus
+Disallow: /
+
+User-agent: Ask n read
+Disallow: /
+
+User-agent: asterias
+Disallow: /
+
+User-agent: BizInformation
+Disallow: /
+
+User-agent: Bloomberg
+Disallow: /
+
+User-agent: BlowFish/1.0
+Disallow: /
+
+User-agent: BotALot
+Disallow: /
+
+User-agent: BuiltBotTough
+Disallow: /
+
+User-agent: Bullseye/1.0
+Disallow: /
+
+User-agent: BunnySlippers
+Disallow: /
+
+User-agent: Cegbfeieh
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CheeseBot
+Disallow: /
+
+User-agent: CherryPicker
+Disallow: /
+
+User-agent: CherryPickerElite/1.0
+Disallow: /
+
+User-agent: CherryPickerSE/1.0
+Disallow: /
+
+User-agent: ConveraCrawler
+Disallow: /
+
+User-agent: CopyRightCheck
+Disallow: /
+
+User-agent: cosmos
+Disallow: /
+
+User-agent: Crescent
+Disallow: /
+
+User-agent: Crescent Internet ToolPak HTTP OLE Control v.1.0
+Disallow: /
+
+User-agent: cydralspider
+Disallow: /
+
+User-agent: DISCo Pump 3.1
+Disallow: /
+
+User-agent: DittoSpyder
+Disallow: /
+
+User-agent: dotbot
+Disallow: /
+
+User-agent: Download Ninja
+Disallow: /
+
+User-agent: downloadexpress
+Disallow: /
+
+User-agent: EmailCollector
+Disallow: /
+
+User-agent: EmailSiphon
+Disallow: /
+
+User-agent: EmailWolf
+Disallow: /
+
+User-agent: EroCrawler
+Disallow: /
+
+User-agent: Europresse
+Disallow: /
+
+User-agent: Explore
+Disallow: /
+
+User-agent: eureka
+Disallow: /
+
+User-agent: ExtractorPro
+Disallow: /
+
+User-agent: Fasterfox
+Disallow: /
+
+User-agent: Flamingo_SearchEngine
+Disallow: /
+
+User-agent: Foobot
+Disallow: /
+
+User-agent: gammaSpider
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: hloader
+Disallow: /
+
+User-agent: httplib
+Disallow: /
+
+User-agent: HTTrack
+Disallow: /
+
+User-agent: HTTrack 3.0
+Disallow: /
+
+User-agent: humanlinks
+Disallow: /
+
+User-agent: Igentia
+Disallow: /
+
+User-agent: indexer
+Disallow: /
+
+User-agent: InfoNaviRobot
+Disallow: /
+
+User-agent: JennyBot
+Disallow: /
+
+User-agent: Jetbot
+Disallow: /
+
+User-agent: JikeSpider
+Disallow: /
+
+User-agent: k2spider
+Disallow: /
+
+User-agent: Kantar
+Disallow: /
+
+User-agent: Kenjin Spider
+Disallow: /
+
+User-agent: Knowings
+Disallow: /
+
+User-agent: larbin
+Disallow: /
+
+User-agent: LexiBot
+Disallow: /
+
+User-agent: libWeb/clsHTTP
+Disallow: /
+
+User-agent: libwww
+Disallow: /
+
+User-agent: LinkextractorPro
+Disallow: /
+
+User-agent: linko
+Disallow: /
+
+User-agent: LinkScan/8.1a Unix
+Disallow: /
+
+User-agent: LinkWalker
+Disallow: /
+
+User-agent: lwp-trivial
+Disallow: /
+
+User-agent: lwp-trivial/1.34
+Disallow: /
+
+User-agent: manageo
+Disallow: /
+
+User-agent: Mata Hari
+Disallow: /
+
+User-agent: mediacompil
+Disallow: /
+
+User-agent: Mister PiX
+Disallow: /
+
+User-agent: MLBot
+Disallow: /
+
+User-agent: moget
+Disallow: /
+
+User-agent: moget/2.1
+Disallow: /
+
+User-agent: Naverbot
+Disallow: /
+
+User-agent: NetAnts
+Disallow: /
+
+User-agent: NetAttache
+Disallow: /
+
+User-agent: NetMechanic
+Disallow: /
+
+User-agent: newscan-online
+Disallow: /
+
+User-agent: Newzbin
+Disallow: /
+
+User-agent: NICErsPRO
+Disallow: /
+
+User-agent: NPBot
+Disallow: /
+
+User-agent: ObjectsSearch
+Disallow: /
+
+User-agent: Offline Explorer
+Disallow: /
+
+User-agent: Openfind
+Disallow: /
+
+User-agent: OpenindexSpider
+Disallow: /
+
+User-agent: Pimptrain
+Disallow: /
+
+User-agent: ProPowerBot/2.14
+Disallow: /
+
+User-agent: ProWebWalker
+Disallow: /
+
+User-agent: psbot
+Disallow: /
+
+User-agent: QuepasaCreep
+Disallow: /
+
+User-agent: QueryN Metasearch
+Disallow: /
+
+User-agent: Raven
+Disallow: /
+
+User-agent: readability.com
+Disallow: /
+
+User-agent: RepoMonkey
+Disallow: /
+
+User-agent: RMA
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: SightupBot
+Disallow: /
+
+User-agent: SiteBot
+Disallow: /
+
+User-agent: SiteSnagger
+Disallow: /
+
+User-agent: SiteSucker
+Disallow: /
+
+User-agent: Sogou web spider
+Disallow: /
+
+User-agent: sosospider
+Disallow: /
+
+User-agent: SpankBot
+Disallow: /
+
+User-agent: Speedy
+Disallow: /
+
+User-agent: spotter
+Disallow: /
+
+User-agent: suggybot
+Disallow: /
+
+User-agent: SuperBot
+Disallow: /
+
+User-agent: SuperBot/2.6
+Disallow: /
+
+User-agent: suzuran
+Disallow: /
+
+User-agent: Synthesio
+Disallow: /
+
+User-agent: Szukacz/1.4
+Disallow: /
+
+User-agent: Teleport
+Disallow: /
+
+User-agent: TeleportPro
+Disallow: /
+
+User-agent: Telesoft
+Disallow: /
+
+User-agent: The Intraformant
+Disallow: /
+
+User-agent: TheNomad
+Disallow: /
+
+User-agent: TightTwatBot
+Disallow: /
+
+User-agent: Titan
+Disallow: /
+
+User-agent: toCrawl/UrlDispatcher
+Disallow: /
+
+User-agent: TosCrawler
+Disallow: /
+
+User-agent: trendybuzz
+Disallow: /
+
+User-agent: True_Robot
+Disallow: /
+
+User-agent: True_Robot/1.0
+Disallow: /
+
+User-agent: turingos
+Disallow: /
+
+User-agent: TurnitinBot
+Disallow: /
+
+User-agent: up2news
+Disallow: /
+
+User-agent: UrlPouls
+Disallow: /
+
+User-agent: URLy Warning
+Disallow: /
+
+User-agent: Verif
+Disallow: /
+
+User-agent: verticalsearch
+Disallow: /
+
+User-agent: VCI
+Disallow: /
+
+User-agent: vsw
+Disallow: /
+
+User-agent: wapspider
+Disallow: /
+
+User-agent: WebCopier
+Disallow: /
+
+User-agent: Web Image Collector
+Disallow: /
+
+User-agent: WebAuto
+Disallow: /
+
+User-agent: WebBandit
+Disallow: /
+
+User-agent: WebBandit/3.50
+Disallow: /
+
+User-agent: webcopy
+Disallow: /
+
+User-agent: Webedia
+Disallow: /
+
+User-agent: WebEnhancer
+Disallow: /
+
+User-agent: WebmasterWorldForumBot
+Disallow: /
+
+User-agent: webmirror
+Disallow: /
+
+User-agent: WebSauger
+Disallow: /
+
+User-agent: website extractor
+Disallow: /
+
+User-agent: WebReaper
+Disallow: /
+
+User-agent: Website Quester
+Disallow: /
+
+User-agent: Webster Pro
+Disallow: /
+
+User-agent: WebStripper
+Disallow: /
+
+User-agent: WebStripper/2.02
+Disallow: /
+
+User-agent: WebZinger
+Disallow: /
+
+User-agent: WebZIP
+Disallow: /
+
+User-agent: Wget
+Disallow: /
+
+User-agent: WikioFeedBot
+Disallow: /
+
+User-agent: WinHTTrack
+Disallow: /
+
+User-agent: WWW-Collector-E
+Disallow: /
+
+User-agent: Xenu Link Sleuth/1.3.8
+Disallow: /
+
+User-agent: yacy
+Disallow: /
+
+User-agent: yandex
+Disallow: /
+
+User-agent: Youmag
+Disallow: /
+
+User-agent: YRSPider
+Disallow: /
+
+User-agent: Zeus
+Disallow: /
+
+User-agent: Zite
+Disallow: /
+
+User-agent: Zookabot
+Disallow: /
+
+User-agent: ZyBORG
+Disallow: /
+
+#         :.
+#         ++.
+#        .+**:
+#        .+****.
+#         =******..
+#          .********:.
+#          -*********-.
+#           =***********#FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF#.
+#           .-************#FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF#.
+#          .++=*************#FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF#.
+#           .+****************FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF#.
+#             -****************#FFFFFFFF#         .#FFFFFFFF#.
+#              .+***************#FFFFFFF#         .=+++++++++.
+#                .+**************#FFFFFF#
+#                  .-+************FFFFFF#
+#                 .-**************FFFFFFFFFFFFFFFFF:
+#                   .-************FFFFFFFFFFFFFFFFF:
+#                     ..=*********FFFFFFFFFFFFFFFFF:
+#                        .##******FFFFFFFFFFFFFFFFF:
+#                         #FFFF##*FFFFFF#*+.
+#                         #FFFFFFFFFFFFF#***=.
+#                         #FFFFFFFFFFFFF# .:+*-.
+#                        .#FFFFFFFFFFFFF#.    -*-
+#                    +FFFFFFFFFFFFFFFFFFFFFFF-  :+.
+#                    +FFFFFFFFFFFFFFFFFFFFFFF-   .-=.
+#                    +FFFFFFFFFFFFFFFFFFFFFFF-     .=-.
+#                    +FFFFFFFFFFFFFFFFFFFFFFF-       .+.
+"
+37,38,,livehindustan.com,,20M,−7.2M,"User-agent: *
+Allow: /news-sitemap.xml
+Disallow: /admin/
+Disallow: /var/www/html/ht/home/search
+Disallow: /home/archive.php
+Disallow: /errorfound/error.php
+Disallow: /blocked.html
+Disallow: /jmobile/*
+Disallow: /mobile/*
+Disallow: /rashi/*
+Disallow: /home/homepage.php
+Disallow: /home
+Disallow: /noad*
+Disallow: /home1
+Disallow: /adtype1*
+Disallow: /edu/pdf*
+Disallow: /tags//false
+Disallow: /tags//false/
+Disallow: /news-*
+Disallow: /{{url}}
+Disallow: /{{image}}
+Disallow: /tags/asifa*
+Disallow: /live-blog/reliance-agm-2019-live-updates-jio-phone-3-giga-fiber-giga-tv-to-launch-today-2685602.amp.html
+Disallow: /tags//tags/
+Disallow: /cricket/cricket-player/
+Disallow: /biharelection/
+Disallow: /edu/*
+Disallow: /event/selfie/*
+Disallow: /news-brief/*
+Disallow: /podcasts
+Disallow: /cdp/api/*
+Disallow: /lh-react-staging.livehindustan.com/*
+Disallow: /react-qa.livehindustan.com/*
+Disallow: /www.hindustantimes.com/cdp/*
+Disallow: /preprod-boardresults.livehindustan.com/*
+Disallow: /api.livehindustan.com/subscription/*
+
+User-agent: Googlebot-News
+Disallow: /brand-post/news*
+Disallow: /tags//tags/
+Disallow: /biharelection/
+Disallow: /edu/*
+Disallow: /event/selfie/*
+Disallow: /news-brief/*
+Disallow: /podcasts
+Disallow: /cdp/api/*
+Disallow: /lh-react-staging.livehindustan.com/*
+Disallow: /react-qa.livehindustan.com/*
+Disallow: /www.hindustantimes.com/cdp/*
+Disallow: /preprod-boardresults.livehindustan.com/*
+Disallow: /api.livehindustan.com/subscription/*
+
+Sitemap: https://www.livehindustan.com/news-sitemap.xml
+Sitemap: https://www.livehindustan.com/category-sitemap.xml
+Sitemap: https://www.livehindustan.com/sitemap-index.xml
+Sitemap: https://www.livehindustan.com/lhfeed/amp-stories-sitemap.xml
+Sitemap: https://www.livehindustan.com/astrology-sitemap.xml
+Sitemap: https://www.livehindustan.com/market-share-price-sitemap.xml
+Sitemap: https://www.livehindustan.com/board-result-sitemap.xml
+
+"
+38,39,↑4,sabah.com.tr,,20M,−4.8M,"User-agent: *
+
+Sitemap: https://www.sabah.com.tr/sitemap/news.xml
+Sitemap: https://www.sabah.com.tr/sitemap/index.xml
+
+Disallow: /advertorial
+Disallow: /arama
+Disallow: /bize-ulasin
+Disallow: /cizerler/birkadinneister/*
+Disallow: /finans/kap-haberleri/*
+Disallow: /fotohaber/sayfalama/
+Disallow: /get/arama
+Disallow: /haber/advertorial
+Disallow: /iframe/*
+Disallow: /js
+Disallow: /json
+Disallow: /ajax
+Disallow: /partial/
+Disallow: /roza/arama
+Disallow: /spor/arama/arsiv
+Disallow: /video/iframe/*
+Disallow: /webtv/iframe/*
+
+Disallow: /yorum/*
+Disallow: /yorumoku/*
+
+Allow: /turkiye-kupasi/galeri*
+Allow: /turkiye-kupasi/*/*/*/*
+Allow: /turkiye-kupasi
+Disallow: /turkiye-kupasi/*
+
+Allow: /canli-skor/super-lig-puan-durumu*
+Allow: /canli-skor
+Disallow: /canli-skor/*
+
+Allow: /secim/31-mart-2024-yerel-secim-sonuclari
+Disallow: /secim/
+
+Disallow: *getcandidatetopinfo*"
+39,40,↑2,dailymail.co.uk,,19M,−5.7M,"# Robots.txt for https://www.dailymail.co.uk/ updated 22/04/2025
+#
+#
+# All Robots
+User-agent: *
+#
+# Begin Standard Rules
+Disallow: /*readcommentshtml*
+Disallow: /*login?redirectPath=
+Disallow: /*logout?redirectPath=
+Disallow: /*nextThread.html
+Disallow: /*previousThread.html
+Disallow: /*questionId*
+Disallow: /*selectedImage*
+Disallow: /*threadIndex=*
+Disallow: /*topGallery*
+Disallow: /ce/item.cms*
+Disallow: /guide/*
+Disallow: /registration/*
+Disallow: /best-buys/clickout/*
+Disallow: /best-buys/m/clickout/*
+Disallow: /weather.html?latitude=*
+Disallow: /weather.html?old=*
+Disallow: /home/search.html*
+Disallow: /best-buys/mercury/out*
+Disallow: /api/infinite-list.html
+
+#
+# Disallow Money for Google News
+User-agent: Googlebot-News
+Disallow: /tmoney/*
+#
+# Allow Adsense
+User-agent: Mediapartners-Google
+Disallow:
+#
+User-agent: CrystalSemanticsBot
+Disallow: /
+#
+User-agent: CCBot
+User-agent: AI2Bot
+User-agent: Ai2Bot-Dolma
+User-agent: Amazonbot
+User-agent: anthropic-ai
+User-agent: Applebot-Extended
+User-agent: Bytespider
+User-agent: CCBot
+User-agent: ChatGPT-User
+User-agent: Claude-Web
+User-agent: ClaudeBot
+User-agent: cohere-ai
+User-agent: Diffbot
+User-agent: FacebookBot
+User-agent: FriendlyCrawler
+User-agent: Google-Extended
+User-agent: GoogleOther
+User-agent: GoogleOther-Image
+User-agent: GoogleOther-Video
+User-agent: GPTBot
+User-agent: iaskspider/2.0
+User-agent: ICC-Crawler
+User-agent: ImagesiftBot
+User-agent: img2dataset
+User-agent: ISSCyberRiskCrawler
+User-agent: Kangaroo Bot
+User-agent: Meltwater
+User-agent: Meta-ExternalAgent
+User-agent: Meta-ExternalFetcher
+User-agent: OAI-SearchBot
+User-agent: omgili
+User-agent: omgilibot
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: PetalBot
+User-agent: Scrapy
+User-agent: Seekr
+User-agent: Sidetrade indexer bot
+User-agent: Timpibot
+User-agent: VelenPublicWebCrawler
+User-agent: Webzio-Extended
+User-agent: YouBot
+Disallow: /
+#
+#Allow Google sandbox privacy testing
+User-agent: GoogleOther
+Allow: /.well-known/privacy-sandbox-attestations.json
+#
+# Sitemap Files
+Sitemap: https://www.dailymail.co.uk/google-news-sitemap.xml
+Sitemap: https://www.dailymail.co.uk/sitemap-channels.xml
+Sitemap: https://www.dailymail.co.uk/sitemap-columnist.xml
+Sitemap: https://www.dailymail.co.uk/sitemap-topics.xml
+Sitemap: https://www.dailymail.co.uk/sitemap-videos-year~2021.xml
+Sitemap: https://www.dailymail.co.uk/sitemap-facts-year~2021.xml
+Sitemap: https://www.dailymail.co.uk/sitemap-articles-year~2021.xml
+Sitemap: https://www.dailymail.co.uk/sitemap-videos-year~2022.xml
+Sitemap: https://www.dailymail.co.uk/sitemap-articles-year~2022.xml
+Sitemap: https://www.dailymail.co.uk/sitemap-facts-year~2022.xml
+Sitemap: https://www.dailymail.co.uk/sitemap-videos-year~2023.xml
+Sitemap: https://www.dailymail.co.uk/sitemap-articles-year~2023.xml
+Sitemap: https://www.dailymail.co.uk/sitemap-facts-year~2023.xml
+Sitemap: https://www.dailymail.co.uk/sitemap-videos-year~2024.xml
+Sitemap: https://www.dailymail.co.uk/sitemap-articles-year~2024.xml
+Sitemap: https://www.dailymail.co.uk/sitemap-facts-year~2024.xml
+Sitemap: https://www.dailymail.co.uk/sitemap-videos-year~2025.xml
+Sitemap: https://www.dailymail.co.uk/sitemap-articles-year~2025.xml
+Sitemap: https://www.dailymail.co.uk/sitemap-facts-year~2025.xml
+Sitemap: https://www.dailymail.co.uk/sitemap-authors.xml
+"
+40,41,↑8,thairath.co.th,,19M,−1.5M,"# Allow all user agents to access everything
+User-agent: *
+Disallow:
+
+# Explicitly allow certain crawlers (grapeshot and ias_crawler) to access everything
+User-agent: grapeshot
+Disallow:
+
+User-agent: ias_crawler
+Disallow:
+
+# Provide a reference to your sitemap
+Sitemap: https://www.thairath.co.th/sitemap.xml
+"
+41,42,↑6,elmundo.es,,18M,−3.1M,
+42,43,↑15,aajtak.in,,17M,−904K,"User-Agent: *
+Allow: /
+Disallow: /get_graph_json.php
+Disallow: /live-score/seriesLiveList/
+Disallow: /live-score/seriesRecentList/
+Disallow: /live-score/seriesUpcomingList/
+Disallow: /live-score/venueTeamListBySeriesId/*
+Disallow: /live-score/series_team_venue_filter/
+Disallow: /live-score/recent/home/widget/?theme=1&header=no
+Disallow: /live-score/upcoming/home/
+Disallow: /live-score/cricket/teams_profileApiData/*
+Disallow: /live-score/cricket/head_to_headApiData/*
+Disallow: /live-score/cricket/full_scorecardApiData/*
+Disallow: /live-score/cricket/comm/*
+Disallow: /live-score/cricket/commentary/*
+Disallow: /live-score/fixtures/live_score_flipApiData/*
+Disallow: /live-score/fixtures/live_scoreApiData/*
+Disallow: /live-score/fixtures/widget/fixtures_swapper/*
+Disallow: /live-score/cricket/auction_ajax/*
+Disallow: /search/*
+Disallow: /suniye-neta-ji/video/*
+Disallow: /superfast/*
+Disallow: /shopping/*
+Disallow: /userfeedback*
+Disallow: /prnewswire/*
+Disallow: /ajax/*
+
+User-agent: Googlebot-News
+Disallow: /impact-feature/*
+Disallow: /visualstories/preview.php
+
+Sitemap: https://www.aajtak.in/rssfeeds/sitemap.xml
+Sitemap: https://www.aajtak.in/rssfeeds/news-sitemap.xml
+Sitemap: https://www.aajtak.in/rssfeeds/video-sitemap.xml
+Sitemap: https://www.aajtak.in/rssfeeds/image-sitemap.xml
+Sitemap: https://www.aajtak.in/visualstories/sitemap.xml
+"
+43,44,↓10,news18.com,,17M,−10M,"User-agent: *
+Allow: /
+Sitemap: https://www.news18.com/commonfeeds/v1/eng/sitemap/google-news.xml
+Sitemap: https://www.news18.com/commonfeeds/v1/eng/sitemap-index.xml
+Sitemap: https://www.news18.com/commonfeeds/v1/eng/sitemap/webstories-sitemap.xml
+Sitemap: https://www.news18.com/commonfeeds/v1/eng/sitemap/google-news/today.xml
+Sitemap: https://www.news18.com/commonfeeds/v1/eng/sitemap/google-news/yesterday.xml
+Sitemap: https://www.news18.com/commonfeeds/v1/eng/sitemap-video.xml
+Sitemap: https://www.news18.com/commonfeeds/v1/eng/sitemap/monthly-sitemap-index.xml
+Disallow: /cricketnext/series/asia-cup-2023.html
+Disallow: /cricketnext/amp/series/asia-cup-2023.html
+Disallow: /photogallery/6*.html
+Disallow: /assembly-elections-2018/*/*/
+Disallow: /delhi-assembly-elections-2020/*
+Disallow: /bihar-assembly-elections-2020/*/
+Disallow: /jw_player/video/*/
+Disallow: /assembly-elections/uttar-pradesh/*/
+Disallow: /assembly-elections-2021/*/*/
+Disallow: /amp/assembly-elections-2021/*/
+Disallow: /election-result-live/*/
+Disallow: /photogallery/page-*
+Disallow: /cricketnext/series/*
+Disallow: /cricketnext/amp/series/*
+Disallow: /cricketnext/photogallery/series/*
+Disallow: /cricketnext/news/series/*
+Disallow: /cricketnext/profile/*
+Disallow: /cricketnext/amp/profile/*
+Disallow: /amp/cricketnext/*
+Disallow: /cricketnext/newstopics/*
+Disallow: /blogs/*
+Disallow: /indiwo/*
+Disallow: /preview/*
+Disallow: /series/*
+Disallow: /newstopics/*
+Disallow: /amp/newstopics/*
+Disallow: /astrology/horoscope/todays-*-horoscope-in-english*
+Disallow: /astrology/todays-panchang-in-english-*
+Disallow: /ipl-predict-win-contest/
+Disallow: /win-ipl-tickets-contest-2017/
+Disallow: /index-test.php
+Disallow: /nodeapi/
+Disallow: /article_without_ad.php*
+Disallow: /cat_without_ad.php*
+Disallow: /topic_listing_without_ads.php*
+Disallow: /cricketnext/wc2019/*
+Disallow: /minis_ajax.html
+Disallow: /minis_ajax_mobile.html
+Disallow: /load_homepage_astrology_horoscope_ajax.html
+Disallow: /astrology/widget/article-pages-mobile-ajax.php
+Disallow: /mission-paani/home-page-mission-paani-pledge/
+Disallow: /microsite/p-and-g/ajax/video-listing.php
+Disallow: /bihar-assembly-elections-2020/home-page-ajax/*
+Disallow: /ipl-2021-chronicles-ajax.html
+Disallow: /footer_ajax.html
+Disallow: /cricketnext/revamp/resources/ajax/*
+Disallow: /section_and_ivideo_widget_ajax.html
+Disallow: /us-presidential-elections-2016/*
+Disallow: /gossip/getAjaxgossip/*
+Disallow: /load_homepage_podcast_ajax.html
+Disallow: /photogallery_widget_ajax.html
+Disallow: /microsite/itsnotokay/ajax/video-consumption.php
+Disallow: /byline/*/videos/*
+Disallow: /byline/*/news/*
+Disallow: /byline/*/photos/*
+Disallow: /amp/amp/*
+Disallow: /search.php*
+Disallow: /cricketnext/search/*
+Disallow: /news18_revamp/*
+Disallow: /topics/*.html$
+Disallow: /topics/*/news/$
+Disallow: /topics/*/videos/$
+Disallow: /topics/*/photos/$
+Disallow: /amp/*/page-*/$
+Disallow: /*/page-*/$ 
+Disallow: /cricketnext/videos/series/*/page-*/news18.com/*/page-*/
+Disallow: /cricketnext/videos/series/*/page-*/news18.com/*.html$
+Disallow: /cricketnext/cricket-live-scorecard/*
+Disallow: /amp/topics/*/page-*
+Disallow: /topics/*/page-*
+Disallow: */page-*/news18.com/*
+Disallow: */photogallery/*/news18.com/*
+Disallow: /amp/lok-sabha-elections-2019/*
+Disallow: /news/cricketnext/*
+Disallow: /amp/topics/*/news/$
+Disallow: /amp/topics/*/videos/$
+Disallow: /amp/topics/*/photos/$
+Disallow: /topics/*%25*/$
+Disallow: /topics/*%25*/news/$
+Disallow: /topics/*%25*/videos/$
+Disallow: /topics/*%25*/photos/$
+Disallow: /amp/topics/*%25*/$
+Disallow: /amp/topics/*%25*/news/$
+Disallow: /amp/topics/*%25*/videos/$
+Disallow: /amp/topics/*%25*/photos/$
+Disallow: /lok-sabha-elections-2019/page-*/$
+Disallow: /amp/assembly-elections-2022*/$
+Disallow: /assembly-elections-2022*/$
+Disallow: /amp/assembly-elections-march-2022*/$
+Disallow: /assembly-elections-march-2022*/$
+Disallow: /election_framework_next/*
+Disallow: /cricketnext/amp/cricket-live-scorecard/*
+Disallow: /cricketnext/series/icc-cricket-world-cup-2023.html
+Disallow: /cricketnext/amp/series/icc-cricket-world-cup-2023.html
+Disallow: /cricketnext/series/icc-cricket-world-cup-2023-warm-up.html
+Disallow: /cricketnext/amp/series/icc-cricket-world-cup-2023-warm-up.html
+Disallow: /studio18/*
+Disallow: /amp/studio18/*
+Disallow: /tech-reviews/*
+Disallow: /auto-reviews/*
+Disallow: /amp/tech-reviews/*
+Disallow: /amp/auto-reviews/*
+Disallow: /astrology/horoscope/todays*
+Disallow: /amp/astrology/horoscope/todays*
+Disallow: /business/cryptocurrency/trade-bitcoin/*
+Disallow: /sustainable-is-attainable-news18-and-tata-power-initiative/*
+Disallow: /givewingstoyoursavings/*
+Disallow: /netrasuraksha/*
+Disallow: /missionswachhtapaani/*
+Disallow: /itsnotok/*
+Disallow: /swabhimanbharat/*
+Disallow: /periodofpride/*
+Disallow: /electralhydrationforhealth/*
+Disallow: /younggenius/*
+Disallow: /fit-india-hit-india/*
+Disallow: /town-hall/*
+Disallow: /solvefortomorrow/*
+Disallow: /rising-india-summit/*
+Disallow: /sustainable-is-attainable-fest/*
+Disallow: /sustainable-is-attainable-news18-and-tata-power-initiative-2021/*
+Disallow: /reel-awards-2023/*
+Disallow: /makeadent/*
+Disallow: /rising-india-she-shakti/*
+Disallow: /lok-sabha-elections-2019/*
+Disallow: /monitoring/?o=4506733701693440&p=4506733712244736
+Disallow: /amp/astrology/horoscope/*/
+Disallow: /astrology/horoscope/*/
+Disallow: /cricket/profile/*/batting-*.html
+Disallow: /cricket/profile/*/bowling-*.html
+Disallow: /cricket/IPL%202024/
+Disallow: /amp/delhi-assembly-elections-2020/
+Disallow: /delhi-assembly-elections-2020/
+Disallow: /pro-kabaddi-2019/
+Disallow: /amp/topics/*/latest-photogallery/
+Disallow: /topics/*/latest-photogallery/
+Disallow: /amp/assembly-elections/
+Disallow: /assembly-elections/
+Disallow: /short-news/*a
+Disallow: /podcast/*.html
+Disallow: /agency-feeds/
+Disallow: /amp/agency-feeds/
+
+User-agent: CCBot
+Disallow: /
+User-agent: GPTBot
+Disallow: /
+User-Agent: omgili
+Disallow: /
+User-Agent: omgilibot
+Disallow: /
+User-agent: MAZBot
+Disallow: /
+User-agent: ChatGPT-User
+Disallow: /
+User-agent: Baiduspider
+Disallow: /
+User-agent: DataForSeoBot
+Disallow: /
+User-agent: Google-Extended
+Disallow: /
+User-agent: Bytespider
+Disallow: /
+User-agent: ClaudeBot
+Disallow: /
+User-agent: ImagesiftBot
+Disallow: /
+User-agent: Diffbot
+Disallow: /
+User-agent: Claude-Web
+Disallow: /
+User-agent: cohere-ai
+Disallow: /
+User-agent: FriendlyCrawler
+Disallow: /
+User-agent: img2dataset
+Disallow: /
+User-agent: Scrapy
+Disallow: /
+User-agent: Timpibot
+Disallow: /
+User-agent: VelenPublicWebCrawler
+Disallow: /
+User-agent: OAI-SearchBot
+Disallow: /"
+44,45,↓12,youm7.com,,17M,−12M,"User-agent: * 
+Disallow:  /https://m2.youm7.com
+
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+user-agent: Mediapartners-Google
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-news
+Allow: /
+
+
+Sitemap: https://www.youm7.com/sitemap/SitemapNews"
+45,46,↑4,vnexpress.net,,17M,−3.6M,"User-agent: *
+Allow: /
+Allow: /ads.txt
+Disallow: /.well-known/amphtml/apikey.pub
+Sitemap: https://vnexpress.net/sitemap.xml
+Sitemap: https://vnexpress.net/google-news-sitemap.xml"
+46,47,,abplive.com,,17M,−4.2M,"User-agent: *
+Allow: /
+Disallow: /wp-admin/
+Disallow: /search?s*
+Disallow: /search/page-*
+Disallow: /abp-widget/
+Disallow: /adsunits/
+Disallow: /adsunits-a/
+Disallow: /adsunits-b/
+Disallow: /adsunits-c/
+User-agent: GPTBot
+Disallow: /
+User-agent: Google-Extended
+Disallow: /
+User-agent: CCBot
+Disallow: /
+User-agent: ClaudeBot
+Disallow: /
+User-agent: PetalBot
+Disallow: /
+User-agent: Sogou
+Disallow: /
+User-agent: BLEXBot
+Disallow: /
+User-agent: DataForSeoBot
+Disallow: /
+User-agent: AhrefsBot
+Disallow: /
+User-agent: Applebot
+Disallow: /
+User-agent: YandexBot
+Disallow: /
+
+#Sitemaps
+Sitemap: https://www.abplive.com/news-sitemap.xml
+Sitemap: https://www.abplive.com/video-sitemap.xml
+Sitemap: https://www.abplive.com/gallery-sitemap.xml
+Sitemap: https://www.abplive.com/google-news-sitemap.xml
+Sitemap: https://www.abplive.com/web-sitemap.xml
+Sitemap: https://www.abplive.com/amp-stories-sitemap.xml
+Sitemap: https://www.abplive.com/shortvideo-sitemap.xml
+
+
+"
+47,48,↓7,dzen.ru,,17M,−8.4M,"<body></body><script nonce='2093647f604491e66819033a533e7f17'>var it = {""host"":""https:\u002F\u002Fsso.dzen.ru\u002Finstall?uuid=5216a0e1-3ebd-4752-953d-73ae5c38d3b9"",""retpath"":""https:\u002F\u002Fdzen.ru\u002Frobots.txt?is_autologin_ya=true""};(function() { var form = document.createElement('form'); var element1 = document.createElement('input'); var element2 = document.createElement('input'); element1.name = 'retpath'; element1.type = 'hidden'; element1.value = it.retpath; form.appendChild(element1); element2.name = 'container'; element2.type = 'hidden'; element2.value = '1750307536.10155636.gPHE9-R6K7_TayQp.z1F0FyLkJO8wJZTKHp-PwuT3ZhzlQ5BxJTP6lrRHaunDLladqeilAwZiZDjG_VwGLK14gvFLp4-NojBtALzcWM7plhQ6JJBuhEnQvyB2cdL6l_bfBezpDGnedYDZIJhLKJYYhQ7JgLRwEppa3OCbYTnu7QfDknuUM10aGsrcAGLBD2WyPIl6cbxkEzrKiKzuOzA9oGPPO1sjsFOKqHwGP5e_WQ8XvGWcuJCRrL0_KomUQ8kH8GsD9Mn_Ss6LwIBgeHIWShRrZ_wz9MNp5hHiOZn5rPO6qTdHQ1MuALuHSP3IbVxiKfY1gwMMppb6XhgpMKs_4z604_jYGwT5cOd2EKUjh5kCQxDXS5jZa1pkEq0lywyTZqDhX5Ia790zqL8W3RKCvhwthm5EOV8akBJw_rL63KMZDdKbGMf6GsUwW-lHOvL0-PCfbFiBhyLcakbBPROepEq5OHllvyA2-pg43hYZKPfYWmOng-KKlCzA9-wEpU4T1pdQ97qStv4WHOcITKq5rEQJdqAzdWFYvYpuxug8E997XwrXXk4Wio3BY96HT5Zv-gGzNRPyBeCOv9w0xZG3bZ9OrwdPCNbyUnTspYiIyFZ21FKQCQe0BUrh-rYLoPzz9qbu5z_0eISXeO73mUrpyfITY5yDl6mXJl0zxRK11oaPv9MRl420XgLLGf_hOpZO_z05LIe_f6WZYlsh90Hzba5l9svceM2S2RAPoQ01rQo4mR0se7FqEIlF3Ta8ZvpqI1K0IOnq4srZjkrVkIbykeYtu1ELe6ZCjTBMktjlwxymCsXNxBcnHIazH0NqfMVvLmUx6McYxC0XvIqAkVtq8DQuu84MA0w0mSuAillnffyUoY9lQxfeId641vK36_gftO7shnebtqz7TaOTnyKxAuQLyWIQtN9fYsSrIcojieslrIRL0pCtf6pBEV-7L-9z7Ajb43TurIbWmuQzMAULsNdHTUns5OCgxnthyP-pm7IX80L1Rqe3mTN-lVwPhG0HEChByp5ZcE-FmHSH5jyx9C9hNEPBvHJjYgLJING8Orw76ofGOCtDcXWXu30LIDIjeULgsdTSOBifFQaqrn67aeWfss_oURcTmAbp-_oODifTMa8hlmC1JpbnZTUY9Zg2cNIvU7JxiIl3vgMYOKlseAo89CJBwX1vwmJwOorCIoEeHKR2cEDJXTEG-EcyI-Cum-xIGjeHyUrHqtEuz0hg0xGZwvucSRQfe56lCrq8_qs3Tgggvp-_d3hpqo2o-cQ14Vz5FD8LvYAp3qXl-GAzE3g8C83H4O4fuljmvJQiw9GH6xVw4-s7tBEHQ17GgGWklDooGjnXpQ.xACzfq_QdtECuWgz-5_0TA'; form.appendChild(element2); form.method = 'POST'; form.action = it.host; document.body.appendChild(form); form.submit();})();</script>"
+48,49,↑8,usnews.com,,16M,−2.3M,"User-agent: *
+Disallow: /search
+
+User-agent: Googlebot-News
+Disallow: /sponsored/
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: Anthropic-ai
+Disallow: /
+
+User-agent: AwarioRssBot
+Disallow: /
+
+User-agent: AwarioSmartBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: Cohere-ai
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+User-agent: Magpie-crawler
+Disallow: /
+
+User-agent: Omgili
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: YouBot
+Disallow: /
+
+User-agent: huggingface
+Disallow: /
+
+User-agent: NewsNow
+Disallow: /
+
+User-agent: news-please
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: Scrapy
+Disallow: /
+
+User-agent: TurnitinBot
+Disallow: /
+
+
+User-Agent: *
+sitemap: https://www.usnews.com/news/editorial-sitemap.xml
+sitemap: https://www.usnews.com/news-sitemap.xml
+sitemap: https://deals.usnews.com/sitemap.xml
+"
+49,50,↑13,ntv.com.tr,,16M,+213K,"User-Agent: *
+Allow: /
+Sitemap: https://www.ntv.com.tr/sitemaps/news-sitemap.xml
+Sitemap: https://www.ntv.com.tr/sitemaps"
+50,51,↑10,indiatoday.in,,16M,−1.8M,"Sitemap: https://www.indiatoday.in/sitemap.xml
+Sitemap: https://www.indiatoday.in/news-it-sitemap.xml
+ 
+# Disallow directive
+User-agent: *
+Allow: /
+# Directories
+Disallow: /https://newprocessfromhome.com
+Disallow: /https://newprocessfromhome.com/*
+Disallow: /includes/
+Disallow: /misc/
+Disallow: /modules/
+Disallow: /profiles/
+Disallow: /scripts/
+Disallow: /themes/
+Disallow: /search/*
+Disallow: /preview/*
+Disallow: /live-score/v2/*
+Disallow: /sex-survey-2012/*
+Disallow: /sex-survey-2013/*
+Disallow: /story/?sId*
+Disallow: /story?sId*
+Disallow: /custom-search/
+Disallow: /pti-feed/*
+# Files
+Disallow: /CHANGELOG.txt
+Disallow: /cron.php
+Disallow: /INSTALL.mysql.txt
+Disallow: /INSTALL.pgsql.txt
+Disallow: /INSTALL.sqlite.txt
+Disallow: /install.php
+Disallow: /INSTALL.txt
+Disallow: /LICENSE.txt
+Disallow: /MAINTAINERS.txt
+Disallow: /update.php
+Disallow: /UPGRADE.txt
+Disallow: /xmlrpc.php
+Disallow: /feedback.jsp
+Disallow: /content_Email.jsp
+Disallow: /trans/CheckTransCron.jsp
+Disallow: /snappost/snappost-chunk.jsp
+Disallow: /like-dislike-story-footer.jsp
+Disallow: /chunk_previous_next_story.jsp
+Disallow: /haveyousay.jsp
+Disallow: /technology/like-dislike-story-footer.jsp
+Disallow: /like-dislike-educationstory.jsp
+Disallow: /pagenotfound.jsp
+Disallow: /it_newspick_chunk.jsp
+Disallow: /auto/like-dislike-autostory.jsp
+Disallow: /video1.jsp
+# Paths (clean URLs)
+Disallow: /admin/
+Disallow: /comment/reply/
+Disallow: /filter/tips/
+Disallow: /node/add/
+Disallow: /search/
+Disallow: /user/register/
+Disallow: /user/password/
+Disallow: /user/login/
+Disallow: /user/logout/
+# Paths (no clean URLs)
+Disallow: /?q=admin/
+Disallow: /?q=comment/reply/
+Disallow: /?q=filter/tips/
+Disallow: /?q=node/add/
+Disallow: /?q=search/
+Disallow: /?q=user/password/
+Disallow: /?q=user/register/
+Disallow: /?q=user/login/
+Disallow: /?q=user/logout/
+User-agent: Googlebot-News
+Disallow: /impact-feature/
+Disallow: /fact-check-share/*
+Disallow: /visualstories/preview.php?*
+Disallow: /ajax/scroll/*
+Disallow: /live-score/get_graph_json.php?*
+Disallow: /interactive/quiz/preview/* 
+Disallow: /ajax/*
+Disallow: /live-score/get_graph_json.php?*
+
+Disallow: /live-score/seriesLiveList/
+Disallow: /live-score/seriesRecentList/
+Disallow: /live-score/seriesUpcomingList/
+Disallow: /live-score/venueTeamListBySeriesId/
+Disallow: /live-score/series_team_venue_filter/
+Disallow: /live-score/recent/home/widget/?theme=1&header=no
+Disallow: /live-score/upcoming/home/
+Disallow: /live-score/cricket/teams_profileApiData/*
+Disallow: /live-score/cricket/head_to_headApiData/*
+Disallow: /live-score/cricket/full_scorecardApiData/*
+Disallow: /live-score/cricket/comm/*
+Disallow: /live-score/cricket/commentary/*
+Disallow: /live-score/home/liveApiData/*
+Disallow: /live-score/home/players_rank/*
+Disallow: /live-score/home/teams_rank/*
+Disallow: /live-score/home/mc_standingsApiData/*
+Disallow: /live-score/home/mc_statsApiData/*
+Disallow: /live-score/fixtures/live_score_flipApiData/*
+Disallow: /live-score/fixtures/live_scoreApiData/*
+Disallow: /live-score/fixtures/widget/fixtures_swapper/*
+Disallow: /live-score/cricket/auction_ajax/
+Disallow: /api/ajax/reactions
+Disallow: /api/ajax/rightlatestnews
+Disallow: /api/ajax/checktheseout 
+Disallow: /api/ajax/reactions?.*
+Disallow: /api/ajax/rightlatestnews?.*
+Disallow: /api/ajax/checktheseout?.*
+Disallow: /technology/mobiles/*
+Disallow: /newspresso/*
+Disallow: /itmi/about/dean-message/
+Disallow: /shopping/*"
+51,52,↑1,nhk.or.jp,,15M,−4.4M,"User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: anthropic-ai
+User-agent: cohere-ai
+User-agent: CCBot
+User-agent: ICC-Crawler
+User-agent: Bytespider
+User-agent: OAI-SearchBot
+User-agent: PerplexityBot
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: PetalBot
+User-agent: baiduspider
+User-agent: baiduimagespider
+Disallow: /
+
+User-agent: Googlebot-Image
+User-agent: Googlebot-Video
+Disallow: /
+Disallow: /archives/k/
+Disallow: /archives/r/
+Disallow: /das/k/
+Disallow: /das/r/
+Disallow: /gendai/k/
+Disallow: /gendai/r/
+Disallow: /heart-net/k/
+Disallow: /heart-net/r/
+Disallow: /kenko/k/
+Disallow: /kenko/r/
+Disallow: /learning/k/
+Disallow: /learning/r/
+Disallow: /learning-blog/r/
+Disallow: /news/k/
+Disallow: /news/r/
+Disallow: /nhkworld/k/
+Disallow: /nhkworld/r/
+Disallow: /politics/k/
+Disallow: /politics/r/
+Disallow: /recipe/k/
+Disallow: /recipe/r/
+Disallow: /shutoken/k/
+Disallow: /shutoken/r/
+Allow: /robots.txt
+Allow: /favicon.ico
+Allow: /*/lreport/
+Allow: /archives/
+Allow: /assets/
+Allow: /common/
+Allow: /das/
+Allow: /gendai/
+Allow: /heart-net/
+Allow: /kenko/
+Allow: /learning/
+Allow: /learning-blog/
+Allow: /news/
+Allow: /nhkworld/
+Allow: /politics/
+Allow: /prog/
+Allow: /program/
+Allow: /recipe/
+Allow: /shutoken/
+Allow: /akita/info/
+Allow: /aomori/info/
+Allow: /chiba/info/
+Allow: /fukui/info/
+Allow: /fukuoka/info/
+Allow: /fukushima/info/
+Allow: /gifu/info/
+Allow: /hiroshima/info/
+Allow: /hokkaido/info/
+Allow: /kagoshima/info/
+Allow: /kanazawa/info/
+Allow: /kitakyushu/info/
+Allow: /kobe/info/
+Allow: /kochi/info/
+Allow: /kofu/info/
+Allow: /kumamoto/info/
+Allow: /kyoto/info/
+Allow: /maebashi/info/
+Allow: /matsue/info/
+Allow: /matsuyama/info/
+Allow: /mito/info/
+Allow: /miyazaki/info/
+Allow: /morioka/info/
+Allow: /nagano/info/
+Allow: /nagasaki/info/
+Allow: /nagoya/info/
+Allow: /nara/info/
+Allow: /niigata/info/
+Allow: /oita/info/
+Allow: /okayama/info/
+Allow: /okinawa/info/
+Allow: /osaka/info/
+Allow: /otsu/info/
+Allow: /saga/info/
+Allow: /saitama/info/
+Allow: /sendai/info/
+Allow: /shizuoka/info/
+Allow: /takamatsu/info/
+Allow: /tokushima/info/
+Allow: /tottori/info/
+Allow: /toyama/info/
+Allow: /tsu/info/
+Allow: /utsunomiya/info/
+Allow: /wakayama/info/
+Allow: /yamagata/info/
+Allow: /yamaguchi/info/
+Allow: /yokohama/info/
+
+User-agent: Twitterbot
+Disallow: /*/r/
+
+User-agent: *
+Disallow: /*.cgi$
+Disallow: /*.cgi?
+Disallow: /*/api/
+Disallow: /*/hc/
+Disallow: /*/k/
+Disallow: /*/r/
+Disallow: /*/shv/
+Disallow: /cgiblog/
+Disallow: /cgisearch/
+Disallow: /chronicle/
+Disallow: /error/
+Disallow: /hc-*
+Disallow: /hensei/
+Disallow: /saigai/*/dl/
+Disallow: /saigai/*/dn/
+Disallow: /saigai/*/ev/
+Disallow: /saigai/*/ss/
+Disallow: /saigai/f/
+Disallow: /topepg/
+Disallow: /toppage/errors/
+
+Sitemap: https://www.nhk.or.jp/sitemap.xml
+"
+52,53,↑12,haberturk.com,,15M,−912K,"User-agent: *
+Disallow: /Flash
+Disallow: /uyelik
+Disallow: /liste/sonhaberler
+Disallow: /dynamics/*
+Disallow: /*/dynamics/*
+Disallow: /chart/*
+Disallow: /globals
+Disallow: /yorumlar
+Disallow: /video/yorumlar
+Disallow: /video/dynamics/*
+Disallow: /video/embed/*
+Disallow: /galeri/yorumlar
+Disallow: /magazin/yorumlar
+Disallow: /ekonomi/yorumlar
+Disallow: /spor/yorumlar
+Disallow: /haberdetay/tavsiyeHaber
+Disallow: /spor/haberdetay/tavsiyeHaber
+Disallow: /spor/macmerkezi/*
+Disallow: /ekonomi/haberdetay/tavsiyeHaber
+Disallow: /magazin/haberdetay/tavsiyeHaber
+Disallow: /arama/*
+Disallow: /sinema-rehberi/ara
+Disallow: /sinema-rehberi/ara?tr=*
+Disallow: /haber-tuneli/
+Disallow: /etiket/
+Disallow: /general/
+Disallow: /web-push-token
+Disallow: /*/infiniteLoad*
+Disallow: /infinite/kategori/*
+Disallow: /video/infinite/kategori/*
+Disallow: /infinite/kategori/htgastro/*
+Disallow: /infinite/news/*
+Disallow: /infinite/local-news/*
+Disallow: /infinite/special-author/*/*
+Disallow: /infinite/yerel-haberler/*
+Disallow: /infinite/stil/*
+Disallow: /anket/index/*
+Disallow: /index
+Disallow: /basinilan
+Disallow: /liste/arama
+Disallow: /htyazarlar/liste
+Disallow: /tumhaberler/liste
+Disallow: /magazin/etiket
+Disallow: /magazin/tumhaberler
+Disallow: /ekonomi/tumhaberler
+Disallow: /info/gizlilik-politikasi
+Disallow: /widgets/widget-republic-day
+Disallow: /widgets/widget-10-kasim
+Disallow: /tv/arama/*
+Disallow: /*/ajaxload/
+Disallow: /htgastro/ara
+Disallow: /ekonomi/haberdetay/siblings/*
+Disallow: /spor/haberdetay/siblings/*
+Disallow: /magazin/haberdetay/siblings/*
+Disallow: /ekonomi/details/siblings/*
+Disallow: /spor/details/siblings/*
+Disallow: /magazin/details/siblings/*
+Disallow: /uyelik/login
+Disallow: /tummansetler/LoadMoreNews
+Disallow: /ekonomi/tummansetler/LoadMoreNews
+Disallow: /spor/tummansetler/LoadMoreNews
+Disallow: /kesfet/LoadMoreNews
+Disallow: /magazin/muzik-eski/*
+Disallow: /magazin/globals/SocialBox/*
+Disallow: /ekonomi/globals/SocialBox/*
+Disallow: /spor/globals/SocialBox/*
+Disallow: /*/details/FotoHaberKategoriSidebar/*
+Disallow: /haberdetay/yazarindexDevam/*
+Disallow: /haberdetay/index/*
+Disallow: /siteneekle
+Disallow: /siteneekle/*
+Disallow: /gazetekeyfi/htmanset
+Disallow: /kategori/ajaxKategoriData2/*
+Disallow: /spor/iddaa/takim_karsilastirma/*
+Disallow: /spor/kategori/teamListMenu/
+Disallow: /kategori/loadmorenews?cat=*
+Disallow: /yenimedya/yenimedya/hitsay/*/*
+Disallow: /documentation/*
+Disallow: /adscbg/test
+Disallow: /ayar
+Disallow: /video-test
+Disallow: /video-test-qr
+Disallow: /app-widget
+Disallow: /haberdetay/preview/*
+Disallow: /force-update/*
+
+Allow: /dynamics/vdo
+Allow: /dynamics/googlenewsstandrss
+Allow: /.well-known/amphtml/apikey.pub
+
+Sitemap: https://www.haberturk.com/sitemap.xml
+Sitemap: https://www.haberturk.com/sitemap_google_news.xml
+Sitemap: https://www.haberturk.com/sitemap_index_video.xml
+Sitemap: https://www.haberturk.com/sitemap_recentvideo.xml
+Sitemap: https://hthayat.haberturk.com/sitemap_google_news.xml
+"
+53,54,↑1,india.com,,15M,−4.1M,
+54,55,↓3,amarujala.com,,15M,−5.0M,"User-agent: GPTBot
+Disallow: /
+User-agent: Google-Extended
+Disallow: /
+User-agent: CCBot 
+Disallow: /
+User-agent: ChatGPT-User
+Disallow: /
+User-agent: anthropic-ai
+Disallow: /
+User-agent: Omgilibot
+Disallow: /
+User-agent: Omgili
+Disallow: /
+User-agent: FacebookBot
+Disallow: /
+User-agent: Diffbot
+Disallow: /
+User-agent: Bytespider
+Disallow: /
+User-agent: ImagesiftBot
+Disallow: /
+User-agent: cohere-ai
+Disallow: /
+User-agent: PerplexityBot
+Disallow: /
+User-agent: ClaudeBot
+Disallow: /
+User-agent: Claude-Web
+Disallow: /
+User-agent: Claude-Web
+Disallow: /
+User-agent: OAI-SearchBot
+Disallow: /
+User-agent: Meta-ExternalAgent
+Disallow: /
+User-agent: Meta-ExternalFetcher
+Disallow: /
+User-agent: Applebot
+Disallow: /
+User-agent: Applebot-Extended
+Disallow: /
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: *
+Allow: /.well-known/amphtml/apikey.pub
+Disallow: /blocked.html
+Disallow: /entertainment/bollywood/poonam-pandey-sami-nude-pics
+Disallow: /static-ad/home
+Disallow: /ucv1/
+Disallow: /ajax/
+Disallow: /cdn-cgi/
+Disallow: /sports/parimatch-betting-five-qualities-of-modern-betting-all-you-need-to-know
+Disallow: /lifestyle/kapiva-himalayan-shilajit-from-18000-feet-himalaya-for-good-physical-and-mental-health
+Disallow: /tags/betting
+Disallow: /channels/amp_downloads*
+Disallow: /tags/sex*
+Disallow: /games/*
+Disallow: /real-estate/*
+Disallow: /advertorial/*
+
+Sitemap: https://www.amarujala.com/sitemap.xml
+Sitemap: https://www.amarujala.com/sitemap-news-v1.xml
+Sitemap: https://www.amarujala.com/sitemap/sitemap-index.xml
+"
+55,56,↓5,24h.com.vn,,15M,−5.5M,"#User-agent: *
+#Disallow: /
+
+User-agent: *
+Allow: /
+
+Disallow: /ocm/
+Disallow: /ad/
+Disallow: /tools/
+Disallow: /webservices/
+Disallow: /crondaemon/
+Disallow: /trienkhai/
+Disallow: /124557882/
+Disallow: /su-kien/
+Disallow: /ajax/
+Disallow: /*recommend-video_news
+Sitemap: https://www.24h.com.vn/sitemap-index.xml
+"
+56,57,↑2,corriere.it,,14M,−3.5M,"User-agent: PetalBot
+Disallow: /
+
+User-agent: Yandex
+Disallow: / # prohibits crawling for the entire site
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: *
+Disallow: *(none)
+Disallow: *?RedirectUrl
+Disallow: /privacy.shtml 
+Disallow: /abbonati.Suspended/
+Disallow: /corcommunitynew/accesso/LogOut.do
+Disallow: /indexMethodeProve.shtml
+Disallow: /apw.js
+Disallow: /salute/cardiologia/sintomi-infartosintomi-infarto
+Disallow: /salute/cardiologia/sintomi-infartoheart-attack-symptoms
+Disallow: /salute/cardiologia/sintomi-infartosÃ­ntomas-ataque-cardÃ­aco
+Disallow: /salute/cardiologia/sintomi-infartosymptomes-infarctus
+Disallow: /salute/cardiologia/sintomi-infartoÑÐ¸Ð¼Ð¿ÑÐ¾Ð¼Ñ-Ð¸Ð½ÑÐ°ÑÐºÑÐ°
+Disallow: /salute/cardiologia/sintomi-infartoå¿èæ¢å¡çç¶
+Disallow: /salute/cardiologia/sintomi-infartoØ·Ø¨ Ø§ÙÙÙØ¨
+Disallow: /salute/cardiologia/sintomi-infartosimptome-de-atac-de-cord
+Disallow: /salute/sportello_cancro/jsp/*
+Disallow: /corrierecalcio/app/formazione/
+Disallow: /preview/
+Disallow: /dwc-xalok/
+Disallow: /ssi/
+Disallow: /tools/
+Disallow: /linked_webroots/
+Disallow: /english/includes_methode/
+Disallow: /includes_methode/
+Disallow: /community-corriere/
+Disallow: /widget/
+Disallow: /dwc/
+Disallow: /digital-edition/
+Disallow: /correlati/
+Disallow: /cinema/icortissimi-ended/
+Disallow: /ZCestino/
+Disallow: /prova/
+Disallow: /test/
+Disallow: /landing/wrapped-2023/
+Disallow: /test_mf/
+Disallow: /piano-511/
+Disallow: /b2b/
+Disallow: /_template/
+Disallow: /_docs/
+Disallow: /_temp/
+Disallow: /cf/
+Disallow: /servizi/
+Disallow: /salute/dizionario/dizionarioSearch.jsp
+Disallow: /sportello-cancro/dizionario/
+Disallow: /dilatua/proRecensione.do
+Disallow: /newsletter/nl_economia.html
+# vecchia ultima ora
+Disallow: /ultima_ora/
+#Dizionario della Salute 
+Disallow: /salute/dizionario/dizionarioSearch.jsp 
+Disallow: /salute/dizionario/pages/results.jsp
+Disallow: /cronache/speciali/2010/maturita/test-universita.shtml
+Disallow: /smallApp/tellafriend/
+Disallow: /*_print.html$
+Disallow: /*.xml
+Disallow: /account/ 
+Allow: /account/login$ 
+Disallow: /account/login? 
+Disallow: /gallery/*/vuoto.shtml
+Disallow: *pwcmp=
+Disallow: *reader_id=
+Allow:    /salute/il-medico-risponde/sitemap.xml
+Allow:    /salute/il-medico-risponde/news/sitemap.xml
+Allow: 	  /salute/sitemap-dizionario-corriere-salute.xml
+Allow:    /dynamic-sitemap/sitemap-last-100/*.xml
+Allow:    /dynamic-feed/*.xml
+Allow: 	  /cook*sitemap*.xml
+Allow:    /radio/$
+Allow:    /radio/index.shtml
+Allow:    /servizi/$
+Allow:    /ultima_ora/agrnews.jsp
+Allow:    /showcase/*.xml
+Allow:    /economia/chiedi-esperto/sitemap.xml
+Allow:    /economia/chiedi-esperto/news/sitemap.xml
+Allow:    /sette/speciale-presidenziali-usa-2024-harris-contro-trump/rss/*.xml
+Allow:    /dynamic-sitemap/corriere/video/lezioni*sitemap*.xml
+
+
+# item
+Disallow: /corrierepedia
+Disallow: /firme/pierluigi-battista_80
+Disallow: /cook/ricette/ricerca
+Disallow: /CorriereAppNews/
+Disallow: /corrierepoint/
+Disallow: /index_mobile_tst_hp_mob_b.shtml
+Disallow: /*app_v2
+Disallow: /*app_v1
+Allow: /sitemap*.xml
+# Allow: /notizie-ultima-ora/rss_col.xml
+Allow: /rss/*.xml
+Allow: /salute/sitemap-dizionario.xml
+Allow: /rss/ultimora.xml
+# Allow: /rss/homepage.xml
+Allow: /feed-hp/homepage.xml
+# Allow: /notizie-ultima-ora/sitemap-news.xml
+#richiesta da Ruggiero BG27112011
+Allow: /editorspicks/
+Allow: /oroscopo/sitemap.xml
+Allow: /sport/risultati-live/sitemap.xml
+Allow: /elezioni/*.xml
+Disallow: /*?q=
+Disallow: /*?f=
+Disallow: /*?s=
+Disallow: /*?searchType=
+Disallow: /*articleurl=
+Disallow: /economia/quiz/
+
+# Sitemap: https://www.corriere.it/rss/homepage.xml
+Sitemap: https://www.corriere.it/feed-hp/homepage.xml
+Sitemap: https://www.corriere.it/salute/sitemap-dizionario-corriere-salute.xml 
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/video/Corriere.xml
+Sitemap: https://www.corriere.it/rss/sitemap_v2.xml
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/Economia.xml
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/Salute.xml
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/Scienze.xml
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/Interni.xml
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/Esteri.xml
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/Sport.xml
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/Politica.xml
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/Salute__Figli__e__Genitori.xml
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/Salute__Sportello__Cancro.xml
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/Elezioni.xml
+
+#CORRIERE-452 2018-10-08
+
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/Tecnologia.xml
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/Offerte__recensioni.xml
+Sitemap: https://www.corriere.it/dynamic-feed/rss/section/Dataroom.xml
+Sitemap: https://www.corriere.it/rss/sitemap/Motori.xml
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/Spettacoli.xml
+Sitemap: https://www.corriere.it/rss/sitemap/Cultura.xml
+Sitemap: https://vivimilano.corriere.it/sitemap_index.xml
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/Cook.xml
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/Tecnologia.xml
+Sitemap: https://www.corriere.it/oroscopo/sitemap.xml
+Sitemap: https://www.corriere.it/elezioni/sitemap/sitemap.xml
+Sitemap: https://www.corriere.it/sport/risultati-live/sitemap.xml
+Sitemap: https://www.corriere.it/salute/il-medico-risponde/sitemap.xml
+Sitemap: https://www.corriere.it/salute/il-medico-risponde/news/sitemap.xml
+Sitemap: https://www.corriere.it/rss/sitemap/lettere-al-direttore.xml
+Sitemap: https://www.corriere.it/rss/sitemap/lo-dico-al-corriere.xml
+Sitemap: https://www.corriere.it/rss/sitemap/Cook-Last.xml
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/Scuola.xml
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/Animali.xml
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/Opinioni.xml
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/Caffe-gramellini.xml
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/Ultimo-banco.xml
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/Letti-da-rifarei.xml
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/Piccole-dosi.xml
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/L-angolo.xml 
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/Padiglione-italia.xml 
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/Facce-nuove.xml
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/Ritorno-in-solferino.xml
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/Oriente-occidente.xml 
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/Sette.xml
+Sitemap: https://www.corriere.it/economia/chiedi-esperto/sitemap.xml
+Sitemap: https://www.corriere.it/economia/chiedi-esperto/news/sitemap.xml
+Sitemap: https://www.corriere.it/studio/sitemap-studio.xml
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/Moda.xml
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/BuoneNotizie.xml
+Sitemap: https://www.corriere.it/dynamic-feed/rss/section/lettere-al-direttore.xml
+Sitemap: https://www.corriere.it/dynamic-feed/rss/section/lo-dico-al-corriere.xml
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/lettere__al__direttore.xml
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/lo__dico__al__corriere.xml
+Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/Frammenti-ferruccio-de-bortoli.xml
+Sitemap: https://www.corriere.it/dynamic-feed/rss/section/frammenti-di-ferruccio-de-bortoli.xml
+Sitemap: https://www.corriere.it/dynamic-sitemap/corriere/video/lezioni/sitemap-aggregation-index.xml
+Sitemap: https://www.corriere.it/dynamic-sitemap/corriere/le-lezioni-del-corriere/sitemap.xml
+
+"
+57,58,↑9,kapook.com,,14M,−1.9M,"# Explicitly allow Mediapartners-Google 
+User-agent: Mediapartners-Google
+Allow: /
+ 
+# Block Google-Extended
+User-agent: Google-Extended
+Disallow: /
+ 
+# Allow other crawlers
+User-agent: *
+Allow: /
+Disallow: /xxx/
+Disallow: /kweblink/
+ 
+# Sitemaps
+Sitemap: https://www.kapook.com/sitemap.xml
+"
+58,59,↓3,lanacion.com.ar,,14M,−5.3M,"# Robots.txt (archivo)
+
+User-agent: TestBot
+Disallow: /
+
+User-agent: *
+Disallow: /sinbarreras
+Disallow: /norefresh
+Disallow: /*undefined*
+Disallow: /debugsa
+Disallow: /debugsb
+Disallow: /preview
+Disallow: /herramientas
+Disallow: /Suscripcion
+Disallow: /NewslettersV1
+Disallow: /newsletters/
+Disallow: /1/SuscripcionV1
+Disallow: /registracion
+Disallow: /133919216/lanacion
+Disallow: /*?utm_*
+Disallow: /weblogs/*
+Disallow: /wsj/*
+Disallow: */meteringamp
+Disallow: /buscador
+Disallow: /pf/api/v3/content/fetch/viafouraSource
+Disallow: /pf/api/v3/content/fetch/liftigniterSource
+Disallow: /opta-embed/
+Disallow: /widgets/
+Disallow: /pf/resources/
+Disallow: /cartelera-de-cine/Element
+Allow: /tema/*
+Allow: /autor/*
+
+Sitemap: https://www.lanacion.com.ar/sitemap-index.xml
+Sitemap: https://www.lanacion.com.ar/sitemap-news.xml
+Sitemap: https://www.lanacion.com.ar/sitemap-videos-jw.xml
+Sitemap: https://www.lanacion.com.ar/sitemap-index-historico.xml
+Sitemap: https://www.lanacion.com.ar/sitemap-articles-evergreen.xml
+Sitemap: https://www.lanacion.com.ar/sitemap-ampstories.xml
+
+Disallow: /el-mundo/un-argentino-fue-detenido-por-narcotrafico-en-indonesia-nid511832
+Disallow: /sociedad/acusan-a-un-argentino-de-narcotrafico-en-indonesia-nid512026
+Disallow: /politica/murio-el-senador-nacional-carlos-alberto-reutemann-nid06072021/
+Disallow: /economia/negocios/balance-nid04112021/"
+59,60,↓29,business-standard.com,,14M,−18M,
+60,61,↑7,nikkei.com,,13M,−2.3M,"User-agent: *
+Allow: /markets/kabu/stkcomp/$
+Allow: /markets/kabu/gyoshucomp/$
+Disallow: /.tools
+Disallow: /markets/kabu/stkcomp/
+Disallow: /markets/kabu/gyoshucomp/
+Disallow: /.resources/k-components/rtoaster/
+
+# If you want to use our data in machine learning, please contact us from the following url.
+# ja:  https://nkbb.nikkei.co.jp/article/
+# en:  https://nkbb.nikkei.co.jp/en/dataset/nikkei-news-articles
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-Agent: omgili
+Disallow: /
+
+User-Agent: omgilibot
+Disallow: /
+
+User-Agent: ICC-Crawler
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: Claude-SearchBot
+Disallow: /
+
+User-agent: Claude-User
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Perplexity-ai
+Disallow: /
+
+User-agent: Perplexity-User
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: PiplBot
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: Timpibot
+Disallow: /
+
+User-agent: Webzio
+Disallow: /
+
+User-agent: Webzio-extended
+Disallow: /
+
+Sitemap: https://www.nikkei.com/sitemap.xml
+Sitemap: https://www.nikkei.com/sitemaps/topics_sitemap_index.xml
+"
+61,62,,cnnindonesia.com,,13M,−4.0M,"User-agent: Googlebot
+Disallow: *?tag_from
+Disallow: */embed
+Disallow: */video/embed
+Disallow: */ucnews
+Disallow: */search
+Disallow: */logout
+Disallow: */api$
+Disallow: */api/
+Disallow: *?device=desktop
+Disallow: *&device=desktop
+Disallow: /~*
+Disallow: *?smartautoplay
+Disallow: *?zoom
+Disallow: *?rand=
+Disallow: *?utm_source
+Disallow: *?page%
+Disallow: *?utm_medium
+Disallow: */?query
+Disallow: /*/rekomendasi$
+Disallow: /outboundlinks?*
+
+User-agent: *
+Allow: /
+User-agent: ChatGPT-User
+Disallow: /
+User-agent: OpenAI
+Disallow: /
+User-agent: CCBot
+Disallow: /
+User-agent: GPTBot
+Disallow: /
+
+Sitemap: https://www.cnnindonesia.com/sitemap.xml"
+62,63,↑3,baomoi.com,,13M,−2.5M,"User-agent: *
+Allow: /
+Disallow: /*?date=
+Sitemap: https://baomoi.com/sitemaps/sitemap.xml
+Sitemap: https://baomoi.com/sitemaps/tien-ich/sitemap.xml
+Sitemap: https://baomoi.com/sitemaps/bong-da/sitemap.xml
+"
+63,64,↑25,bhaskar.com,,13M,+105K,"User-agent: *
+Disallow: /journalism-fellowship
+Disallow: /account/*
+Disallow: /__api__/api/2.0/feed/category/*
+Disallow: /__api__/api/1.0/feed/story/filename/*
+Disallow: /__api__/api/1.0/election/*
+Disallow: /__api__/api/1.0/web-backend/footer/*
+Disallow: /__gdpr__/
+Disallow: /__api__/api/1.0/rashi/*
+Disallow: /__api__/api/1.0/budget/*
+Allow: /
+Sitemap: https://www.bhaskar.com/sitemaps-v1--sitemap-latest-videos.xml
+Sitemap: https://www.bhaskar.com/sitemaps-v1--sitemap-google-news-index.xml
+Sitemap: https://www.bhaskar.com/web-stories/sitemap.xml
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: Omgili
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: ImagesiftBot 
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: Meta-ExternalFetcher
+Disallow: /
+
+User-agent: Applebot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+"
+64,65,↑6,ukr.net,,13M,−2.4M,
+65,66,↑12,t-online.de,,13M,−1.9M,
+66,67,↓13,haberler.com,,13M,−6.6M,"User-agent: *
+Allow: /
+Allow: /*/*-haberi/*
+
+Disallow: /ara/
+Disallow: /ajax/
+Disallow: /webmasters/
+Disallow: /haber_islem/
+Disallow: /errors/
+Disallow: /h/
+Disallow: *?ref=*
+Disallow: /?url=*
+Disallow: */4/
+Disallow: */5/
+Disallow: */6/
+Disallow: */7/
+Disallow: */8/
+Disallow: */9/
+Disallow: */10/
+Disallow: */wp-includes/
+Disallow: *wlwmanifest.xml
+Disallow: /feed/
+
+Sitemap: https://www.haberler.com/sitemap_google_news.xml"
+67,68,↑1,elpais.com,,12M,−3.3M,
+68,69,↑7,sondakika.com,,12M,−2.6M,"User-agent: *
+Allow: /
+
+Disallow: /ara/
+Disallow: /reklam/
+Disallow: /ajax/
+Disallow: /Process/
+Disallow: /errors/
+Disallow: *?yodk
+Disallow: */4/
+Disallow: */5/
+Disallow: */6/
+Disallow: */7/
+Disallow: */8/
+Disallow: */9/
+Disallow: */10/
+
+Sitemap: https://www.sondakika.com/sitemaps/sitemap_google_news.aspx
+Sitemap: https://www.sondakika.com/sitemaps/sitemap_sondakika_haberleri.aspx
+Sitemap: https://www.sondakika.com/sitemaps/sitemap_bir_haber.aspx
+Sitemap: https://www.sondakika.com/sitemaps/rss_newsstand.aspx
+Sitemap: https://www.sondakika.com/sitemaps/sitemap.aspx"
+69,70,↓30,jansatta.com,,12M,−13M,
+70,71,↑3,aol.com,,12M,−2.9M,
+71,72,↑18,repubblica.it,,12M,−988K,
+72,73,↓13,jagran.com,,11M,−6.3M,"User-agent: *
+Allow: /
+Disallow: *-undefined-*
+Disallow: /state/*
+Disallow: /local/*
+Disallow: /RelatedArticleDetail.html?*
+Disallow: /assets/js/*
+Disallow: /*-13276288.html
+Disallow: /search/*
+Disallow: /home.html
+Disallow: /home-new.html
+Disallow: /english/ 
+Disallow: /error.html
+Disallow: /JCOM_PREFIX
+Disallow: /aspx?id
+Disallow: /news-sitemap-nd.xml
+Disallow: /web-sitemap-nd.xml
+Disallow: /jagran/*.page
+Disallow: /shayri/
+Disallow: /iw-cc/
+Disallow: /detail/
+Disallow: /7176/
+Disallow: /listing/interstitial_1x1
+Disallow: /*300x250
+Disallow: /*980x50
+Disallow: /*728x90
+Disallow: /*160x600
+Disallow: /*980x50
+Disallow: /mp4
+Disallow: /*320x75
+Disallow: /photogallery/
+Disallow: /lite/shayri/
+Disallow: /delhi/video/
+Disallow: /*/video/
+Disallow: /berger-paints.html
+Disallow: /berger/*
+Disallow: /article2/
+Disallow: /article3/
+Disallow: /article4/
+Disallow: /article5/
+Disallow: /article6/
+Disallow: /article7/
+Disallow: /*/wp-admin/
+Disallow: /*/plt/
+Disallow: /*-20848123.html
+Disallow: /podcast/*
+Disallow: /blogs/*
+Disallow: /english/
+Disallow: /search/*
+Disallow: /topics/
+Disallow: /exam-results.html
+Disallow: /berger-paints.html
+Disallow: /berger/*
+Disallow: /podcast/*
+Disallow: *?src=*
+Disallow: */sports40/*
+Disallow: */?s=*
+Disallow: */news-news-*
+Disallow: *state-news-hindi-page*
+Disallow: *?utm_source*
+Disallow: *?itm_source*
+Disallow: *?itm_medium*
+Disallow: */CategoryLanding/*
+Disallow: */-*
+Disallow: *-page*
+Disallow: */litetest/*
+Disallow: /pfp.html
+Disallow: /pfp.html/
+Disallow: /pfp.html/*
+Disallow: /13276288/
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: Omgili
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: ImagesiftBot 
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: Meta-ExternalFetcher
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+
+Sitemap: https://www.jagran.com/all-news-sitemap.xml
+Sitemap: https://www.jagran.com/news-sitemap.xml
+Sitemap: https://www.jagran.com/sitemap.xml"
+73,74,↑11,lavanguardia.com,,11M,−1.8M,"User-agent: * 
+Allow: /ads.txt 
+Allow: /app-ads.txt 
+
+
+
+
+# Temas 
+Disallow: /temas/ 
+Allow: /temas/venezuela 
+Allow: /temas/universo-africa 
+Allow: /temas/thinkbig-empresas 
+Allow: /temas/supermercados-dia 
+Allow: /temas/sofia-gh-16 
+Allow: /temas/relojes 
+Allow: /temas/raquel-gh-16 
+Allow: /temas/primitiva 
+Allow: /temas/once 
+Allow: /temas/nacidos-para-ser-autonomos-teoria 
+Allow: /temas/nacidos-para-ser-autonomos-practica 
+Allow: /temas/nacidos-para-ser-autonomos 
+Allow: /temas/myhyv 
+Allow: /temas/mercedes-martin 
+Allow: /temas/loteria-nacional 
+Allow: /temas/lorena-roldan 
+Allow: /temas/lae 
+Allow: /temas/junior-report-go 
+Allow: /temas/junior-report-fp 
+Allow: /temas/junior-report-coronavirus 
+Allow: /temas/junior-report 
+Allow: /temas/juanra-bonet 
+Allow: /temas/jose-maria-gil-silgado 
+Allow: /temas/jordi-gonzalez 
+Allow: /temas/innovacion-tecnologia 
+Allow: /temas/hablemos-de-futuro 
+Allow: /temas/grandes-viajeros 
+Allow: /temas/gran-hermano-vip 
+Allow: /temas/futbol-club-barcelona 
+Allow: /temas/europa-fact-checking 
+Allow: /temas/euromillones 
+Allow: /temas/estar-donde-estes 
+Allow: /temas/eslaliga 
+Allow: /temas/encuestas-elecciones-generales 
+Allow: /temas/mirador-comunicacion-marketing 
+Allow: /temas/elmiradordelacomunicacionyelmarketing 
+Allow: /temas/elmiradordelacomunicacionyelmarketing/mk 
+Allow: /temas/ecologia 
+Allow: /temas/consorci-de-la-zona-franca 
+Allow: /temas/ciudad-azul 
+Allow: /temas/catalunya-futur 
+Allow: /temas/carolina-sobe 
+Allow: /temas/canal-andorra-ski 
+Allow: /temas/canal-andorra-noticias 
+Allow: /temas/canal-andorra-economia 
+Allow: /temas/canal-andorra 
+Allow: /temas/bonoloto 
+Allow: /temas/bicentenario-del-museo-del-prado 
+Allow: /temas/belen-esteban 
+Allow: /temas/barcelona-tech-city 
+Allow: /temas/back-market 
+Allow: /temas/arenys-de-mar 
+Allow: /temas/amor-romeira 
+Allow: /temas/ahorro-para-la-jubilacion 
+Allow: /temas/agrocultura 
+Allow: /temas/adara-gh-17 
+Allow: /temas/accidentes-de-trafico 
+Allow: /temas/a-fondo 
+Allow: /temas/eventos-la-vanguardia 
+Allow: /temas/ciudades-en-movimiento 
+Allow: /temas/ahorro-e-inversion 
+Allow: /temas/en-mejora-continua 
+Allow: /temas/todos-solidarios 
+Allow: /temas/recuperar-barcelona
+
+
+
+# Paths a no indexar
+Disallow: /web/
+Disallow: /premium/ 
+Disallow: /lv24h2007/ 
+Disallow: /cercadorgg/ 
+Disallow: /gen/ 
+Disallow: /cgi-bin/ 
+Disallow: /ajax/ 
+Disallow: /periodico/ajax/ 
+Disallow: /buscador/ 
+Disallow: /crossdomain.xml 
+Disallow: /+* 
+Disallow: /lv24h Disallow: /_aside/* 
+Disallow: /_hemeroteca/* 
+Disallow: /mvc/*
+Disallow: /frases-celebres/*
+Disallow: /apps/* 
+Disallow: /list/* 
+Disallow: /inmo/ 
+Disallow: /loterias/loteria-navidad/buscar-numero/* 
+Disallow: /loterias/loteria-navidad-amp/buscar-numero/* 
+Disallow: /loterias/loteria-navidad-app/buscar-numero/* 
+Disallow: /cartelera/peliculas/persona/
+Disallow: /politica/20081007/53556163832/
+Disallow: /sitemap-news-agencias-*.xml
+Disallow: /sitemap-news-agencias.xml
+Disallow: /sitemap-index.xml
+Disallow: /economia/20121003/54351571275/*
+Disallow: /loterias/loteria-navidad-2022/comprobar-loteria-navidad/*
+Disallow: /loterias/loteria-navidad-2022/buscar-numero/*
+Disallow: /motor/ocasion/*
+Disallow: /motor/coches/
+Disallow: /loterias/loteria-navidad/comprobar-numeros/*
+Disallow: /loterias/loteria-nino/comprobar-numeros/*
+Disallow: /loterias/loteria-navidad-2024/comprobar-numeros/*
+Disallow: /loterias/loteria-nino-2025/comprobar-numeros/*
+
+# Paths SEO a bloquear
+
+
+Disallow: /arambee/
+Disallow: /loterias/loteria-nino-2022/comprobar-loteria-nino/numero-
+
+Disallow: /loterias/loteria-navidad/comprobar-loteria-navidad/
+Disallow: /loterias/loteria-navidad-amp/comprobar-loteria-navidad/
+Disallow: /loterias/loteria-navidad/lugares-agraciados/
+Disallow: /loterias/loteria-nino/comprobar-loteria-nino/
+Disallow: /loterias/loteria-nino-amp/comprobar-loteria-nino/
+Disallow: /loterias/loteria-navidad-2021/buscar-numero/*
+Disallow: /loterias/loteria-navidad-2021/comprobar-loteria-navidad/*
+Disallow: /elecciones/elecciones-municipales-2019/
+Disallow: /elecciones/autonomicas-cataluna-2021/
+Disallow: /elecciones/elecciones-generales-noviembre-2019/
+Disallow: /elecciones/autonomicas-madrid-2021/
+Disallow: /elecciones/elecciones-generales-2019/
+Disallow: /elecciones/autonomicas-galicia-2020/
+Disallow: /elecciones/autonomicas-pais-vasco-2020/
+Disallow: /elecciones/autonomicas-valencia-2019/
+Disallow: /elecciones/elecciones-europeas-2019/
+Disallow: /elecciones/autonomicas-castilla-y-leon-2019/
+Disallow: /elecciones/autonomicas-castilla-la-mancha-2019/
+Disallow: /elecciones/autonomicas-asturias-2019/
+Disallow: /elecciones/autonomicas-aragon-2019/
+Disallow: /elecciones/autonomicas-navarra-2019/
+Disallow: /elecciones/autonomicas-extremadura-2019/
+Disallow: /elecciones/autonomicas-baleares-2019/
+Disallow: /elecciones/elecciones-catalanas-2017/
+Disallow: /elecciones/autonomicas-region-de-murcia-2019/
+Disallow: /elecciones/autonomicas-canarias-2019/
+Disallow: /elecciones/autonomicas-madrid-2019/
+Disallow: /elecciones/elecciones-europeas-2019/
+Disallow: /elecciones/elecciones-municipales-2019/
+Disallow: /elecciones/autonomicas-cataluna-2021/
+Disallow: /elecciones/elecciones-generales-noviembre-2019/
+Disallow: /elecciones/autonomicas-madrid-2021/
+Disallow: /elecciones/elecciones-generales-2019/
+Disallow: /elecciones/autonomicas-valencia-2019/
+Disallow: /elecciones/autonomicas-castilla-y-leon-2019/
+Disallow: /elecciones/historico/
+Disallow: /elecciones/elecciones-catalanas-2017/
+Disallow: /cartelera/
+Disallow: /peliculas-series/search?*
+Disallow: /peliculas-series/widgets/movies/
+Disallow: /topics/noticia/*
+Disallow: /topics/search?*
+Disallow: /elecciones/elecciones-europeas-2024/*/*/*/*
+Disallow: /frases/
+
+
+
+
+
+
+Disallow: /andro4all/search/
+Disallow: /andro4all/via=
+Disallow: /andro4all/wp-json/
+Disallow: /andro4all/*...$
+Disallow: /andro4all/*/*/*/page/*
+Disallow: /andro4all/*wordfence_logHuman=1$
+Disallow: /andro4all/cdn-cgi/
+Disallow: /andro4all/*/;aspect-ratio
+Disallow: /andro4all/*/aspect-ratio
+Disallow: /andro4all/*/{{
+Disallow: /andro4all/mraid.js
+Disallow: /andro4all/*/undefined$
+
+Disallow: /search?*
+Disallow: /libros/search?*
+Disallow: /search-recipe?* 
+
+
+# Paginas LVD a no indexar 
+Disallow: /comentarios/ 
+Disallow: /*/comentarios/ 
+Disallow: /*comentarios_ Disallow: /*ID_PAGINA=1810070 
+Disallow: /*ID_PAGINA=1810072 
+Disallow: /*ID_PAGINA=1810080 
+Disallow: /*ID_PAGINA=200806163 
+Disallow: /*ID_PAGINA=70172401 
+Disallow: /*ID_PAGINA=82037585 
+Disallow: /*ID_PAGINA=33872476 
+Disallow: /*ID_PAGINA=70172401 
+Disallow: /*ID_PAGINA=82037585 
+
+
+# Extensiones de contenidos no indexables 
+Disallow: /*.swf$ 
+Disallow: /*.tif$ 
+Disallow: /*.mp3$ 
+Disallow: /*.flv$ 
+Disallow: /*.mp4$ 
+Disallow: /*.avi$ 
+Disallow: /*.txt$ 
+Disallow: /*.ics$ 
+
+
+# Agentes nocivos conocidos 
+
+User-agent: GPTBot
+Disallow: /peliculas-series/
+
+User-agent: GPTBot
+Disallow: /libros/
+
+
+User-agent: Amazonbot
+Disallow: /peliculas-series/
+
+User-agent: Amazonbot
+Disallow: /libros/
+
+User-agent: anthropic-ai
+Disallow: /peliculas-series/
+
+User-agent: anthropic-ai
+Disallow: /libros/
+
+User-agent: Claude-Web
+Disallow: /peliculas-series/
+
+User-agent: Claude-Web
+Disallow: /libros/
+
+User-agent: ClaudeBot
+Disallow: /peliculas-series/
+
+User-agent: ClaudeBot
+Disallow: /libros/
+
+
+User-agent: ia_archiver 
+Disallow: / 
+
+User-agent: UbiCrawler 
+Disallow: /
+ 
+User-agent: YandexBot/3.0
+Disallow: /
+
+User-agent: DOC 
+Disallow: /
+
+User-agent: Zao 
+Disallow: / 
+
+User-agent: sitecheck.internetseer.com 
+Disallow: /
+
+User-agent: Zealbot 
+Disallow: / 
+
+User-agent: MSIECrawler 
+Disallow: / 
+
+User-agent: SiteSnagger 
+Disallow: /
+
+User-agent: WebStripper 
+Disallow: /
+
+User-agent: WebCopier 
+Disallow: / 
+
+User-agent: Fetch 
+Disallow: / 
+
+User-agent: Offline Explorer 
+Disallow: / 
+
+User-agent: Teleport 
+Disallow: /
+
+User-agent: TeleportPro 
+Disallow: /
+
+User-agent: WebZIP 
+Disallow: /
+
+User-agent: linko 
+Disallow: /
+
+User-agent: HTTrack 
+Disallow: /
+
+User-agent: Microsoft.URL.Control 
+Disallow: /
+
+User-agent: Xenu 
+Disallow: /
+
+User-agent: larbin 
+Disallow: / 
+
+User-agent: libwww 
+Disallow: / 
+
+User-agent: ZyBORG 
+Disallow: / 
+
+User-agent: Download Ninja 
+Disallow: /
+
+User-agent: Slurp 
+Disallow: / 
+
+User-agent: Maxthon 
+Disallow: /
+
+User-agent: CNCDialer 
+Disallow: /
+ 
+User-agent: AhrefsBot 
+Disallow: /
+
+
+User-agent: mailto: techinfo@ubermetrics-technologies.com
+Disallow: /
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"
+74,75,↑21,ndr.de,,11M,−574K,"Sitemap: https://www.ndr.de/news-102~news.xml
+Sitemap: https://www.ndr.de/index~sitemap_f-sitemap--ndr--info--100.xml
+Sitemap: https://www.ndr.de/index~sitemap_f-sitemap--ndr--niedersachsen--100.xml
+Sitemap: https://www.ndr.de/index~sitemap_f-sitemap--ndr--schleswig--holstein--100.xml
+Sitemap: https://www.ndr.de/index~sitemap_f-sitemap--ndr--mecklenburg--vorpommern--100.xml
+Sitemap: https://www.ndr.de/index~sitemap_f-sitemap--ndr--hamburg--100.xml
+Sitemap: https://www.ndr.de/index~sitemap_f-sitemap--ndr--ratgeber--100.xml
+Sitemap: https://www.ndr.de/index~sitemap_f-sitemap--ndr--sport--100.xml
+Sitemap: https://www.ndr.de/index~sitemap_f-sitemap--ndr--kultur--100.xml
+Sitemap: https://www.ndr.de/index~sitemap_f-sitemap--ndr--geschichte--100.xml
+Sitemap: https://www.ndr.de/index~sitemap_f-sitemap--ndr--fernsehen--100.xml
+Sitemap: https://www.ndr.de/index~sitemap_f-sitemap--ndr--weitere--100.xml
+
+User-agent: *
+Disallow: /n-joy/appmedien
+Disallow: /*ut*.xml
+Disallow: /*podcast5654.xml
+Disallow: /*.json
+Disallow: /ratgeber/*?filter=
+
+############
+Stand: 13.05.2025
+
+# Amazon
+User-agent: Amazonbot
+Disallow: /
+
+# Anthropic
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Claude-User
+Disallow: /
+
+User-agent: Claude-SearchBot
+Disallow: /
+
+User-agent: claude-web
+Disallow: /
+
+# Apple
+User-agent: Applebot-Extended
+Disallow: /
+
+# ByteDance
+User-agent: Bytespider
+Disallow: /
+
+User-agent: TikTokSpider
+Disallow: /
+
+# Cohere
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: cohere-training-data-crawler
+Disallow: /
+
+# Common Crawl
+User-agent: CCBot
+Disallow: /
+
+# Diffbot
+User-agent: DiffBot
+Disallow: /
+
+# DuckDuckGo
+User-agent: DuckAssistBot
+Disallow: /
+
+# Google
+User-agent: Google-Extended
+Disallow: /
+
+# Huawei
+User-agent: PetalBot
+Disallow: /
+
+User-agent: PanguBot
+Disallow: /
+
+# Meta
+User-agent: meta-externalagent
+Disallow: /
+
+User-agent: Meta-ExternalFetcher
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+# Mistral
+User-agent: MistralAI-User
+Disallow: /
+
+# OpenAI
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+User-agent: ChatGPT-User/2.0
+Disallow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Perplexity-User
+Disallow: /
+
+# Webz.io
+User-agent: omgili
+Disallow: /
+
+User-agent: omgilibot
+Disallow: /
+
+User-agent: Webzio-Extended
+Disallow: /
+
+# You.com
+User-agent: YouBot
+Disallow: /
+
+# Zyte
+User-agent: Scrapy
+Disallow: /
+
+"
+75,76,↓6,cbsnews.com,,11M,−4.6M,"# www.robotstxt.org/
+# www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
+
+User-agent: *
+
+Disallow: */search/*
+Disallow: /index.php/*
+Disallow: /election-results-data/*
+Disallow: /common
+Disallow: /htdocs/*
+Disallow: /user/login*
+Disallow: /app/?*
+Disallow: /network
+Disallow: /assets
+Disallow: /stories
+Disallow: /sections
+
+# PER CBS-N ENG FINAL ROUTES DOC
+
+Disallow: /1318
+Disallow: /1319
+Disallow: /1328
+Disallow: /1344
+Disallow: /1770
+Disallow: /2240
+Disallow: /2300
+Disallow: /2303
+Disallow: /2304
+Disallow: /2305
+Disallow: /2306
+Disallow: /2307
+Disallow: /2308
+Disallow: /2332
+Disallow: /2741
+Disallow: /2994
+Disallow: /8301
+Disallow: /8324
+Disallow: /8601
+Disallow: /8614
+Disallow: /8618
+Disallow: /9742
+Disallow: /9744
+
+Sitemap: https://www.cbsnews.com/xml-sitemap/index/general.xml
+Sitemap: https://www.cbsnews.com/xml-sitemap/index/image.xml
+Sitemap: https://www.cbsnews.com/xml-sitemap/news.xml
+Sitemap: https://www.cbsnews.com/xml-sitemap/index/video.xml
+Sitemap: https://www.cbsnews.com/xml-sitemap/index/collection.xml
+Sitemap: https://www.cbsnews.com/xml-sitemap/video-news.xml
+
+Sitemap: https://www.cbsnews.com/baltimore/xml-sitemap/index/general.xml
+Sitemap: https://www.cbsnews.com/baltimore/xml-sitemap/index/image.xml
+Sitemap: https://www.cbsnews.com/baltimore/xml-sitemap/news.xml
+Sitemap: https://www.cbsnews.com/baltimore/xml-sitemap/index/video.xml
+Sitemap: https://www.cbsnews.com/baltimore/xml-sitemap/index/collection.xml
+Sitemap: https://www.cbsnews.com/baltimore/xml-sitemap/video-news.xml
+
+Sitemap: https://www.cbsnews.com/boston/xml-sitemap/index/general.xml
+Sitemap: https://www.cbsnews.com/boston/xml-sitemap/index/image.xml
+Sitemap: https://www.cbsnews.com/boston/xml-sitemap/news.xml
+Sitemap: https://www.cbsnews.com/boston/xml-sitemap/index/video.xml
+Sitemap: https://www.cbsnews.com/boston/xml-sitemap/index/collection.xml
+Sitemap: https://www.cbsnews.com/boston/xml-sitemap/video-news.xml
+
+Sitemap: https://www.cbsnews.com/chicago/xml-sitemap/index/general.xml
+Sitemap: https://www.cbsnews.com/chicago/xml-sitemap/index/image.xml
+Sitemap: https://www.cbsnews.com/chicago/xml-sitemap/news.xml
+Sitemap: https://www.cbsnews.com/chicago/xml-sitemap/index/video.xml
+Sitemap: https://www.cbsnews.com/chicago/xml-sitemap/index/collection.xml
+Sitemap: https://www.cbsnews.com/chicago/xml-sitemap/video-news.xml
+
+Sitemap: https://www.cbsnews.com/colorado/xml-sitemap/index/general.xml
+Sitemap: https://www.cbsnews.com/colorado/xml-sitemap/index/image.xml
+Sitemap: https://www.cbsnews.com/colorado/xml-sitemap/news.xml
+Sitemap: https://www.cbsnews.com/colorado/xml-sitemap/index/video.xml
+Sitemap: https://www.cbsnews.com/colorado/xml-sitemap/index/collection.xml
+Sitemap: https://www.cbsnews.com/colorado/xml-sitemap/video-news.xml
+
+Sitemap: https://www.cbsnews.com/gooddaysacramento/xml-sitemap/index/general.xml
+Sitemap: https://www.cbsnews.com/gooddaysacramento/xml-sitemap/index/image.xml
+Sitemap: https://www.cbsnews.com/gooddaysacramento/xml-sitemap/news.xml
+Sitemap: https://www.cbsnews.com/gooddaysacramento/xml-sitemap/index/video.xml
+Sitemap: https://www.cbsnews.com/gooddaysacramento/xml-sitemap/index/collection.xml
+Sitemap: https://www.cbsnews.com/gooddaysacramento/xml-sitemap/video-news.xml
+
+Sitemap: https://www.cbsnews.com/detroit/xml-sitemap/index/general.xml
+Sitemap: https://www.cbsnews.com/detroit/xml-sitemap/index/image.xml
+Sitemap: https://www.cbsnews.com/detroit/xml-sitemap/news.xml
+Sitemap: https://www.cbsnews.com/detroit/xml-sitemap/index/video.xml
+Sitemap: https://www.cbsnews.com/detroit/xml-sitemap/index/collection.xml
+Sitemap: https://www.cbsnews.com/detroit/xml-sitemap/video-news.xml
+
+Sitemap: https://www.cbsnews.com/texas/xml-sitemap/index/general.xml
+Sitemap: https://www.cbsnews.com/texas/xml-sitemap/index/image.xml
+Sitemap: https://www.cbsnews.com/texas/xml-sitemap/news.xml
+Sitemap: https://www.cbsnews.com/texas/xml-sitemap/index/video.xml
+Sitemap: https://www.cbsnews.com/texas/xml-sitemap/index/collection.xml
+Sitemap: https://www.cbsnews.com/texas/xml-sitemap/video-news.xml
+
+Sitemap: https://www.cbsnews.com/losangeles/xml-sitemap/index/general.xml
+Sitemap: https://www.cbsnews.com/losangeles/xml-sitemap/index/image.xml
+Sitemap: https://www.cbsnews.com/losangeles/xml-sitemap/news.xml
+Sitemap: https://www.cbsnews.com/losangeles/xml-sitemap/index/video.xml
+Sitemap: https://www.cbsnews.com/losangeles/xml-sitemap/index/collection.xml
+Sitemap: https://www.cbsnews.com/losangeles/xml-sitemap/video-news.xml
+
+Sitemap: https://www.cbsnews.com/cbslocal/xml-sitemap/index/general.xml
+Sitemap: https://www.cbsnews.com/cbslocal/xml-sitemap/index/image.xml
+Sitemap: https://www.cbsnews.com/cbslocal/xml-sitemap/news.xml
+Sitemap: https://www.cbsnews.com/cbslocal/xml-sitemap/index/video.xml
+Sitemap: https://www.cbsnews.com/cbslocal/xml-sitemap/index/collection.xml
+Sitemap: https://www.cbsnews.com/cbslocal/xml-sitemap/video-news.xml
+
+Sitemap: https://www.cbsnews.com/miami/xml-sitemap/index/general.xml
+Sitemap: https://www.cbsnews.com/miami/xml-sitemap/index/image.xml
+Sitemap: https://www.cbsnews.com/miami/xml-sitemap/news.xml
+Sitemap: https://www.cbsnews.com/miami/xml-sitemap/index/video.xml
+Sitemap: https://www.cbsnews.com/miami/xml-sitemap/index/collection.xml
+Sitemap: https://www.cbsnews.com/miami/xml-sitemap/video-news.xml
+
+Sitemap: https://www.cbsnews.com/minnesota/xml-sitemap/index/general.xml
+Sitemap: https://www.cbsnews.com/minnesota/xml-sitemap/index/image.xml
+Sitemap: https://www.cbsnews.com/minnesota/xml-sitemap/news.xml
+Sitemap: https://www.cbsnews.com/minnesota/xml-sitemap/index/video.xml
+Sitemap: https://www.cbsnews.com/minnesota/xml-sitemap/index/collection.xml
+Sitemap: https://www.cbsnews.com/minnesota/xml-sitemap/video-news.xml
+
+Sitemap: https://www.cbsnews.com/newyork/xml-sitemap/index/general.xml
+Sitemap: https://www.cbsnews.com/newyork/xml-sitemap/index/image.xml
+Sitemap: https://www.cbsnews.com/newyork/xml-sitemap/news.xml
+Sitemap: https://www.cbsnews.com/newyork/xml-sitemap/index/video.xml
+Sitemap: https://www.cbsnews.com/newyork/xml-sitemap/index/collection.xml
+Sitemap: https://www.cbsnews.com/newyork/xml-sitemap/video-news.xml
+
+Sitemap: https://www.cbsnews.com/philadelphia/xml-sitemap/index/general.xml
+Sitemap: https://www.cbsnews.com/philadelphia/xml-sitemap/index/image.xml
+Sitemap: https://www.cbsnews.com/philadelphia/xml-sitemap/news.xml
+Sitemap: https://www.cbsnews.com/philadelphia/xml-sitemap/index/video.xml
+Sitemap: https://www.cbsnews.com/philadelphia/xml-sitemap/index/collection.xml
+Sitemap: https://www.cbsnews.com/philadelphia/xml-sitemap/video-news.xml
+
+Sitemap: https://www.cbsnews.com/pittsburgh/xml-sitemap/index/general.xml
+Sitemap: https://www.cbsnews.com/pittsburgh/xml-sitemap/index/image.xml
+Sitemap: https://www.cbsnews.com/pittsburgh/xml-sitemap/news.xml
+Sitemap: https://www.cbsnews.com/pittsburgh/xml-sitemap/index/video.xml
+Sitemap: https://www.cbsnews.com/pittsburgh/xml-sitemap/index/collection.xml
+Sitemap: https://www.cbsnews.com/pittsburgh/xml-sitemap/video-news.xml
+
+Sitemap: https://www.cbsnews.com/sacramento/xml-sitemap/index/general.xml
+Sitemap: https://www.cbsnews.com/sacramento/xml-sitemap/index/image.xml
+Sitemap: https://www.cbsnews.com/sacramento/xml-sitemap/news.xml
+Sitemap: https://www.cbsnews.com/sacramento/xml-sitemap/index/video.xml
+Sitemap: https://www.cbsnews.com/sacramento/xml-sitemap/index/collection.xml
+Sitemap: https://www.cbsnews.com/sacramento/xml-sitemap/video-news.xml
+
+Sitemap: https://www.cbsnews.com/sanfrancisco/xml-sitemap/index/general.xml
+Sitemap: https://www.cbsnews.com/sanfrancisco/xml-sitemap/index/image.xml
+Sitemap: https://www.cbsnews.com/sanfrancisco/xml-sitemap/news.xml
+Sitemap: https://www.cbsnews.com/sanfrancisco/xml-sitemap/index/video.xml
+Sitemap: https://www.cbsnews.com/sanfrancisco/xml-sitemap/index/collection.xml
+Sitemap: https://www.cbsnews.com/sanfrancisco/xml-sitemap/video-news.xml
+
+Sitemap: https://www.cbsnews.com/brandstudio/xml-sitemap/index/general.xml
+Sitemap: https://www.cbsnews.com/brandstudio/xml-sitemap/index/image.xml
+Sitemap: https://www.cbsnews.com/brandstudio/xml-sitemap/news.xml
+Sitemap: https://www.cbsnews.com/brandstudio/xml-sitemap/index/video.xml
+Sitemap: https://www.cbsnews.com/brandstudio/xml-sitemap/index/collection.xml
+Sitemap: https://www.cbsnews.com/brandstudio/xml-sitemap/video-news.xml
+
+User-agent: GPTBot
+Disallow: /
+User-agent: MAZBot
+Disallow: /
+User-agent: panscient.com
+Disallow: /
+User-agent: proximic
+Disallow:
+"
+76,77,↑7,thesun.co.uk,,11M,−2.5M,"<!DOCTYPE html><html lang=""en-gb"" class=""fonts-loaded"">
+<head>
+    <meta charSet=""UTF-8"" />
+    <meta name=""viewport"" content=""initial-scale=1.0, width=device-width, maximum-scale=1.0"" />
+    <meta http-equiv=""Cache-Control"" content=""no-cache, no-store, must-revalidate"" />
+    <meta http-equiv=""Pragma"" content=""no-cache"" />
+    <meta http-equiv=""Expires"" content=""0"" />
+    <title>Captcha Page</title>
+    <link rel=""icon"" type=""image/png"" href=""https://www.thesun.co.uk/wp-content/uploads/2016/04/icon-e1459786005667.png"" />
+    <link rel=""shortcut icon"" href=""https://www.thesun.co.uk/wp-content/uploads/2016/04/icon-e1459786005667.png"" />
+    <link rel=""stylesheet"" href=""https://assets.ntcacdn.net/Mitigations/captcha-1.1.1.css"">
+    <script src=""https://www.recaptcha.net/recaptcha/api.js"" async defer></script>
+    <meta name=""twitter:card"" content=""summary_large_image"" />
+    <meta name=""twitter:site"" content=""@thesun"" />
+    <meta property=""og:type"" content=""website"" />
+    <meta property=""og:title"" content=""The Sun"" />
+    <meta property=""og:description"" content=""The Best for News, Sport, Showbiz, Celebrities"" />
+    <meta property=""og:url"" content=""https://www.thesun.co.uk/"" />
+    <meta property=""og:site_name"" content=""The Sun"" />
+    <meta property=""og:image"" content=""https://www.thesun.co.uk/wp-content/uploads/2016/04/icon-e1459786005667.png?strip=all"" />
+    <style>
+        /* Font-face declarations */
+        @font-face {
+            font-family: The Sun;
+            src: url(https://www.thesun.co.uk/assets/fonts/the-sun/TheSun-Regular.woff2) format(""woff2""),
+                url(https://www.thesun.co.uk/assets/fonts/the-sun/TheSun-Regular.woff) format(""woff"");
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap
+        }
+
+        @font-face {
+            font-family: The Sun;
+            src: url(https://www.thesun.co.uk/assets/fonts/the-sun/TheSun-Medium.woff2) format(""woff2""),
+                url(https://www.thesun.co.uk/assets/fonts/the-sun/TheSun-Medium.woff) format(""woff"");
+            font-weight: 500;
+            font-style: normal;
+            font-display: swap
+        }
+
+        @font-face {
+            font-family: The Sun;
+            src: url(https://www.thesun.co.uk/assets/fonts/the-sun/TheSun-Bold.woff2) format(""woff2""),
+                url(https://www.thesun.co.uk/assets/fonts/the-sun/TheSun-Bold.woff) format(""woff"");
+            font-weight: 700;
+            font-style: normal;
+            font-display: swap
+        }
+        
+        html, body {
+            font-family: The Sun;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #222526;
+        }
+        
+        /* Header bar */
+        .header-bar {
+            background-color: #eb1701;
+            width: 100%;
+            padding: 0;
+
+        }
+        
+        .header-content {
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 9px 20px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo-wrapper {
+            flex: 0 0 auto;
+        }
+        
+        .logo-wrapper img {
+            height: 78px;
+            width: 231px;
+            object-fit: cover;
+            position: relative;
+            top: 1px;
+            margin: 0;
+        }
+        
+        .uk-edition {
+            margin: 0;
+            font-family: The Sun;
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 700;
+            letter-spacing: 0%;
+            font-stretch: normal;
+            padding: 0.5px 0px;
+            display: inline-block;
+            color: white;
+            margin-bottom: 25px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+        
+        .uk-edition:hover {
+            color: #EEEEEE !important;
+        }
+        
+        /* Main content */
+        .main-content {
+            max-width: 980px;
+            margin: 48px auto;
+            padding: 20px 20px 80px;
+            margin-bottom: 9px;
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: 2.3em;
+            font-weight: bold;
+            margin-bottom: 0.8em;
+            line-height: 1.2em;
+            padding: 0 0.5em;
+        }
+        
+        .captcha-section {
+            text-align: center;
+            margin: 0 auto 50px;
+            margin-bottom: 77px;
+        }
+        
+        /* Message section */
+        .message-section {
+            max-width: 700px;
+            margin: 0px auto;
+            line-height: 1.6;
+            text-align: center;
+
+        }
+        
+        .message-section p {
+            font-family: Arial, sans-serif;
+            margin: 15px 0;
+            font-size: 1em;
+            line-height: 1.5em;
+
+        }
+        
+        .message-section bold {
+            
+        }
+        
+        .message-section a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        
+        /* Footer */
+        .footer {
+            background-color: #222526;
+            color: #fff;
+            padding: 25px 0;
+        }
+        
+        .footer-container {
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 0 20px;
+            margin-top: 15px;
+        }
+        
+        .footer-row {
+            display: flex;
+            margin-bottom: 15px;
+        }
+        
+        .follow-section {
+            width: 30%;
+            padding-right: 20px;
+        }
+        
+        .services-section {
+            width: 70%;
+        }
+        
+        .section-title {
+            text-transform: uppercase;
+            font-size: 16px;
+            font-weight: 500;
+            border-bottom: 1px solid ;
+            border-color: #80808c;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+            color: #80808c;
+        }
+        
+        /* Social icons */
+        .social-icons {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .social-icon {
+            display: inline-block;
+            width: 38px;
+            height: 38px;
+            border-radius: 5px;
+            text-align: center;
+            line-height: 38px;
+        }
+        
+        .facebook-icon {
+            background-color: #1877f2;
+        }
+        
+        .twitter-icon {
+            background-color: #000000;
+        }
+        
+        .whatsapp-icon {
+            background-color: #25d366;
+        }
+        
+        .social-icon svg {
+            width: 24px;
+            height: 24px;
+            margin-top: 7px;
+            fill: white;
+        }
+        
+        /* Services list */
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+            max-width: 600px;
+        }
+        
+        .service-item {
+            display: inline-block;
+            margin-right: 8px;
+            margin-bottom: 8px;
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        
+        .service-item:hover {
+            text-decoration: underline;
+        }
+        
+        .service-separator {
+            margin: 0 5px;
+            color: #666;
+        }
+        
+        /* Copyright */
+        .copyright {
+            width: 100%;
+            font-size: 12px;
+            color: #bbb;
+            line-height: 1.5;
+            margin-top: 20px;
+            color: white;
+            margin-bottom: 62px;
+        }
+        
+        .copyright a {
+            color: #bbb;
+            text-decoration: underline;
+            color: white;
+        }
+        
+        /* Submit button */
+        .btn {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #e82222;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        .btnHidden {
+            display: none;
+        }
+        
+        /* Media queries */
+        @media (max-width: 390px) {
+            .footer-row {
+                flex-direction: column;
+            }
+            
+            .follow-section, .services-section {
+                width: 100%;
+            }
+            
+            .follow-section {
+                margin-bottom: 25px;
+                border-bottom: 1px solid #80808c;
+                padding-bottom: 15px;
+            }
+            
+            .follow-section .section-title {
+                float: left;
+                border-bottom: none;
+                margin-right: 10px;
+                padding-top: 7px;
+            }
+            
+            .social-icons {
+                display: flex;
+                justify-content: flex-start;
+                float: left;
+                margin-bottom: 0;
+            }
+            
+            .services-section .section-title {
+                display: none;
+            }
+            
+            .services {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 20px 15px;
+                clear: both;
+                padding-top: 15px;
+            }
+            
+            .service-item {
+                margin-right: 0;
+                margin-bottom: 0;
+                font-size: 13px;
+                display: block;
+                color: white;
+            }
+            
+            .service-separator {
+                display: none;
+            }
+            
+            .header-content {
+                padding: 9px;
+            }
+            
+            .logo-wrapper img {
+                height: 40px;
+            }
+        }
+        
+        @media (min-width: 391px) and (max-width: 679px) {
+            .footer-row {
+                flex-direction: column;
+            }
+            
+            .follow-section, .services-section {
+                width: 100%;
+            }
+            
+            .follow-section {
+                margin-bottom: 25px;
+                border-bottom: 1px solid #80808c;
+                padding-bottom: 15px;
+            }
+            
+            .follow-section .section-title {
+                float: left;
+                border-bottom: none;
+                margin-right: 10px;
+                padding-top: 7px;
+            }
+            
+            .social-icons {
+                display: flex;
+                justify-content: flex-start;
+                float: left;
+                margin-bottom: 0;
+            }
+            
+            .services-section .section-title {
+                display: none;
+            }
+            
+            .services {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 20px 15px;
+                clear: both;
+                padding-top: 15px;
+            }
+            
+            .service-item {
+                margin-right: 0;
+                margin-bottom: 0;
+                font-size: 13px;
+                display: block;
+            }
+            
+            .service-separator {
+                display: none;
+            }
+            
+            .header-content {
+                padding: 9px;
+            }
+            
+            .logo-wrapper img {
+                height: 40px;
+            }
+        }
+        
+        @media (min-width: 680px) and (max-width: 980px) {
+            .footer-container {
+                max-width: 980px;
+            }
+            
+            .footer-row {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            
+            .follow-section {
+                width: 30%;
+                order: 2;
+                padding-left: 20px;
+            }
+            
+            .services-section {
+                width: 65%;
+                order: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class=""header-bar"">
+        <div class=""header-content"">
+            <a href=""https://www.thesun.co.uk/"" class=""logo-wrapper"">
+                <img alt=""The Sun"" src=""https://www.thesun.co.uk/wp-content/themes/thesun/images/sunmasthead.svg"" style=""height: 78px; width: 231px; object-fit: cover; position: relative; top: 1px;"">
+            </a>
+            <span class=""uk-edition"">UK Edition</span>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class=""main-content"">
+        <h1>Help us verify you as a real visitor</h1>
+        
+        <div class=""captcha-section"">
+            <!-- Captcha Form -->
+            <form id=""frmCaptcha"" action="""" method=""POST"">
+                <div class=""g-recaptcha"" data-sitekey=""6LdI_ikrAAAAAMgEUIDAmz23NKw--COqvZPZ34aB"" data-callback=""showButton""></div>
+                <br />
+                <input type=""submit"" value=""Submit"" class=""btn btnHidden"">
+                <input type=""hidden"" maxlength=""40"" id=""hitid"" name=""hitid"" value=""64346cf2-219c-494c-b588-b746cb43321a"">
+            </form>
+        </div>
+        
+        <div class=""message-section"">
+            <p><bold>Attention,</bold></p>
+            <p>Our system has indicated that your user behaviour is potentially automated.</p>
+            <p>News Group Newspapers Limited does not permit the access, collection, text or data mining of any content from our Service by any automated means whether directly or through an intermediary service. This is stated in our <a href=""https://www.thesun.co.uk/terms-and-conditions/"">terms and conditions</a>.</p>
+            <p>This includes use of content for machine learning, artificial intelligence (AI) purposes, engineering large language models (LLMs) or related generative AI systems.</p>
+            <p>If you would like to inquire about the commercial use of our content, please contact <a href=""mailto:crawlerpermissions@news.co.uk"">crawlerpermissions@news.co.uk</a>.</p>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <div class=""footer"">
+        <div class=""footer-container"">
+            <div class=""footer-row"">
+                <div class=""follow-section"">
+                    <div class=""section-title"">FOLLOW THE SUN</div>
+                    <div class=""social-icons"">
+                        <a href=""https://www.facebook.com/thesun/"" class=""social-icon facebook-icon"">
+                            <svg xmlns=""http://www.w3.org/2000/svg"" height=""32"" width=""32"" viewBox=""0 0 320 512""><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d=""M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z""/></svg>
+                        </a>
+                        <a href=""https://twitter.com/thesun"" class=""social-icon twitter-icon"">
+                            <svg xmlns=""http://www.w3.org/2000/svg"" height=""32"" width=""32"" viewBox=""0 0 512 512""><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d=""M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z""/></svg>
+                        </a>
+                        <a href=""https://www.whatsapp.com/channel/0029Va9SyrWElagvuuc1rw2h"" class=""social-icon whatsapp-icon"">
+                            <svg xmlns=""http://www.w3.org/2000/svg"" height=""32"" width=""32"" viewBox=""0 0 448 512""><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d=""M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z""/></svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class=""services-section"">
+                    <div class=""section-title"">SERVICES</div>
+                    <div class=""services"">
+                        <a href=""https://www.thesun.co.uk/sign-up-to-the-sun/"" class=""service-item"">Sign Up To The Sun</a><span class=""service-separator"">|</span>
+                        <a href=""https://www.thesun.co.uk/about-us/"" class=""service-item"">About Us</a><span class=""service-separator"">|</span>
+                        <a href=""https://www.thesun.co.uk/editorial-complaints/"" class=""service-item"">Editorial Complaints</a><span class=""service-separator"">|</span>
+                        <a href=""https://www.thesun.co.uk/sun-editorial-standards-policies-ethics/"" class=""service-item"">Policies and Ethics</a><span class=""service-separator"">|</span>
+                        <a href=""https://www.thesun.co.uk/clarifications/"" class=""service-item"">Clarifications and Corrections</a><span class=""service-separator"">|</span>
+                        <a href=""https://www.thesun.co.uk/syndication/"" class=""service-item"">News Licensing</a><span class=""service-separator"">|</span>
+                        <a href=""http://www.newsukadvertising.co.uk"" class=""service-item"">Advertising</a><span class=""service-separator"">|</span>
+                        <a href=""https://www.thesun.co.uk/contact-us/"" class=""service-item"">Contact Us</a><span class=""service-separator"">|</span>
+                        <a href=""https://www.thesun.co.uk/commissioning-terms/"" class=""service-item"">Commissioning Terms</a><span class=""service-separator"">|</span>
+                        <a href=""https://help.thesun.co.uk/"" class=""service-item"">Help Hub</a><span class=""service-separator"">|</span>
+                        <a href=""https://www.thesun.co.uk/index/"" class=""service-item"">Topic A-Z</a><span class=""service-separator"">|</span>
+                        <a href=""https://mypreferences.thesun.co.uk/"" class=""service-item"">Contact Preferences</a><span class=""service-separator"">|</span>
+                        <a href=""https://jobs.thesun.co.uk/"" class=""service-item"">Sun Jobs</a><span class=""service-separator"">|</span>
+                        <a href=""https://www.thesun.co.uk/shopping/"" class=""service-item"">Shopping</a><span class=""service-separator"">|</span>
+                        <a href=""https://www.thesun.co.uk/shopping/product-reviews/25932439/how-our-product-reviews-team-test-our-products/"" class=""service-item"">How our Product Reviews team test our products</a><span class=""service-separator"">|</span>
+                        <a href=""https://www.thetimes.com/"" class=""service-item"">The Times & The Sunday Times</a>
+                    </div>
+                    
+                    <div class=""copyright"">
+                        <p>Â©News Group Newspapers Limited in England No. 679215 Registered office: 1 London Bridge Street, London, SE1 9GF. ""The Sun"", ""Sun"", ""Sun Online"" are registered trademarks or trade names of News Group Newspapers Limited. This service is provided on News Group Newspapers' Limited's <a href=""https://www.thesun.co.uk/terms-and-conditions/"">Standard Terms and Conditions</a> in accordance with our <a href=""http://www.newsprivacy.co.uk/"">Privacy & Cookie Policy</a>. To inquire about a licence to reproduce material, visit our <a href=""https://www.thesun.co.uk/syndication/"">Syndication</a> site. View our online Press Pack. For other inquiries, <a href=""https://www.thesun.co.uk/contact-us/"">Contact Us</a>. To see all content on The Sun, please use the Site Map. The Sun website is regulated by the <a href=""https://www.thesun.co.uk/editorial-complaints/"">Independent Press Standards Organisation (IPSO)</a></p>
+                        
+                        <p>Our journalists strive for accuracy but on occasion we make mistakes. For further details of our complaints policy and to make a complaint please click this link: <a href=""https://www.thesun.co.uk/editorial-complaints/"">thesun.co.uk/editorial-complaints/</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- The following two scripts MUST be at the end of the body -->
+    <script src=""https://assets.ntcacdn.net/Mitigations/fetch-polyfill-3.6.2.js""></script>
+    <script src=""https://assets.ntcacdn.net/Mitigations/submit-captcha-2.1.4.js""></script>
+    <!-- End of scripts at the end of body -->
+</body>
+</html>"
+77,78,↓6,bfmtv.com,,10M,−4.9M,"User-agent: *
+Disallow: /mon-compte/
+Disallow: /code-promo/interstitiel/*
+Disallow: /bfmtv-et-vous/canal-15-en-15-dates/
+Disallow: /bfmtv-et-vous/canal-15-en-15-dates-2/
+Disallow: */images/*_placeholder_direct*
+Disallow: */images/placeholder_lcp_video*
+
+User-agent: Googlebot-News
+Disallow: /static/
+Disallow: /services/
+
+User-agent: OrangeBot
+Crawl-delay: 1
+User-agent: OrangeBot-Collector
+Crawl-delay: 1
+User-Agent: Slurp
+Crawl-delay: 1
+User-agent: Adixbot
+Crawl-delay: 5
+User-Agent: YandexBot
+Crawl-delay: 5
+User-agent: AhrefsBot
+Crawl-delay: 1
+User-Agent: Sistrix
+Crawl-delay: 5
+User-agent: SemrushBot
+Crawl-delay: 10
+User-agent: Screaming Frog SEO Spider
+Crawl-delay: 10
+User-agent: SearchmetricsBot
+Disallow: /
+User-agent: deepcrawl
+Disallow: /
+User-agent: rogerbot
+Disallow: /
+User-agent: MJ12bot
+Disallow: /
+User-agent: Meltawer
+Disallow: /
+User-agent: GPTBot
+Disallow: /
+User-agent: ChatGPT-User
+Disallow: /
+User-agent: CCBot
+Disallow: /
+"
+78,79,↑15,spiegel.de,,10M,−2.0M,
+79,80,New,buzzfeed.com,,10M,−1.0M,"User-agent: msnbot
+Crawl-delay: 120
+Disallow: /*.xml$
+Disallow: /buzz/*.xml$
+Disallow: /category/*.xml$
+Disallow: /mobile/
+Disallow: *?s=mobile
+Disallow: *?s=bpage-next
+Disallow: *?s=lightbox
+Disallow: /fabordrab/
+Disallow: /bfmp/
+Disallow: /buzzfeed/
+Disallow: /contest
+Disallow: /contests
+Disallow: /plugin/
+Disallow: /embed/
+Disallow: /_comments/
+Disallow: /bookmarks/
+Disallow: /drafts/
+
+User-agent: *
+Disallow: /buzz/*.xml$
+Disallow: /category/*.xml$
+Disallow: /mobile/
+Disallow: *?s=bpage-next
+Disallow: *?s=lightbox
+Disallow: *?s=feedpager
+Disallow: /fabordrab/
+Disallow: /bfmp/
+Disallow: /buzzfeed/
+Disallow: /contest
+Disallow: /contests
+Disallow: /_ga/
+Disallow: /static/
+Disallow: /dashboard/
+Disallow: /plugin/
+Disallow: /api/
+Disallow: /buzzfeed/api/
+Disallow: /embed/
+Disallow: /_comments/
+Disallow: /bookmarks/
+Disallow: /drafts/
+Disallow: /bpage-preview/
+Disallow: /cms_preview_ui/
+Disallow: /cms_preview_ui_static/
+Disallow: /search/
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: discobot
+Disallow: /
+
+User-agent: dotbot
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: google-extended
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: TurnitinBot
+Disallow: /
+
+User-agent: magpie-crawler
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: DuckAssistBot
+Disallow: /
+
+User-agent: Perplexity-User
+Disallow: /
+
+User-agent: Timpibot
+Disallow: /
+
+User-agent: Slurp
+Crawl-delay: 4
+
+User-agent: Verity/1.1
+Crawl-delay: 20
+Allow: /$
+Allow: /*
+Disallow: /*.xml$
+Disallow: /buzz/*.xml$
+Disallow: /category/*.xml$
+Disallow: /mobile/
+Disallow: *?s=mobile
+Disallow: *?s=bpage-next
+Disallow: *?s=lightbox
+Disallow: *?s=feedpager
+Disallow: /fabordrab/
+Disallow: /bfmp/
+Disallow: /buzzfeed/
+Disallow: /contest
+Disallow: /contests
+Disallow: /_ga/
+Disallow: /static/
+Disallow: /dashboard/
+Disallow: /plugin/
+Disallow: /api/
+Disallow: /buzzfeed/api/
+Disallow: /embed/
+Disallow: /_comments/
+Disallow: /bookmarks/
+Disallow: /drafts/
+Disallow: /bpage-preview/
+Disallow: /cms_preview_ui/
+Disallow: /cms_preview_ui_static/
+Disallow: /search/
+
+User-agent: Scope3/2.0 (scope3.com)
+Allow: /$
+Allow: /*
+Disallow: /*.xml$
+Disallow: /buzz/*.xml$
+Disallow: /category/*.xml$
+Disallow: /mobile/
+Disallow: *?s=mobile
+Disallow: *?s=bpage-next
+Disallow: *?s=lightbox
+Disallow: *?s=feedpager
+Disallow: /fabordrab/
+Disallow: /bfmp/
+Disallow: /buzzfeed/
+Disallow: /contest
+Disallow: /contests
+Disallow: /_ga/
+Disallow: /static/
+Disallow: /dashboard/
+Disallow: /plugin/
+Disallow: /api/
+Disallow: /buzzfeed/api/
+Disallow: /embed/
+Disallow: /_comments/
+Disallow: /bookmarks/
+Disallow: /drafts/
+Disallow: /bpage-preview/
+Disallow: /cms_preview_ui/
+Disallow: /cms_preview_ui_static/
+Disallow: /search/
+
+Sitemap: https://www.buzzfeed.com/sitemap/asis.xml
+Sitemap: https://www.buzzfeed.com/sitemap/buzzfeed.xml
+Sitemap: https://www.buzzfeed.com/sitemap/tasty.xml
+Sitemap: https://www.buzzfeed.com/sitemap/video.xml
+Sitemap: https://www.buzzfeed.com/sitemap/shopping.xml
+Sitemap: https://www.buzzfeed.com/sitemap/topics.xml
+Sitemap: https://www.buzzfeed.com/sitemap/travel.xml
+Sitemap: https://www.buzzfeed.com/sitemap/news.xml
+Sitemap: https://www.buzzfeed.com/sitemap/buzzfeed-community.xml
+Sitemap: https://www.buzzfeed.com/sitemap/editions.xml
+Sitemap: https://www.buzzfeed.com/webstories/sitemap.xml
+
+User-agent: yacybot
+Disallow: /
+"
+80,81,↓6,nbcnews.com,,10M,−4.8M,"User-agent: *
+Disallow: /search/
+Disallow: /pages/search/
+Disallow: /pages/news-connect
+Disallow: /error404.aspx
+Disallow: /widget/
+Disallow: /*ns/local_news*
+Disallow: /bentoapi/
+
+Disallow: /*?*canonicalCard=
+User-agent: Twitterbot
+Allow: /*?*canonicalCard=
+
+# Disallow Bots
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: AwarioRssBot
+User-agent: AwarioSmartBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: magpie-crawler
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+User-agent: meta-externalagent
+Disallow: /
+
+User-agent: NewsNow
+Disallow: /
+
+User-agent: news-please
+Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+User-agent: omgili
+Disallow: /
+
+User-agent: omgilibot
+Disallow: /
+
+User-agent: peer39_crawler
+User-agent: peer39_crawler/1.0
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Scrapy
+Disallow: /
+
+User-agent: TurnitinBot
+Disallow: /
+
+# Sitemaps
+Sitemap: https://www.nbcnews.com/sitemap/nbcnews/sitemap-index
+Sitemap: https://www.nbcnews.com/sitemap/nbcnews/sitemap-news
+Sitemap: https://www.nbcnews.com/sitemap/nbcnews/sitemap-curations
+Sitemap: https://www.nbcnews.com/sitemap/nbcnews/sitemap-select.xml
+Sitemap: https://www.nbcnews.com/politics/election-results/sitemap.xml
+"
+81,82,↓18,nypost.com,,10M,−6.1M,"# NOTICE: Collection of content and other data on nypost.com through
+# automated means is prohibited unless you have express written
+# permission from NYP Holdings, Inc. and may only be conducted for the
+# limited purpose contained in said permission.
+#
+# NYP Holdings, Inc. Terms of Use may be found at
+# https://nypost.com/terms/
+#
+# If you would like to apply for permission to license the
+# intellectual property and/or other materials of NYP Holdings, Inc.'s
+# brands, please contact us at ip-permissions@nypost.com.
+
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /5850/
+Disallow: /account/
+Allow: /account/subscribe
+User-agent: *
+Disallow: /tag/credible/
+Disallow: /personal-finance/
+Disallow: /banking/
+Disallow: /credit-cards/
+Disallow: /loans/
+Disallow: /personal-loans/
+Disallow: /refinance-student-loans/
+Disallow: /student-loans/
+Disallow: /mortgages/
+Disallow: /home-equity/
+Disallow: /mortgage-rates/
+Disallow: /mortgage-refinance/
+
+User-agent: *
+Disallow: /search/
+Disallow: /horoscope/
+Disallow: /*?x=
+Disallow: /*?action=
+Disallow: /*&action=
+Disallow: /*?adid=
+Disallow: /*&adid=
+Disallow: /*?bitrate=
+Disallow: /*&bitrate=
+Disallow: /*?channel=
+Disallow: /*&channel=
+Disallow: /*?clipid=
+Disallow: /*&clipid=
+Disallow: /*?contentCollection=
+Disallow: /*&contentCollection=
+Disallow: /*?contentId=
+Disallow: /*&contentId=
+Disallow: /*?ei=
+Disallow: /*&ei=
+Disallow: /*?format=
+Disallow: /*&format=
+Disallow: /*?height=
+Disallow: /*&height=
+Disallow: /*?iframe=
+Disallow: /*&iframe=
+Disallow: /*?mediaId=
+Disallow: /*&mediaId=
+Disallow: /*?module=
+Disallow: /*&module=
+Disallow: /*?monthnum=
+Disallow: /*&monthnum=
+Disallow: /*?pgtype=
+Disallow: /*&pgtype=
+Disallow: /*?preview=
+Disallow: /*&preview=
+Disallow: /*?priority=
+Disallow: /*&priority=
+Disallow: /*?ref=
+Disallow: /*&ref=
+Disallow: /*?referrer=
+Disallow: /*&referrer=
+Disallow: /*?sa=
+Disallow: /*&sa=
+Disallow: /*?section=
+Disallow: /*&section=
+Disallow: /*?share=
+Disallow: /*&share=
+Disallow: /*?TB_iframe=
+Disallow: /*&TB_iframe=
+Disallow: /*?TBL_Prod100Page=
+Disallow: /*&TBL_Prod100Page=
+Disallow: /*?theme_preview=
+Disallow: /*&theme_preview=
+Disallow: /*?usg=
+Disallow: /*&usg=
+Disallow: /*?ved=
+Disallow: /*&ved=
+Disallow: /*?version=
+Disallow: /*&version=
+Disallow: /*?VID=
+Disallow: /*&VID=
+Disallow: /*?vxBitrate=
+Disallow: /*&vxBitrate=
+Disallow: /*?vxChannel=
+Disallow: /*&vxChannel=
+Disallow: /*?vxClipId=
+Disallow: /*&vxClipId=
+Disallow: /*?vxSiteId=
+Disallow: /*&vxSiteId=
+Disallow: /*?width=
+Disallow: /*&width=
+Disallow: /*?year=
+Disallow: /*&year=
+Disallow: /*.xml?uuid=
+Disallow: /*?post_type=feedback&p=
+Disallow: /*?wptouch_preview_theme=
+Disallow: /*&gt;
+Disallow: /?attachment_id=
+Disallow: /affiliate/
+Disallow: /ai_log/
+Disallow: /*?*pg99.asia*
+Disallow: /*&*pg99.asia*
+Disallow: /*?*gg155.cn*
+Disallow: /*&*gg155.cn*
+Disallow: /*?*To66.Asia*
+Disallow: /*&*To66.Asia*
+
+User-agent: *
+Disallow: /new-york-post-instagram-feed/
+Disallow: /new-york-post-tiktok-feed/
+Disallow: /alexa-new-york-post-instagram-feed/
+Disallow: /alexa-new-york-post-tiktok-feed/
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: NewsNow
+Disallow: /
+
+User-agent: Perplexity-ai
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: PiplBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: magpie-crawler
+Disallow: /
+
+User-agent: news-please
+Disallow: /
+
+User-agent: omgili
+Disallow: /
+
+User-agent: omgilibot
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+User-agent: meta-externalfetcher
+Disallow: /
+
+User-agent: A6-Indexer
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: AwarioRssBot
+Disallow: /
+
+User-agent: AwarioSmartBot
+Disallow: /
+
+User-agent: BLP_bbot
+Disallow: /
+
+User-agent: claritybot
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: EasouSpider
+Disallow: /
+
+User-agent: ecoResearch
+Disallow: /
+
+User-agent: FriendlyCrawler
+Disallow: /
+
+User-agent: Genieo
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+User-agent: Meltwater
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+User-agent: peer39_crawler
+Disallow: /
+
+User-agent: peer39_crawler/1.0
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: psbot
+Disallow: /
+
+User-agent: R6_CommentReader
+Disallow: /
+
+User-agent: Scrapy
+Disallow: /
+
+User-agent: Seekr
+Disallow: /
+
+User-agent: Spinn3r
+Disallow: /
+
+User-agent: TurnitinBot
+Disallow: /
+
+User-agent: WebVac
+Disallow: /
+
+User-agent: WebZip
+Disallow: /
+
+# Sitemap archive
+Sitemap: https://nypost.com/sitemap-502.xml
+Sitemap: https://nypost.com/sitemap-1865.xml
+Sitemap: https://nypost.com/sitemap-1999.xml
+Sitemap: https://nypost.com/sitemap-2000.xml
+Sitemap: https://nypost.com/sitemap-2001.xml
+Sitemap: https://nypost.com/sitemap-2002.xml
+Sitemap: https://nypost.com/sitemap-2003.xml
+Sitemap: https://nypost.com/sitemap-2004.xml
+Sitemap: https://nypost.com/sitemap-2005.xml
+Sitemap: https://nypost.com/sitemap-2006.xml
+Sitemap: https://nypost.com/sitemap-2007.xml
+Sitemap: https://nypost.com/sitemap-2008.xml
+Sitemap: https://nypost.com/sitemap-2009.xml
+Sitemap: https://nypost.com/sitemap-2010.xml
+Sitemap: https://nypost.com/sitemap-2011.xml
+Sitemap: https://nypost.com/sitemap-2012.xml
+Sitemap: https://nypost.com/sitemap-2013.xml
+Sitemap: https://nypost.com/sitemap-2014.xml
+Sitemap: https://nypost.com/sitemap-2015.xml
+Sitemap: https://nypost.com/sitemap-2016.xml
+Sitemap: https://nypost.com/sitemap-2017.xml
+Sitemap: https://nypost.com/sitemap-2018.xml
+Sitemap: https://nypost.com/sitemap-2019.xml
+Sitemap: https://nypost.com/sitemap-2020.xml
+Sitemap: https://nypost.com/sitemap-2021.xml
+Sitemap: https://nypost.com/sitemap-2022.xml
+Sitemap: https://nypost.com/sitemap-2023.xml
+Sitemap: https://nypost.com/sitemap-2024.xml
+Sitemap: https://nypost.com/sitemap-2025.xml
+
+# Sitemaps
+Sitemap: https://nypost.com/news-sitemap.xml
+
+# Additional sitemaps
+Sitemap: https://nypost.com/sitemap-nypost-section.xml
+Sitemap: https://nypost.com/sitemap-nypost-post_tag.xml
+Sitemap: https://nypost.com/sitemap-nypost-authors.xml
+Sitemap: https://nypost.com/sitemap-nypost-pages.xml
+Sitemap: https://nypost.com/sitemap-nypost-sportstat.xml
+
+"
+82,83,New,ndtv.in,,9.8M,−566K,
+83,84,↑4,aljazeera.com,,9.7M,−3.7M,"# Al Jazeera Media Network content is made available for your personal, non-commercial 
+# use subject to our Terms and Conditions: 
+# https://www.aljazeera.com/terms-and-conditions/
+# Any other uses are not permitted, including but not limited to:
+# (1) the development of any software, machine learning, artificial intelligence (AI),
+# and/or large language models (LLMs); 
+# (2) text and data mining activities;
+# (3) creating or providing archived or cached data sets containing our content to others; and/or
+# (4) any commercial purposes.
+# Use of any device, tool, or process designed to data mine or scrape the content
+# using automated means is prohibited without prior written permission from 
+# Al Jazeera Media Network. Contact https://network.aljazeera.net/en/contact for assistance.
+
+User-agent: *
+Disallow: /api
+Disallow: /asset-manifest.json
+Allow: /search/$
+Disallow: /search/
+Disallow: /home/search?q=
+
+# Disallow Rules
+
+User-agent: anthropic-ai
+Disallow: / 
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: / 
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: / 
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+
+# Sitemaps
+
+Sitemap: https://www.aljazeera.com/sitemap.xml
+Sitemap: https://www.aljazeera.com/news-sitemap.xml 
+Sitemap: https://www.aljazeera.com/sitemaps/article-archive.xml
+Sitemap: https://www.aljazeera.com/sitemaps/article-new.xml
+Sitemap: https://www.aljazeera.com/sitemaps/video-archive.xml
+Sitemap: https://www.aljazeera.com/sitemaps/video-new.xml
+"
+84,85,↑2,tagesschau.de,,9.7M,−3.9M,"User-agent: *
+Disallow: /ardimport/
+Disallow: /*~player.html
+Disallow: /suche2.html?*
+
+User-agent: webzip
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: webwhacker
+Disallow: /
+
+User-agent: websauger
+Disallow: /
+
+User-agent: webcapture
+Disallow: /
+
+User-agent: teleport
+Disallow: /
+
+User-agent: sitesnagger
+Disallow: /
+
+User-agent: net attache
+Disallow: /
+
+User-agent: httrack
+Disallow: /"
+85,86,New,cnnturk.com,,9.6M,−1.5M,"User-agent: *
+Allow: /
+Disallow: /hesap/
+Disallow: /api/
+Disallow: /linkler/
+Disallow: /test-ana-sayfa/
+Disallow: /sm/
+Allow: /action/embedvideo/
+Disallow: /action/
+Disallow: /news/
+Disallow: /arama/
+Disallow: /mytv/
+Disallow: /mytv/select/
+Disallow: /mytv/login/
+Disallow: /redesign
+Disallow: /videoplus
+Disallow: /account
+Disallow: /*index.m3u8
+Disallow: /9927946,22420855682/
+Disallow: /992794622420855682/
+Disallow: /actions/
+
+User-agent: GPTBot
+Disallow: /"
+86,87,↓5,estadao.com.br,,9.6M,−4.5M,"# Support directories
+User-agent: *
+Disallow: /ewok
+Disallow: /logs
+Disallow: /robos-linux
+Disallow: /shared
+Disallow: /estadao
+Disallow: /newsletter/
+Disallow: /correcoes/enviar?url=*
+Disallow: /ext/
+Disallow: /eleicoes/2018/busca*
+Disallow: /eleicoes/2020/busca*
+Disallow: /feed/$
+Disallow: /politica/eleicoes/2024/candidatos-*/*/vice-prefeito/$
+Disallow: /politica/eleicoes/2024/candidatos-*/prefeito/$
+Disallow: /politica/eleicoes/2024/candidatos-*/vereador/$
+Disallow: /politica/eleicoes/2024/candidatos-*/vice-prefeito/$
+Disallow: /politica/eleicoes/2024/candidatos/*
+Allow: /politica/eleicoes/2024/candidatos-*/*/prefeito/$
+Allow: /politica/eleicoes/2024/candidatos-*/*/vereador/$
+Allow: /ext/.pdf
+Allow: /estadao-verifica
+
+# Sitemaps
+Sitemap: https://www.estadao.com.br/arc/outboundfeeds/sitemap-index-by-day/?outputType=xml
+Sitemap: https://www.estadao.com.br/sitemaps/custom/www.estadao
+Sitemap: https://www.estadao.com.br/sitemap/galerias/www.estadao/auto.xml
+
+# Disallow Rules
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /opiniao/*"
+87,88,New,abc.es,,9.4M,−1.3M,"User-Agent: *
+Disallow: /tmp/
+Disallow: /*/undefined/*
+Disallow: /temas-resultados/
+Disallow: /temas-*/indice/
+Disallow: /hemeroteca/*
+Disallow: /elecciones/generales/resultados/
+Disallow: /en-detalle
+Disallow: /*/en-detalle
+Disallow: /addineyeV2.html
+Disallow: /DARTIframe.html
+Disallow: /doubleclick
+Disallow: /eyeblaster
+Disallow: /images/
+Disallow: /imag/
+Disallow: /imagenes/
+Disallow: /includes/
+Disallow: /wp-admin/
+Disallow: /*/wp-admin/
+Disallow: /hoyinversion/ 
+Disallow: /finanzas/ 
+Disallow: /comunabc/Widgets/rss/
+Disallow: /hoysport/
+Disallow: /recortes/
+Disallow: /recortes/*
+Disallow: /summum/recortes/
+Disallow: /summum/recortes/*
+Disallow: /play/recortes/
+Disallow: /play/recortes/*
+Disallow: /teknologica/
+Disallow: /Syd/
+Disallow: /*.swf$
+Disallow: /*.tif$
+Disallow: /*.flv$
+Disallow: /*.mp4$
+Disallow: /*.avi$
+Disallow: /*.inc$
+Disallow: /*.ics$
+Disallow: /*.json$
+Disallow: /*.geojson$
+Disallow: /*-ntps.html$
+Disallow: /prensa-historico/200*
+Disallow: /prensa-historico/2010*
+Disallow: /RC/*.xml$
+Disallow: /abc2010/nacional/noticias/*.xml$
+Disallow: /includes_comun/modulos_automaticos/
+Disallow: /premiogastronomico/mejor.asp?search=&page=*
+Disallow: /*/1$
+Disallow: /*/%3C$
+Disallow: /wp-content/
+Disallow: *//.html
+Disallow: /temas-*%7C%7Chttp://resizer
+Disallow: */home$
+Disallow: /xml-sindicacion/
+Disallow: /sindicacion/
+Disallow: /c1m/menu/time/
+Disallow: /4900/webm.ABC/
+Disallow: /gl-d/
+Disallow: /*/gl-d$
+Disallow: /ht-d/
+Disallow: /*/ht-d$
+Disallow: /bb-d/
+Disallow: /*/bb-d$
+Disallow: /deportes/futbol/directos/*/2010-2011/*
+Disallow: /deportes/futbol/directos/*/2011-2012/*
+Disallow: /deportes/futbol/directos/*/2012-2013/*
+Disallow: /deportes/futbol/directos/*/2013-2014/*
+Disallow: /deportes/futbol/directos/*/2014-2015/*
+Disallow: /deportes/futbol/directos/*/2015-2016/*
+Disallow: /play/foro/*
+Disallow: /archivo/buscador/*
+Disallow: /archivo/periodicos/*-*-*-*.html 
+Disallow: /fe-de-ratas/
+Disallow: /el-sacapuntas/
+Disallow: /loteria-de-navidad/comprobar-loteria-navidad/numero-*.html?*
+Disallow: /gurme/*/busqueda/?
+Disallow: */aggregate*
+Disallow: /includes_comun/*
+Disallow: /*?cartelera_cine
+Disallow: /acd/
+Disallow: /recetasderechupete/?s=
+
+User-agent: 008
+Disallow: /
+
+User-agent: Twitterbot
+Allow: *
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+#CSV 925679
+User-agent: Google-Extended
+Disallow: /
+
+User-Agent: PerplexityBot
+Disallow: /
+"
+88,89,↑2,n-tv.de,,9.4M,−3.6M,
+89,90,↑7,rtve.es,,9.3M,−2.9M,
+90,91,New,rambler.ru,,9.3M,−339K,"User-agent: Yandex
+Allow: /doc/addr.shtml
+Allow: /doc/history.shtml
+Allow: /doc/about.shtml
+Allow: /rss/yandex/
+Allow: /rss/yandex/*
+Disallow: /photo/
+Disallow: /pobeda/
+Disallow: /db/
+Disallow: /news/
+Disallow: /cgi-bin/
+Disallow: /srch
+Disallow: /lite
+Disallow: /doc/
+Disallow: /special
+Disallow: /view
+Disallow: /block
+Disallow: /frame_main.html
+Disallow: /player
+Disallow: /xpromo_static
+Disallow: /rubicon_rambler_main
+Disallow: /rnet/
+Disallow: /?query=*
+Disallow: /rss/*
+Disallow: /*/comments/*
+Clean-param: from&rcmrclid&utm_campaign&utm_source&utm_medium&utm_content&utm_term&block_click&clid&es&_openstat
+Clean-param: from&block_click&track&split_ng&r&page&src&ng&sort&utm_source&updated&referrer
+Clean-param: utm_campaign&abstroff&utm_medium&query&utm_media&text&width
+Clean-param: height&iframe&back&set&root&cpage&split&skew_level&btnG&clid&ssi&rcmclid
+ 
+User-agent: Googlebot
+Allow: /doc/addr.shtml
+Allow: /doc/history.shtml
+Allow: /doc/about.shtml
+Disallow: /photo/
+Disallow: /pobeda/
+Disallow: /db/
+Disallow: /news/
+Disallow: /cgi-bin/
+Disallow: /srch
+Disallow: /lite
+Disallow: /doc/
+Disallow: /special
+Disallow: /view
+Disallow: /block
+Disallow: /frame_main.html
+Disallow: /player
+Disallow: /xpromo_static
+Disallow: /rubicon_rambler_main
+Disallow: /rnet/
+Disallow: /?query=*
+Disallow: /?clid=*
+Disallow: /location/current
+Disallow: /api/v4/weather/
+Disallow: /api/v4/rcm/*
+Disallow: /*/comments/*
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: Shodan
+Disallow: /
+
+User-agent: Anews/1.0
+Allow: /rss/anews/
+Disallow: /self/
+Disallow: /*/comments/*
+
+User-agent: *
+Allow: /doc/addr.shtml
+Allow: /doc/history.shtml
+Allow: /doc/about.shtml
+Disallow: /photo/
+Disallow: /pobeda/
+Disallow: /db/
+Disallow: /news/
+Disallow: /cgi-bin/
+Disallow: /srch
+Disallow: /lite
+Disallow: /doc/
+Disallow: /special
+Disallow: /view
+Disallow: /block
+Disallow: /frame_main.html
+Disallow: /player
+Disallow: /xpromo_static
+Disallow: /rubicon_rambler_main
+Disallow: /rnet/
+Disallow: /?query=*
+Disallow: /*/comments/*
+
+Sitemap: https://www.rambler.ru/pro/sitemap-index.xml
+https://www.rambler.ru/dom/sitemap-index.xml"
+91,92,↓15,apnews.com,,9.2M,−5.8M,"User-Agent: *
+Disallow:
+Disallow: *_ptid=*
+Disallow: *?prx_t=*
+Disallow: /zephr*
+Disallow: /blaize*
+Disallow: /search?q=*
+Disallow: /*.rss
+Disallow: /buyline-shopping/*
+Disallow: /buyline-personal-finance/*
+Disallow: *?jw_start
+Disallow: *&jw_start
+
+Sitemap: https://apnews.com/ap-sitemap.xml
+Sitemap: https://apnews.com/news-sitemap-content.xml
+Sitemap: https://apnews.com/hubs-sitemap-content.xml
+Sitemap: https://apnews.com/video-sitemap.xml
+
+# Disallow Rules
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Bytedance
+Disallow: /
+
+User-agent: Timpibot
+Disallow: /"
+92,93,↑5,lemonde.fr,,9.2M,−2.9M,
+93,94,New,abc.net.au,,9.2M,−814K,"# robots.txt for https://www.abc.net.au/ -- ABC Online
+User-agent: *
+Disallow: /classic/contact/concerts.htm
+Disallow: /classic/contact/default.htm
+Disallow: /classic/contact/eventsdiary.htm
+Disallow: /classic/contact/formerror.htm
+Disallow: /classic/contact/formthanks.htm
+Disallow: /classic/contact/general.htm
+Disallow: /classic/contact/limelight.htm
+Disallow: /classic/contact/mailinglist.htm
+Disallow: /classic/contact/music.htm
+Disallow: /classic/contact/presenter.htm
+Disallow: /classic/contact/website.htm
+Disallow: /classic/contact/word.htm
+Disallow: /xmlcontent/
+Disallow: /classicfm/
+
+#OPSSD-340 2015/5/5
+Disallow: /iview/
+
+
+
+#INNG-46: 2014-12-30
+Disallow: /site-archive/
+
+# Added for corporate communications, as they have migrated to a new site
+Disallow: /corp/
+Disallow: /contact/
+
+# Added for Homepage Beta, prevent indexing during public beta
+Disallow: /homepage/2013/
+Disallow: /beta/
+
+# Added for WCMS Tennent testing, not a public
+Disallow: /abc4000/
+
+Disallow: /res/
+
+User-agent: Googlebot
+Crawl-delay: 5
+
+User-agent: Googlebot-Image
+Crawl-delay: 5
+
+User-agent: MSNBot
+Crawl-delay: 5
+
+User-agent: Slurp
+Crawl-delay: 5
+
+########################################
+
+User-agent: FlipboardProxy
+Crawl-delay: 2
+Disallow: /news/image/
+
+User-agent: iSec_Bot
+Disallow: /
+
+User-agent: TurnitinBot
+Disallow: /
+
+User-agent: ICC-Crawler
+Disallow: /
+
+User-agent: trendkite-akashic-crawler
+Disallow: /
+
+User-agent: TinEye-bot
+Disallow: /
+
+User-agent: R6_CommentReader
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: Nutch
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: Timpibot
+Disallow: /
+
+User-agent: omgili
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: Webzio-Extended
+Disallow: /
+
+User-agent: YouBot
+Disallow: /
+
+# sitemaps
+Sitemap: https://www.abc.net.au/sitemaps/sitemap-index.xml.gz"
+94,95,↓2,almasryalyoum.com,,9.2M,−3.6M,"User-agent: Mediapartners-Google
+Allow: /
+
+user-agent: *
+disallow: /amaylog
+disallow: /amaylogco0I
+disallow: /admin.almasryalyoum.com/
+disallow: /beta.almasryalyoum.com/
+disallow: /beta1.almasryalyoum.com/
+disallow: /beta2.almasryalyoum.com/
+disallow: /amayfrontbeta.sarmady.net/
+disallow: /en/*
+disallow: /channel
+
+
+"
+95,96,↑4,iltalehti.fi,,9.1M,−2.9M,
+96,97,↓5,clarin.com,,9.0M,−3.9M,
+97,98,↓18,reuters.com,,8.9M,−5.5M,"# robots.txt for www.reuters.com
+
+User-agent: PiplBot
+Disallow: /
+
+User-agent: CCbot
+Disallow: /
+
+# ADO-657700
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: Meta-ExternalFetcher
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+#
+
+User-agent: FacebookBot
+Disallow: /
+
+# ADO-658177
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: Timpibot
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+# ADO-661811
+User-agent: Applebot-Extended
+Disallow: /
+
+
+User-agent: *
+Disallow: /finance/stocks/option
+Disallow: /finance/stocks/financialHighlights
+Disallow: /search
+Disallow: /site-search/
+Disallow: /beta
+Disallow: /designtech
+Disallow: /featured-optimize
+Disallow: /energy-test
+Disallow: /article/beta
+Disallow: /sponsored/previewcampaign
+Disallow: /sponsored/previewarticle
+Disallow: /test/
+Disallow: /commentary
+Disallow: /news/archive/commentary
+Disallow: /brandfeatures/venture-capital
+Disallow: /assets/siteindex
+Disallow: /article/api/
+Disallow: /practical-law-the-journal/search/
+Disallow: /pf/api/
+Disallow: /fr/
+Disallow: /it/
+Disallow: /es/
+Disallow: /pt/
+Disallow: /de/
+Disallow: /ar/
+Disallow: /account/subscribe/payment/
+
+SITEMAP: https://www.reuters.com/arc/outboundfeeds/sitemap-index/?outputType=xml
+SITEMAP: https://www.reuters.com/arc/outboundfeeds/news-sitemap-index/?outputType=xml
+SITEMAP: https://www.reuters.com/plus/sitemap-index.xml
+SITEMAP: https://www.reuters.com/arc/outboundfeeds/sitemap-plj-index/?outputType=xml
+SITEMAP: https://www.reuters.com/graphics/sitemap.xml
+SITEMAP: https://www.reuters.com/arc/outboundfeeds/sitemap-index/pictures/?outputType=xml
+SITEMAP: https://www.reuters.com/static/video-sitemap/us/sitemap_video_index.xml
+SITEMAP: https://www.reuters.com/arc/outboundfeeds/topic-sitemap/?outputType=xml
+SITEMAP: https://www.reuters.com/arc/outboundfeeds/author-sitemap/?outputType=xml
+SITEMAP: https://www.reuters.com/arc/outboundfeeds/pressrelease-sitemap/?outputType=xml
+SITEMAP: https://www.reuters.com/arc/outboundfeeds/sitemap-index1/?outputType=xml
+"
+98,99,New,haber7.com,,8.9M,−556K,"User-agent: *
+Allow: /
+Disallow: /?ref=
+Disallow: /*?ref=
+Disallow: /advertorial/
+Disallow: /print/
+Disallow: /*arama?q=*
+Disallow: /yorum/oku/*
+Disallow: /*print.php?id=
+
+User-agent: Yandex
+Clean-param: sfnsn
+Clean-param: s"
+99,100,New,antaranews.com,,8.8M,−539K,"User-agent: *
+Allow: /
+Disallow: /ajax/*
+Disallow: /ucnews/*
+
+User-agent: BLP_bbot/0.1
+Disallow: /
+
+User-agent: BLP_bbot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /"

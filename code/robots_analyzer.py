@@ -4,8 +4,8 @@ from datetime import date
 
 
 def main():
-    input_file = "data/may_2025/robots_txt_2025-05-05_agents.csv"
-    output_file = "data/may_2025/disallowed_bots.csv"
+    input_file = "data/june_2025/robots_txt_2025-06-19_agents.csv"
+    output_file = "data/june_2025/disallowed_bots.csv"
 
     robots_texts = pd.read_csv(input_file)
 
