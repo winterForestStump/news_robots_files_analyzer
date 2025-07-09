@@ -13,7 +13,7 @@ The experiment involved three phases:
 1. **Crawling `robots.txt` Files**  
    - **Script:** `robots_crawler.py`  
    - **Input:** The top 100 news websites from *Ahrefs' News Rankings* (stored in `news_best_100.csv`).  
-   - **Process:** Automated requests to each website’s `robots.txt`, saved to `robots_txt_2025-04-10_agents.csv`.  
+   - **Process:** Automated requests to each website’s `robots.txt`, saved to `robots_txt_[DATE]_agents.csv`.  
 
 2. **Extracting Disallowed Bots**  
    - **Script:** `robots_analyzer.py`  
@@ -21,7 +21,7 @@ The experiment involved three phases:
    - **Output:** A dataset (`disallowed_bots.csv`) listing blocked bots per website.  
 
 3. **Analysis**  
-   - **Tools:** Jupyter Notebooks (`disallowed_analyzer_may_2025.ipynb` and `may_2025.ipynb`).  
+   - **Tools:** Jupyter Notebooks (`disallowed_analyzer_[MONTH_YEAR].ipynb` and `[MONTH_YEAR].ipynb`).  
    - **Key Metrics:**  
      - Percentage of websites blocking AI bots.  
      - Most-blocked AI agents.  
@@ -50,26 +50,26 @@ In the Jupyter notebooks, I:
 
 ## **Results**  
 ### 1. Widespread AI Bot Blocking  
-- **81% of Websites** (52/64 unique domains) blocked at least one AI bot.  
-- **35% of All Disallowed Bots** were AI-related (468/1,345 entries in May 2025).  
+- **83% of Websites** (50/60 unique domains) blocked at least one AI bot.  
+- **36% of All Disallowed Bots** were AI-related (525/1,458 entries in May 2025).  
 
 ### 2. Top Blocked AI Bots  
 | Rank | Bot                | Blocked By |  
 |------|---------------------|------------|  
-| 1    | GPTBot (OpenAI)    | 45 sites   |  
-| 2    | CCBot (Common Crawl)| 36 sites   |  
-| 3    | anthropic-ai       | 30 sites   |  
+| 1    | GPTBot (OpenAI)    | 46 sites   |  
+| 2    | CCBot (Common Crawl)| 38 sites   |  
+| 3    | anthropic-ai       | 32 sites   |  
 
 *Why GPTBot?* OpenAI’s crawler is notoriously aggressive, scraping high-quality articles for training data.  
 
 ### 3. Most Protective Websites  
 | Website         | AI Bots Blocked |  
 |-----------------|-----------------|  
-| nypost.com      | 23              |  
-| iltalehti.fi    | 22              |  
-| nytimes.com     | 22              |  
+| nytimes.com      | 23              |  
+| iltalehti.fi    | 23              |  
+| nypost.com     | 23              |  
 
-The *New York Times* blocked 22 AI bots, including niche crawlers like "DuckAssistBot."  
+The *New York Times* blocked 23 AI bots, including niche crawlers like "DuckAssistBot."  
 
 
 ---
