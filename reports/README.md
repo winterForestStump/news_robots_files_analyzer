@@ -50,17 +50,17 @@ In the Jupyter notebooks, I:
 
 ## **Results**  
 ### 1. Widespread AI Bot Blocking  
-- **83% of Websites** (49/59 unique domains) blocked at least one AI bot.  
-- **36% of All Disallowed Bots** were AI-related (593/1615 entries in August 2025).  
+- **81% of Websites** (48/59 unique domains) blocked at least one AI bot.  
+- **35% of All Disallowed Bots** were AI-related (580/1663 entries in September 2025).  
 
 ### 2. Top Blocked AI Bots  
 | Rank | Bot                | Blocked By |  
 |------|---------------------|------------|  
-| 1    | GPTBot (OpenAI)    | 43 sites   |  
-| 2    | CCBot (Common Crawl)| 37 sites   |  
+| 1    | GPTBot (OpenAI)    | 42 sites   |  
+| 2    | CCBot (Common Crawl)| 35 sites   |  
 | 3    | anthropic-ai       | 33 sites   |  
 
-*Why GPTBot?* OpenAI’s crawler is notoriously aggressive, scraping high-quality articles for training data.  
+
 
 ### 3. Most Protective Websites  
 | Website         | AI Bots Blocked |  
