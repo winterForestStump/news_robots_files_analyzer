@@ -50,15 +50,15 @@ In the Jupyter notebooks, I:
 
 ## **Results**  
 ### 1. Widespread AI Bot Blocking  
-- **81% of Websites** (48/59 unique domains) blocked at least one AI bot.  
-- **35% of All Disallowed Bots** were AI-related (580/1663 entries in September 2025).  
+- **84% of Websites** (47/56 unique domains) blocked at least one AI bot.  
+- **33% of All Disallowed Bots** were AI-related (575/1751 entries in October 2025).  
 
 ### 2. Top Blocked AI Bots  
 | Rank | Bot                | Blocked By |  
 |------|---------------------|------------|  
-| 1    | GPTBot (OpenAI)    | 42 sites   |  
-| 2    | CCBot (Common Crawl)| 35 sites   |  
-| 3    | anthropic-ai       | 33 sites   |  
+| 1    | GPTBot (OpenAI)    | 40 sites   |  
+| 2    | CCBot (Common Crawl)| 34 sites   |  
+| 3    | anthropic-ai       | 32 sites   |  
 
 
 
@@ -67,9 +67,7 @@ In the Jupyter notebooks, I:
 |-----------------|-----------------|  
 | usatoday.com      | 31              |  
 | bild.de    | 29              |  
-| nytimes.com     | 26              |  
-
-The *USA Today* blocked 31 AI bots.
+| nytimes.com     | 25              |  
 
 
 ---
