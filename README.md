@@ -3,7 +3,7 @@ In recent years, Large Language Models (LLMs) have gained immense popularity, re
 
 However, this raises an important question: How do websites, particularly news platforms, feel about these new "guests"? To explore this, we conducted an analysis of the robots.txt files of 100 of the most popular news websites worldwide.
 
-### What is a robots.txt file?
+## What is a robots.txt file?
 The robots.txt file is a simple text file located in the root directory of a website. It serves as a communication tool between website owners and web crawlers (also known as bots or agents). The primary purpose of this file is to instruct web crawlers on which parts of the site they are allowed or disallowed to access. This is particularly important for managing server load, protecting sensitive information, and ensuring that search engines index content appropriately.
 
 The syntax of a robots.txt file is straightforward. It typically includes the following components:
@@ -11,16 +11,49 @@ The syntax of a robots.txt file is straightforward. It typically includes the fo
 * *Disallow* indicates which directories or pages the bot is not allowed to access. For example, `Disallow: /private/` prevents the bot from accessing the /private/ directory.
 * *Allow* specifies exceptions to the disallow rules. For example, `Allow: /public/` permits access to the /public/ directory even if a broader disallow rule is in place.
 
-### Our Project: analyzing robots.txt files of news websites
 With the increasing use of LLM agents in search functionalities, it is essential to understand how websites, particularly news platforms, are responding to these new "visitors." To this end, we analyzed the robots.txt files of 100 of the most popular news websites worldwide. Our goal was to identify which LLM agents are explicitly disallowed from accessing these sites and to understand the implications of such restrictions.
 
-Methodology:
-* data collection: we compiled a list of the top 100 news websites based on global traffic rankings.
-* robots.txt extraction: for each website, we retrieved the robots.txt file from the root directory.
-* agents identification: we parsed the robots.txt files to extract the names of agents that are disallowed from accessing the sites.
+## Findings
+A significant number of news websites disallow certain LLM agents from accessing their content: **74% now disallow at least one AI bot**.
 
-### Findings
-A significant number of news websites disallow certain LLM agents from accessing their content.
+#### Methodology  
+1. Crawling `robots.txt` files  
+   - Using `robots_crawler.py`, I fetched `robots.txt` files for all 100 websites.
+   - Input - the top 100 news websites from *Ahrefs' News Rankings* (stored in `news_best_100.csv`).  
+   - Process - automated requests to each website’s `robots.txt`, saved to `robots_txt_[DATE]_agents.csv`.  
+
+2. Extracting disallowed bots  
+   - Script - `robots_analyzer.py`  
+   - Logic - identified entries where `User-agent: [Bot]` was followed by `Disallow: /`.  
+   - Output - a dataset (`disallowed_bots.csv`) listing blocked bots per website.  
+
+3. Analysis  
+   - Jupyter Notebooks - `disallowed_analyzer_[MONTH_YEAR].ipynb`.  
+   - Key Metrics - percentage of websites blocking AI bots, most-blocked AI agents, websites with the strictest policies.  
+
+A predefined list (`list_ai.txt`) included 42 AI-related crawlers.
+
+
+## Results 
+- 74% of Websites (45/61 unique domains) blocked at least one AI bot.  
+- 34% of All Disallowed Bots were AI-related (644/1882 entries in May 2026).  
+
+### Top blocked AI bots  
+| Rank | Bot                | Blocked By |  
+|------|---------------------|------------|  
+| 1    | GPTBot (OpenAI)    | 39 sites   |
+| 2    | ClaudeBot       | 37 sites   |  
+| 3    | anthropic-ai | 35 sites   |  
+
+### Most protective news websites  
+| Website         | AI Bots Blocked |  
+|-----------------|-----------------|  
+| ouest-france.fr      | 33              |  
+| globo.com    | 25              |  
+| haber7.com     | 25              |  
+
+
+---  
 
 Here is a [list of bots](data/list_ai.txt), agents, and crawlers used by AI companies, extracted from the provided data and gathered from the official AI developers websites:
 
