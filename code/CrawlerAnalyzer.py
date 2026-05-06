@@ -7,6 +7,11 @@ from datetime import date
 from tqdm import tqdm
 from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 
+ROOT = Path(__file__).resolve().parent.parent  # go from /code → repo root
+DATA_PATH = ROOT / "data"
+LIST_PATH = ROOT / "list"
+TEMPLATE_PATH = ROOT / "template"
+
 headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"}
 url = 'https://ahrefs.com/websites/news'
 
@@ -18,7 +23,7 @@ def crawle_news():
     soup = BeautifulSoup(html, 'html.parser')
     date = soup.find("span", class_="text-[var(--color-text-secondary)] text-[length:var(--font-size-body)] leading-[var(--line-height-body)]")
     folder_name = date.text.strip().replace(' ','_')
-    Path("../data", folder_name).mkdir(parents=True, exist_ok=True)
+    (DATA_PATH / folder_name).mkdir(parents=True, exist_ok=True)
     table = soup.find("table", id="websites-table")
     headers = [header.text.strip() for header in table.find_all("th")]
     headers = [header.text for header in table.find_all("th")]
@@ -42,7 +47,7 @@ def crawle_news():
     dataframe = pd.DataFrame(rows, columns=result)
     dataframe.drop(columns = ['Rank by estimated organic search traffic'], inplace=True)
     dataframe['Search traffic'] = [dataframe['Search traffic'][i].split()[0] for i in range(len(dataframe))]
-    dataframe.to_csv(f"data/{folder_name}/news_best_100.csv")
+    dataframe.to_csv(DATA_PATH / folder_name / "news_best_100.csv")
     return dataframe, folder_name
 
 
@@ -50,7 +55,7 @@ def crawle_robots_txt(dataframe, folder_name):
     for i in tqdm(range(len(dataframe))):
         try:
             url = f"https://www.{dataframe['Website'].iloc[i]}/robots.txt"
-            response = requests.get(url, headers=headers)
+            response = requests.get(url, headers=headers, timeout=10)
             if response.status_code != 200: 
                 print(f"Error: Failed to retrieve page for url {url}. Status code: {response.status_code}")
                 continue
@@ -65,14 +70,11 @@ def crawle_robots_txt(dataframe, folder_name):
         except TooManyRedirects:
             print(f"Too many redirects for {url}. Check the URL or handle redirects manually.")
             continue
-        except TooManyRedirects as e:
-            print(f"An unexpected error occurred for {url}: {e}")
-            continue
-    dataframe.to_csv(f'data/{folder_name}/robots_txt_agents.csv')
+    dataframe.to_csv(DATA_PATH / folder_name / "robots_txt_agents.csv")
     return dataframe
 
 def analyze_robots_txt(dataframe, folder_name):
-    output_path = Path(f"data/{folder_name}")
+    output_path = DATA_PATH / folder_name
     output_file = output_path / "disallowed_bots.csv"
 
     robots_texts = dataframe
@@ -112,7 +114,7 @@ def analyze_robots_txt(dataframe, folder_name):
     return df
 
 def analyze_txt_and_create_readme(df, folder_name):
-    list_ai = pd.read_table('list/list_ai.txt', header = None)
+    list_ai = pd.read_table(LIST_PATH / "list_ai.txt", header=None)
     list_file_length = len(list_ai)
 
     df['ai'] = int(0)
@@ -147,7 +149,7 @@ def analyze_txt_and_create_readme(df, folder_name):
     ai_share = ai_bots / total_bots * 100
 
     # Read template
-    with open('template/template.md', 'r') as f:
+    with open(TEMPLATE_PATH / "template.md", "r") as f:
         content = f.read()
 
     # Replace placeholders
@@ -163,7 +165,7 @@ def analyze_txt_and_create_readme(df, folder_name):
     content = content.replace('{{list_file_length}}', str(list_file_length))
 
     # Write final output
-    with open('readme.md', 'w') as f:
+    with open(ROOT / "README.md", "w") as f:
         f.write(content)
 
 def main():
