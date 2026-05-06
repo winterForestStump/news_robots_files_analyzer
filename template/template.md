@@ -12,37 +12,25 @@ The syntax of a robots.txt file is straightforward. It typically includes the fo
 * *Allow* specifies exceptions to the disallow rules. For example, `Allow: /public/` permits access to the /public/ directory even if a broader disallow rule is in place.
 
 ## Findings
-A significant number of news websites disallow certain LLM agents from accessing their content: 77% now disallow at least one AI bot.
+A significant number of news websites disallow certain LLM agents from accessing their content: {{percentage}} now disallow at least one AI bot.
 
 Methodology: 
 1. Fetch robots.txt files for the top 100 news websites from *Ahrefs' News Rankings* (stored in `news_best_100.csv`) 
 2. Identify entries where `User-agent: [Bot]` was followed by `Disallow: /` (`disallowed_bots.csv` lists blocked bots per website)
 3. Present results here, in readme.md file: percentage of websites blocking AI bots, most-blocked AI agents, websites with the strictest policies.  
 
-A predefined list (`list_ai.txt`) includs 42 AI-related crawlers (can be found at the bottom of the text)
+A predefined list (`list_ai.txt`) includs {{list_file_length}} AI-related crawlers (can be found at the bottom of the text)
 
 
 ## Results 
-- 77% of websites (48/62 unique domains) block at least one AI bot.  
-- 32% of All Disallowed Bots are AI-related (688/2144 entries in April_2026).  
+- {{percentage}} of websites ({{websites_with_ai}}/{{total_websites}} unique domains) block at least one AI bot.  
+- {{ai_share}} of All Disallowed Bots are AI-related ({{ai_bots}}/{{total_bots}} entries in {{folder_name}}).  
 
 ### Top blocked AI bots  
-| Disallowed Bot   |   Count |
-|:-----------------|--------:|
-| GPTBot           |      40 |
-| ClaudeBot        |      38 |
-| CCBot            |      37 |
-| anthropic-ai     |      36 |
-| Bytespider       |      34 |
+{{top_ai_bots_md}}
 
 ### Most protective news websites  
-| Website      |   Count |
-|:-------------|--------:|
-| usatoday.com |      33 |
-| nytimes.com  |      25 |
-| iltalehti.fi |      25 |
-| lemonde.fr   |      24 |
-| uol.com.br   |      24 |
+{{top_websites_ai_md}}
 
 
 ---  
