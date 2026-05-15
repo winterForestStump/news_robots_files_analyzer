@@ -24,7 +24,7 @@ A predefined list (`list_ai.txt`) includs 42 AI-related crawlers (can be found a
 
 ## Results 
 - 78% of websites (46/59 unique domains) block at least one AI bot.  
-- 31% of All Disallowed Bots are AI-related (654/2096 entries in April_2026).  
+- 31% of All Disallowed Bots are AI-related (656/2118 entries in April_2026).  
 
 ### Top blocked AI bots  
 | Disallowed Bot   |   Count |
