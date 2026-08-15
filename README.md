@@ -24,16 +24,16 @@ A predefined list (`list_ai.txt`) includs 42 AI-related crawlers (can be found a
 
 ## Results 
 - 75% of websites (45/60 unique domains) block at least one AI bot.  
-- 26% of All Disallowed Bots are AI-related (598/2262 entries in July_2026).  
+- 25% of All Disallowed Bots are AI-related (591/2348 entries in July_2026).  
 
 ### Top blocked AI bots  
 | Disallowed Bot   |   Count |
 |:-----------------|--------:|
-| GPTBot           |      34 |
-| anthropic-ai     |      32 |
-| ClaudeBot        |      32 |
+| GPTBot           |      35 |
 | CCBot            |      31 |
-| Bytespider       |      29 |
+| anthropic-ai     |      31 |
+| ClaudeBot        |      31 |
+| cohere-ai        |      27 |
 
 ### Most protective news websites  
 | Website      |   Count |
@@ -42,7 +42,7 @@ A predefined list (`list_ai.txt`) includs 42 AI-related crawlers (can be found a
 | iltalehti.fi |      30 |
 | nytimes.com  |      25 |
 | nypost.com   |      23 |
-| dw.com       |      23 |
+| spiegel.de   |      23 |
 
 
 ---  

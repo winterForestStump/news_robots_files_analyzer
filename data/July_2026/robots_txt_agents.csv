@@ -1,5 +1,5 @@
-,Rank,Website,Category,Search traffic,"Estimated monthly organic search visits, with change from the previous month",robots
-0,1,yahoo.com,News,301.2M,-10.8M,"User-agent: *
+,Rank,Website,Category,Search traffic,"Estimated monthly organic search visits, with change from the previous month",Watch,robots
+0,1,yahoo.com,News,301.2M,-10.8M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Disallow: /info/p.gif
 Disallow: /p/
 Disallow: /r/
@@ -75,7 +75,7 @@ Sitemap: https://www.yahoo.com/news/weather/sitemap.xml
 Sitemap: https://www.yahoo.com/news-sitemap-index.xml
 Sitemap: https://www.yahoo.com/sitemap-index.xml
 "
-1,2,globo.com,News,257.3M,+37M,"#
+1,2,globo.com,News,257.3M,+37M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"#
 # robots.txt
 #
 
@@ -107,7 +107,7 @@ Disallow: /
 ######
 
 "
-2,3,nytimes.com,News,158.6M,-11.3M,"# New York Times content is made available for your personal, non-commercial
+2,3,nytimes.com,News,158.6M,-11.3M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"# New York Times content is made available for your personal, non-commercial
 # use subject to our Terms of Service here:
 # https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-Service.
 # Use of any device, tool, or process designed to data mine or scrape the content
@@ -249,7 +249,7 @@ Disallow: /athletic/*?*embed=1
 User-agent: AliyunSecBot
 Disallow: /
 
-User-agent: AmazonBot
+User-agent: Amazonbot
 Disallow: /wirecutter/
 
 User-agent: anthropic-ai
@@ -452,8 +452,8 @@ Sitemap: https://www.nytimes.com/athletic/sitemap-roster.xml
 Sitemap: https://www.nytimes.com/athletic/sitemap.xml
 Sitemap: https://www.nytimes.com/games-assets/v2/assets/sitemap/games.xml
 "
-3,4,bbc.co.uk,News,133.3M,+2.5M,"
-# version: 639936d0986d41192594c2578b90fa570430630d
+3,4,bbc.co.uk,News,133.3M,+2.5M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"
+# version: a294511aea2df10f410588a60a9157e46ab994a2
 # The BBC's Terms of Use: https://www.bbc.co.uk/terms
 # - Explain the rules for using our services
 # - Tell you what you can do with our content
@@ -664,8 +664,8 @@ Disallow: /
 User-agent: AhrefsBot
 Disallow: /
 "
-4,5,bbc.com,News,93.6M,+7M,"
-# version: 639936d0986d41192594c2578b90fa570430630d
+4,5,bbc.com,News,93.6M,+7M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"
+# version: a294511aea2df10f410588a60a9157e46ab994a2
 # The BBC's Terms of Use: https://www.bbc.co.uk/terms
 # - Explain the rules for using our services
 # - Tell you what you can do with our content
@@ -692,8 +692,9 @@ Sitemap: https://www.bbc.com/sitemaps/https-index-com-news.xml
 Sitemap: https://www.bbc.com/sitemaps/https-index-com-archive_video.xml
 Sitemap: https://www.bbc.com/sitemaps/https-index-com-video.xml
 Sitemap: https://www.bbc.com/sitemaps/sitemap-com-ws-topics.xml
-Sitemap: https://www.bbc.com/sport/sitemap.xml
 Sitemap: https://www.bbc.com/sitemaps/sitemap-com-ws-topics.xml
+Sitemap: https://www.bbc.com/sitemaps/world-service-homepages.xml
+Sitemap: https://www.bbc.com/sport/sitemap.xml
 Sitemap: https://www.bbc.com/afrique/sitemap.xml
 Sitemap: https://www.bbc.com/arabic/sitemap.xml
 Sitemap: https://www.bbc.com/bengali/sitemap.xml
@@ -813,12 +814,18 @@ Disallow: /
 
 User-agent: GPTBot
 Disallow: /
+Allow: /storyworks
+Allow: /storyworks/
 
 User-agent: ChatGPT-User
 Disallow: /
+Allow: /storyworks
+Allow: /storyworks/
 
 User-agent: Google-Extended
 Disallow: /
+Allow: /storyworks
+Allow: /storyworks/
 
 User-Agent: PerplexityBot
 Disallow: /
@@ -889,7 +896,7 @@ Disallow: /
 User-agent: AhrefsBot
 Disallow: /
 "
-5,6,uol.com.br,News,73.8M,-7.1M,"# robots.txt
+5,6,uol.com.br,News,73.8M,-7.1M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"# robots.txt
 #
 User-agent: *
 Sitemap: https://www.uol.com.br/carros/sitemap/v2/news-01.xml
@@ -903,6 +910,8 @@ Sitemap: https://www.uol.com.br/vivabem/sitemap/v2/news-01.xml
 Sitemap: https://c.jsuol.com.br/assets/jupiter-news/?resource-id=sitemap&source=toca/index.xml
 Allow: /
 Disallow: /carros/dev/
+Disallow: /*?uol_app
+Disallow: /*?*&uol_app
 User-agent: Google-Extended
 Disallow: /
 Allow: /.ghtm$
@@ -1003,7 +1012,7 @@ Disallow: /
 User-agent: YouBot
 Disallow: /
 "
-6,7,hurriyet.com.tr,News,49.5M,-1.7M,"User-agent:*
+6,7,hurriyet.com.tr,News,49.5M,-1.7M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent:*
 Disallow: /ad/
 Disallow: /api/
 Disallow: /arkadasimamektup/
@@ -1051,12 +1060,12 @@ Disallow: /
 
 User-agent: AmazonAdBot
 Allow: /"
-7,8,sambad.com,News,44.3M,+44.2M,"User-agent: *
+7,8,sambad.com,News,44.3M,+44.2M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Disallow:
 
 Sitemap: https://sambad.com/sitemapnew.xml
 "
-8,9,conectate.com.do,News,42.4M,+9.9M,"User-agent: *
+8,9,conectate.com.do,News,42.4M,+9.9M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 
 Allow: /wp-content/uploads/
 Allow: /wp-admin/admin-ajax.php
@@ -1067,13 +1076,13 @@ Disallow: /page
 Disallow: /wp_cron.php
 Disallow: /xmlrpc.php
 "
-9,10,interia.pl,News,41.8M,+342.8K,"User-agent: *
+9,10,interia.pl,News,41.8M,+342.8K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 
 Allow:/
 
 User-agent: grapeshot
 Disallow: /"
-10,11,cnn.com,News,37M,+345.1K,"Sitemap: https://www.cnn.com/sitemap/news.xml
+10,11,cnn.com,News,37M,+345.1K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"Sitemap: https://www.cnn.com/sitemap/news.xml
 Sitemap: https://www.cnn.com/sitemap/article/cnn-underscored.xml
 Sitemap: https://www.cnn.com/sitemap/section/cnn-underscored.xml
 Sitemap: https://www.cnn.com/sitemap/section/politics.xml
@@ -1203,7 +1212,7 @@ Disallow: /webview/
 User-agent: Googlebot-News
 Disallow: /sponsor
 "
-11,12,detik.com,News,34.3M,-3.4M,"User-agent: Googlebot
+11,12,detik.com,News,34.3M,-3.4M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: Googlebot
 Disallow: */main$
 Disallow: */main/*
 Disallow: /ajax/
@@ -1225,7 +1234,7 @@ User-agent: *
 Allow: /
 Sitemap: https://www.detik.com/sitemap.xml
 "
-12,13,foxnews.com,News,31M,+437.7K,"User-agent: *
+12,13,foxnews.com,News,31M,+437.7K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Disallow: /api/article-search
 Disallow: /search-results/
 Disallow: /video-search/
@@ -1238,7 +1247,7 @@ Disallow: /xid
 Sitemap: https://www.foxnews.com/sitemap.xml
 Sitemap: https://www.foxnews.com/sitemap.xml?type=news
 "
-13,14,wp.pl,News,31M,-657.2K,"User-agent: *
+13,14,wp.pl,News,31M,-657.2K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Disallow: /kodyrabatowe/*?category=
 Disallow: /kodyrabatowe/*?s=
 Disallow: /kodyrabatowe/*?letter=
@@ -1269,7 +1278,7 @@ Allow: /
 
 User-agent: ChatGPT-User
 Allow: /"
-14,15,theguardian.com,News,26M,-502.5K,"# This is the robots.txt file for theguardian.com
+14,15,theguardian.com,News,26M,-502.5K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"# This is the robots.txt file for theguardian.com
 
 # Guardian content is made available under our terms and conditions of use.
 # Any other uses are not permitted, incl. but not limited to: for large language
@@ -1374,7 +1383,7 @@ Disallow: /
 
 License: https://theguardian.com/license.xml
 "
-15,16,msn.com,News,24.6M,-3M,"User-agent: *
+15,16,msn.com,News,24.6M,-3M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Disallow: /*/health/search/filter
 Disallow: /spartan
 Disallow: /pt-ao
@@ -1506,6 +1515,9 @@ Allow: /
 User-agent: TTD-Content
 Allow: /
 
+User-agent: AmazonAdBot
+Allow: /
+
 User-agent: AI2Bot
 User-agent: Ai2Bot-Dolma
 User-agent: Amazonbot
@@ -1579,7 +1591,7 @@ Sitemap: https://www.msn.com/sitemaps/health/health-sitemap-index.xml
 Sitemap: https://www.msn.com/staticsb/statics/latest/0/casualgames/sitemaps/sitemap-index.xml
 Sitemap: https://www.msn.com/staticsb/statics/latest/0/finance/sitemaps/sitemap-index.xml
 Sitemap: https://www.msn.com/sitemaps/weather/sitemap-index.xml"
-16,17,bild.de,News,24M,+1.7M,"License: https://www.bild.de/rsl.xml
+16,17,bild.de,News,24M,+1.7M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"License: https://www.bild.de/rsl.xml
 
 User-agent: AhrefsBot
 User-agent: AI2Bot
@@ -1705,6 +1717,10 @@ Disallow: /energieloesungen/vergleich/go/
 Disallow: /leben-im-alter/*-form/
 Disallow: /leben-im-alter/go/
 Disallow: /cmsid/
+Disallow: /buehne/
+Disallow: /sonstiges/intern/
+Disallow: /vorprod/
+Disallow: /vorproduktion/
 
 # Sitemaps
 Sitemap: https://www.bild.de/sitemap-news.xml
@@ -1712,7 +1728,7 @@ Sitemap: https://www.bild.de/sitemap-video.xml
 Sitemap: https://www.bild.de/sitemap-index.xml
 Sitemap: https://www.bild.de/sitemap-category.xml
 "
-17,18,milliyet.com.tr,News,23M,+663.7K,"User-agent: *
+17,18,milliyet.com.tr,News,23M,+663.7K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Disallow: /root/*
 Disallow: /arama/
 Disallow: /Milliyet.aspx
@@ -1749,7 +1765,7 @@ Disallow: /
 
 User-agent: TurnitinBot
 Disallow: /"
-18,19,ouest-france.fr,News,20.8M,-41.1K,"# Allowed search engines directives
+18,19,ouest-france.fr,News,20.8M,-41.1K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"# Allowed search engines directives
 User-agent: Mediapartners-Google
 User-agent: Googlebot
 User-agent: Googlebot-Image
@@ -1821,6 +1837,7 @@ Disallow: /filter/tips/
 Disallow: /install.php
 Disallow: /jeux-olympiques/resultats/*/?*
 Disallow: /mail?type*
+Disallow: /meteo/*/?date=* 
 Disallow: /obseques/search/
 Disallow: /publication-statics/
 Disallow: /recherche/
@@ -2193,8 +2210,8 @@ Disallow: /
 
 User-agent: *
 Disallow: /"
-19,20,ndtv.com,News,19M,-3M,
-20,21,sabah.com.tr,News,19M,-823.9K,"User-agent: *
+19,20,ndtv.com,News,19M,-3M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,
+20,21,sabah.com.tr,News,19M,-823.9K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 
 Sitemap: https://www.sabah.com.tr/sitemap/news.xml
 Sitemap: https://www.sabah.com.tr/sitemap/index.xml
@@ -2235,7 +2252,7 @@ Disallow: /secim/
 Disallow: *getcandidatetopinfo*
 
 Content-Signal: search=yes, ai-input=yes, ai-train=no"
-21,22,corriere.it,News,18M,-1.8M,"# Inizio Bot Exclusion Protocol
+21,22,corriere.it,News,18M,-1.8M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"# Inizio Bot Exclusion Protocol
 User-agent: GPTBot
 Disallow: /
 User-agent: CCBot
@@ -2271,6 +2288,12 @@ Disallow: /
 User-agent: YouBot
 Disallow: /
 User-agent: Timpibot
+Disallow: /
+User-agent: NovriumRanker
+Disallow: /
+User-agent: Stucco5000
+Disallow: /
+User-agent: Baiduspider
 Disallow: /
 # Fine Bot Exclusion Protocol
 
@@ -2466,7 +2489,7 @@ Sitemap: https://www.corriere.it/dynamic-sitemap/sitemap-last-100/Cultura.xml
 
 
 "
-22,23,haberler.com,News,17.7M,-1.4M,"User-agent: *
+22,23,haberler.com,News,17.7M,-1.4M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Allow: /
 Allow: /*/*-haberi/*
 
@@ -2490,180 +2513,128 @@ Disallow: *wlwmanifest.xml
 Disallow: /feed/
 Disallow: /cdn-cgi/
 
-Sitemap: https://www.haberler.com/sitemap_google_news.xml"
-23,24,vnexpress.net,News,16.6M,+237.7K,"User-agent: *
+Sitemap: https://www.haberler.com/sitemap_google_news.xml
+Sitemap: https://www.haberler.com/sitemap.xml
+Sitemap: https://www.haberler.com/konu_sitemap.xml
+Sitemap: https://www.haberler.com/kategori_sitemap.xml
+Sitemap: https://www.haberler.com/terimler_sitemap.xml"
+23,24,vnexpress.net,News,16.6M,+237.7K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Allow: /
 Allow: /ads.txt
-Disallow: /.well-known/amphtml/apikey.pub
+
 Sitemap: https://vnexpress.net/sitemap.xml
 Sitemap: https://vnexpress.net/google-news-sitemap.xml
 Sitemap: https://vnexpress.net/images-2026-sitemap.xml
 
-User-agent: AliyunSecBot
+User-agent: GPTBot
 Disallow: /
-
-User-agent: AmazonBot
-Disallow: /wirecutter/
-
+User-agent: ClaudeBot
+Disallow: /
+User-agent: Claude-Web
+Disallow: /
+User-agent: Google-Extended
+Disallow: /
+User-agent: Google-CloudVertexBot
+Disallow: /
+User-agent: Applebot-Extended
+Disallow: /
+User-agent: CCBot
+Disallow: /
+User-agent: Bytespider
+Disallow: /
+User-agent: cohere-ai
+Disallow: /
+User-agent: ImagesiftBot
+Disallow: /
+User-agent: MyCentralAIScraperBot
+Disallow: /
+User-agent: SeekrBot
+Disallow: /
+User-agent: omgili
+User-agent: omgilibot
+Disallow: /
+User-agent: news-please
+Disallow: /
 User-agent: anthropic-ai
 Disallow: /
 
-User-agent: Applebot-Extended
-Disallow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: Claude-User
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Perplexity-User
+Allow: /
+User-agent: DuckAssistBot
+Allow: /
 
+User-agent: Bingbot
+Allow: /
+User-agent: Baiduspider
+Allow: /
+User-agent: Slurp
+Allow: /
+
+User-agent: AliyunSecBot
+Disallow: /
+User-agent: AmazonBot
+Disallow: /
 User-agent: archive.org_bot
 Disallow: /
-
 User-agent: AudigentAdBot
 Disallow: /
-
 User-agent: AwarioRssBot
 User-agent: AwarioSmartBot
 Disallow: /
-
 User-agent: BLEXBot
 Disallow: /
-
-User-agent: Bytespider
-Disallow: /
-
-User-agent: CCBot
-Disallow: /
-
-User-agent: ChatGPT-User
-Disallow: /
-
-User-agent: ClaudeBot
-Disallow: /
-
-User-agent: Claude-SearchBot
-Disallow: /
-
-User-agent: Claude-User
-Disallow: /
-
-User-agent: Claude-Web
-Disallow: /
-
-User-agent: cohere-ai
-Disallow: /
-
 User-agent: DataForSeoBot
 Disallow: /
-
 User-agent: Diffbot
 Disallow: /
-
-User-agent: DuckAssistBot
-Disallow: /
-
 User-agent: EchoboxBot
 Disallow: /
-
-
 User-agent: FriendlyCrawler
 Disallow: /
-
-User-agent: Baiduspider
-Disallow: /
-
-User-agent: Bingbot
-Disallow: /
-
-User-agent: Slurp
-Disallow: /
-
-User-agent: GPTBot
-Disallow: /
-
-User-agent: ImagesiftBot
-Disallow: /
-
 User-agent: Jetslide
 Disallow: /
-
 User-agent: magpie-crawler
 Disallow: /
-
-
-User-agent: MyCentralAIScraperBot
-Disallow: /
-
 User-agent: NewsNow
 Disallow: /
-
-User-agent: news-please
-Disallow: /
-
-User-agent: OAI-SearchBot
-Disallow: /
-
-User-agent: omgili
-Disallow: /
-
-User-agent: omgilibot
-Disallow: /
-
 User-agent: peer39_crawler
 User-agent: peer39_crawler/1.0
 Disallow: /
-
-User-agent: PerplexityBot
-Disallow: /
-
-User-agent: Perplexity-User
-Disallow: /
-
 User-agent: Poseidon Research Crawler
 Disallow: /
-
 User-agent: quillbot.com
 Disallow: /
-
 User-agent: Quora-Bot
 Disallow: /
-
 User-agent: Scrapy
 Disallow: /
-
-User-agent: SeekrBot
-Disallow: /
-
 User-agent: SeznamHomepageCrawler
 Disallow: /
-
 User-agent: TaraGroup Intelligent Bot
 Disallow: /
-
 User-agent: Timpibot
 Disallow: /
-
 User-agent: TurnitinBot
 Disallow: /
-
 User-agent: ViennaTinyBot
 Disallow: /
-
 User-agent: YouBot
 Disallow: /
 
-User-agent: Google-Extended
-Disallow: /
-
-User-agent: Google-CloudVertexBot
-Disallow: /
-
-# Social Bot Rules
-
 User-agent: facebookexternalhit
 Allow: /
-
-
-
-
-
 "
-24,25,lefigaro.fr,News,15.8M,+176.1K,"#         :.
+24,25,lefigaro.fr,News,15.8M,+176.1K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"#         :.
 #         ++.
 #        .+**:
 #        .+****.
@@ -2721,6 +2692,7 @@ User-agent: ChatGPT-User
 Allow: /voyages
 Allow: /culture
 Allow: /style
+Allow: /beaute
 Allow: /bons-plans
 Allow: /elections/resultats
 Disallow: /
@@ -2741,6 +2713,7 @@ User-agent: OAI-SearchBot
 Allow: /voyages
 Allow: /culture
 Allow: /style
+Allow: /beaute
 Allow: /bons-plans
 Allow: /elections/resultats
 Disallow: /
@@ -2791,9 +2764,6 @@ User-agent: CloudVertexBot
 Disallow: /
 
 User-agent: anthropic-ai
-Disallow: /
-
-User-agent: Bytespider
 Disallow: /
 
 User-agent: CCBot
@@ -3501,7 +3471,7 @@ Sitemap: https://sitemaps.lefigaro.fr/lefigaro.fr/topics.xml
 Sitemap: https://www.lefigaro.fr/sitemap_news.xml
 Sitemap: https://sitemaps.lefigaro.fr/lefigaro.fr/elections/resultats/sitemap.xml
 Sitemap: https://static.lefigaro.fr/f1/lefigaro/sitemaps/robots-service.txt"
-25,26,24h.com.vn,News,15M,+47.4K,"#User-agent: *
+25,26,24h.com.vn,News,15M,+47.4K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"#User-agent: *
 #Disallow: /
 
 User-agent: *
@@ -3519,7 +3489,7 @@ Disallow: /ajax/
 Disallow: /*recommend-video_news
 Sitemap: https://www.24h.com.vn/sitemap-index.xml
 "
-26,27,infobae.com,News,15M,-1.4M,"User-agent: *
+26,27,infobae.com,News,15M,-1.4M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 
 Sitemap: https://www.infobae.com/arc/outboundfeeds/sitemap2/
 Sitemap: https://www.infobae.com/arc/outboundfeeds/news-sitemap2/
@@ -3540,7 +3510,7 @@ Sitemap: https://www.infobae.com/arc/outboundfeeds/news-sitemap/category/peru/
 Sitemap: https://www.infobae.com/arc/outboundfeeds/sitemap/category/peru/
 
 Disallow: /buscador"
-27,28,usnews.com,News,15M,-238.7K,"User-agent: *
+27,28,usnews.com,News,15M,-238.7K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Disallow: /search
 
 User-agent: *
@@ -3754,77 +3724,106 @@ Disallow: /
 User-agent: ZanistaBot
 Disallow: /
 
+User-agent: KimiBot
+Disallow: /
+
+User-agent: Kimi-SearchBot
+Disallow: /
+
+User-agent: Kimi-User
+Disallow: /
+
 User-Agent: *
 sitemap: https://www.usnews.com/news/editorial-sitemap.xml
 sitemap: https://www.usnews.com/news-sitemap.xml
 sitemap: https://deals.usnews.com/sitemap.xml
 "
-28,29,hindustantimes.com,News,14M,+64.7K,"ï»¿User-agent: *
+28,29,hindustantimes.com,News,14M,+64.7K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"ï»¿User-agent: *
+User-agent: Googlebot
+User-agent: AdsBot-Google
+User-agent: Mediapartners-Google
+User-agent: Google-Extended
+User-agent: AmazonAdBot
 Allow: /
 Disallow: /what-now/card-details/
-Disallow: /*/url
+Disallow: /*/url*
 Disallow: /*/imageURL
 Disallow: /fragment/
 Disallow: /Fragment/
 Disallow: /Error/
 Disallow: /error/
+Disallow: /login/
 Disallow: /intfeeds/
 Disallow: /Images/HTEditImages
 Disallow: /images/HTPopups/
 Disallow: /Images/Popup/
-Disallow: /images/Popup/
 Disallow: /homenew
-Disallow: /dummytestpage/*
+Disallow: /dummytestpage/
 Disallow: /brand-stories/international/*
-Disallow: /origin-pre-prod/*
-Disallow: /sponsored-stories/*
-Disallow: /brand-stories/*
-Disallow: /brand-post/*
-Disallow: /static-content/10s/us-election.html
-Disallow: /cdp/api/*
-Disallow: /cdp/user/*
-Disallow: /sponsored-post/*
-Disallow: /hot-amazon-deals
-Disallow: /s/*
-Disallow: /static-content/1y/pf/prod/sdk/cir_sdk.js
-Disallow: /static_ontent/1y/got/amp_onetap_iframe.html
+Disallow: /origin-pre-prod/
+Disallow: /sponsored-stories/
+Disallow: /brand-stories/
+Disallow: /brand-post/
+Disallow: /cdp/api*
+Disallow: /cdp/user*
+Disallow: /sponsored-post/
+Disallow: /hot-amazon-deals*
+Disallow: /s/deeplink*
+Disallow: /s/
+Disallow: /static-content/1y*
+Disallow: /static_content/1y*
+Disallow: /my-ht/
+Disallow: /games/trivia
+Disallow: /trivia/
+Disallow: /author/*/page-*
+
+User-agent: Googlebot-News
+Allow: /
+Disallow: /what-now/card-details/
+Disallow: /*/url*
+Disallow: /*/imageURL
+Disallow: /fragment/
+Disallow: /Fragment/
+Disallow: /Error/
+Disallow: /error/
+Disallow: /login/
+Disallow: /intfeeds/
+Disallow: /Images/HTEditImages
+Disallow: /images/HTPopups/
+Disallow: /Images/Popup/
+Disallow: /homenew
+Disallow: /dummytestpage/
+Disallow: /brand-stories/international/*
+Disallow: /origin-pre-prod/
+Disallow: /sponsored-stories/
+Disallow: /brand-stories/
+Disallow: /brand-post/
+Disallow: /cdp/api*
+Disallow: /cdp/user*
+Disallow: /sponsored-post/
+Disallow: /hot-amazon-deals*
+Disallow: /s/deeplink*
+Disallow: /s/
+Disallow: /static-content/1y*
+Disallow: /static_content/1y*
 Disallow: /my-ht/*
-Disallow: /games/trivia/*
-
-
+Disallow: /games/trivia*
+Disallow: /trivia/*
+Disallow: /author/*/page-*
 
 
 User-agent: facebookexternalhit
-Allow: /s/*
-
-
 User-agent: Facebot
-Allow: /s/*
+Allow: /s/
 
-User-agent: Google-Extended
-Allow: /
-
-User-agent: AmazonAdBot
-Allow: /
-
-User-agent: AdsBot-Google
-Allow: /
-
-User-agent: Mediapartners-Google
-Allow: /
-
-
-
-
-
-Sitemap: https://www.hindustantimes.com/sitemap/section.xml
 Sitemap: https://www.hindustantimes.com/sitemap/news.xml
 Sitemap: https://www.hindustantimes.com/sitemap/index.xml
 Sitemap: https://www.hindustantimes.com/sitemap/liveblog.xml
+Sitemap: https://www.hindustantimes.com/sitemap/section.xml
 Sitemap: https://www.hindustantimes.com/sitemap/education-static.xml
 Sitemap: https://www.hindustantimes.com/telugu/sitemap/news.xml
 Sitemap: https://www.hindustantimes.com/bangla/sitemap/news.xml"
-29,30,usatoday.com,News,14M,-2M,"# robots.txt file for https://www.usatoday.com/
+29,30,usatoday.com,News,14M,-2M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"# robots.txt file for https://www.usatoday.com/
 
 User-agent: anthropic-ai
 Disallow: /
@@ -3860,7 +3859,10 @@ User-agent: ChatGPT-User
 Disallow: /
 Allow: /contributor-content/
 Allow: /story/special/contributor-content/
+Allow: /money/money-management/
 Allow: /shopping/
+Allow: /story/shopping/
+Allow: /story/sponsor-story/real-estate-ausa/2026/04/16/sell-your-home-for-top-dollar-by-beating-back-to-school-deadlines/89482853007/
 
 User-agent: Googlebot-News
 Disallow: /story/sponsor-story/
@@ -3875,7 +3877,10 @@ User-agent: GPTBot
 Disallow: /
 Allow: /contributor-content/
 Allow: /story/special/contributor-content/
+Allow: /money/money-management/
 Allow: /shopping/
+Allow: /story/shopping/
+Allow: /story/sponsor-story/real-estate-ausa/2026/04/16/sell-your-home-for-top-dollar-by-beating-back-to-school-deadlines/89482853007/
 
 User-agent: CCBot
 Disallow: /
@@ -3884,7 +3889,10 @@ User-agent: Google-Extended
 Disallow: /
 Allow: /contributor-content/
 Allow: /story/special/contributor-content/
+Allow: /money/money-management/
 Allow: /shopping/
+Allow: /story/shopping/
+Allow: /story/sponsor-story/real-estate-ausa/2026/04/16/sell-your-home-for-top-dollar-by-beating-back-to-school-deadlines/89482853007/
 
 User-agent: DataForSeoBot
 Disallow: /
@@ -3926,7 +3934,10 @@ User-agent: PerplexityBot
 Disallow: /
 Allow: /contributor-content/
 Allow: /story/special/contributor-content/
+Allow: /money/money-management/
 Allow: /shopping/
+Allow: /story/shopping/
+Allow: /story/sponsor-story/real-estate-ausa/2026/04/16/sell-your-home-for-top-dollar-by-beating-back-to-school-deadlines/89482853007/
 
 User-agent: Scrapy
 Disallow: /
@@ -3947,7 +3958,10 @@ User-agent: OAI-SearchBot
 Disallow: /
 Allow: /contributor-content/
 Allow: /story/special/contributor-content/
+Allow: /money/money-management/
 Allow: /shopping/
+Allow: /story/shopping/
+Allow: /story/sponsor-story/real-estate-ausa/2026/04/16/sell-your-home-for-top-dollar-by-beating-back-to-school-deadlines/89482853007/
 
 User-agent: Bytespider
 Disallow: /
@@ -4178,7 +4192,10 @@ User-agent: ChatGPT Operator
 Disallow: /
 Allow: /contributor-content/
 Allow: /story/special/contributor-content/
+Allow: /money/money-management/
 Allow: /shopping/
+Allow: /story/shopping/
+Allow: /story/sponsor-story/real-estate-ausa/2026/04/16/sell-your-home-for-top-dollar-by-beating-back-to-school-deadlines/89482853007/
 
 User-agent: ChatGPT-PageFetcher
 Disallow: /
@@ -4765,7 +4782,7 @@ Sitemap: https://www.usatoday.com/money/blueprint/sitemap-news.xml
 Sitemap: https://www.usatoday.com/online-betting/sitemap.xml
 Sitemap: https://www.usatoday.com/online-betting/news-sitemap.xml
 "
-30,31,kompas.com,News,13.9M,+81.7K,"# Kompas.com content is made available for your personal, non-commercial
+30,31,kompas.com,News,13.9M,+81.7K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"# Kompas.com content is made available for your personal, non-commercial
 # use subject to our Terms of Service here:
 # https://inside.kompas.com/term-of-use.
 # Use of any device, tool, or process designed to data mine or scrape the content
@@ -4890,332 +4907,85 @@ User-agent: Baiduspider-image
 User-agent: Baiduspider-video
 User-agent: Baiduspider 
 Disallow: /"
-31,32,ukr.net,News,13.6M,-181.1K,
-32,33,indianexpress.com,News,13.4M,+2.6M,"User-agent: *
-Allow: /
-Disallow: /wp-admin/
-Allow: /wp-admin/admin-ajax.php
-
-Disallow: /1050432/
-
-Disallow: /dummy/
-
-Disallow: /homepage/
-
-Disallow: /prime-suspect/
-
-Disallow: /ie/daily/
-
-Disallow: /static-home-ad-template/
-
-Disallow: /static-article-ad-template/
-
-Disallow: /entertainment/wallpapers/
-
-Disallow: /entertainment/section/Television/617/
-
-Disallow: /entertainment/old/screenawards08/best-editing.html
-
-Disallow: /entertainment/fullstory.php
-
-Disallow: /citiesfullstory.php
-
-Disallow: /citiesarticle/
-
-Disallow: /interstitial/
-
-Disallow: /Blog-IE/
-
-Disallow: /ajax/
-
-Disallow: /ramnath-goenka-foundation/dump
-
-Disallow: /entertainment/old/
-
-Disallow: /citiesfullstory.php?newsid=*
-
-Disallow: /inner_video.php?videoId=*
-
-Disallow: /storyOld.php?storyId=*
-
-Disallow: /entertainment/old/fullstory.php?content_id=*
-
-Disallow: /entertainment/old/*
-
-Disallow: /comments_print.php?content_id=*
-
-Disallow: /search/*
-
-Disallow: /comments/*
-
-Disallow: /*?s
-
-Disallow: /*?newsid
-
-Disallow: /quote/*
-
-Disallow: /openinappbtn/*
-
-Disallow: /apple-app-site-association
-
-Disallow: /ie_byline_authors
-
-Disallow: /ie_byline_authors/*
-
-Disallow: /just-now-breaking-scroll/*
-
-Disallow: /?ref=*
-
-Disallow: /login/*
-
-Disallow: /registration/*
-
-Disallow: /my-account/
-
-Disallow: /reset-password/
-
-Disallow: /forgot-password/
-
-Disallow: /change-password/
-
-Disallow: /subscriptions/
-
-Disallow: /my-subscriptions/
-
-Disallow: /purchase/
-
-Disallow: /thank-you/
-
-Disallow: /my-premium/
-
-Disallow: /campaign/
-
-Disallow: /campaign-premium/
-
-Disallow: /allaccess_6/
-
-Disallow: /international-offer/
-
-Disallow: /allaccess_4/
-
-Disallow: /special-offer/
-
-Disallow: /brandlover/
-
-Disallow: /limited-offer/
-
-Disallow: /all-access-offer/
-
-Disallow: /campaign-2/
-
-Disallow: /campaign-3/
-
-Disallow: /campaign-4/
-
-Disallow: /campaign-premium-2/
-
-Disallow: /campaign-premium-3/
-
-Disallow: /campaign-premium-4/
-
-Disallow: /campaign-epaper/
-
-Disallow: /campaign-epaper-2/
-
-Disallow: /campaign-epaper-3/
-
-Disallow: /campaign-epaper-4/
-
-Disallow: /campaign-all-access/
-
-Disallow: /campaign-all-access-2/
-
-Disallow: /campaign-all-access-3/
-
-Disallow: /campaign-all-access-4/
-
-Disallow: /allaccess_5/
-
-Disallow: /product-page-testing/
-
-Disallow: /offers/
-
-Disallow: /exclusive-benefits-subscription/
-
-Disallow: /digital_1/
-
-Disallow: /digital_2/
-
-Disallow: /digital_3/
-
-Disallow: /allaccess_1/
-
-Disallow: /allaccess_2/
-
-Disallow: /allaccess_3/
-
-Disallow: /paytm/
-
-Disallow: /partner/
-
-Disallow: /student-offer/
-
-Disallow: /student-offer-epaper/
-
-Disallow: /offer-984296/
-
-Disallow: /offer-136031/
-
-Disallow: /offer-219690/
-
-Disallow: /offer-775336/
-
-Disallow: /offer-896318/
-
-Disallow: /offer-77891/
-
-Disallow: /offer-475573/
-
-Disallow: /offer-21439/
-
-Disallow: /offer-128025/
-
-Disallow: /offer-896395/
-
-Disallow: /offer-127491/
-
-Disallow: /offer-148232/
-
-Disallow: /offer-168695/
-
-Disallow: /offer-185347/
-
-Disallow: /offer-106369/
-
-Disallow: /offer-177891/
-
-Disallow: /offer-172173/
-
-Disallow: /offer-121785/
-
-Disallow: /offer-123027/
-
-Disallow: /offer-196899/
-
-Disallow: /offer-900619/
-
-Disallow: /offer-932493/
-
-Disallow: /offer-21229/
-
-Disallow: /offer-212301/
-
-Disallow: /offer-40405/
-
-Disallow: /ias_setu/
-
-Disallow: /upsc-campaign/
-
-Disallow: /creditmantriie/
-
-Disallow: /screenie/
-
-Disallow: /sattvaie/
-
-Disallow: /offer-160208/
-
-Disallow: /offer-160028/
-
-Disallow: /offer-162928/
-
-Disallow: /offer-649228/
-
-Disallow: /offer-169928/
-
-Disallow: /upsc-subscription/
-
-User-agent: ClaudeBot
-Disallow: /
-
-User-agent: Claude-Web
-Disallow: /
-
-User-agent: anthropic-ai
-Disallow: /
-
-User-agent: PerplexityBot
-Disallow: /
-
-User-agent: pplx-crawler
-Disallow: /
-
-User-agent: Meta-ExternalAgent
-Disallow: /
-
-User-agent: Meta-ExternalFetcher
-Disallow: /
-
-User-agent: Bytespider
-Disallow: /
-
-User-agent: Applebot-Extended
-Disallow: /
-
-User-agent: cohere-ai
-Disallow: /
-
-User-agent: Diffbot
-Disallow: /
-
-User-agent: omgili
-Disallow: /
-
-User-agent: omgilibot
-Disallow: /
-
-User-agent: MAZBot
-Disallow: /
-
-User-agent: img2dataset
-Disallow: /
-
-User-agent: FriendlyCrawler
-Disallow: /
-
-User-agent: Timpibot
-Disallow: /
-
-User-agent: VelenPublicWebCrawler
-Disallow: /
-
-User-agent: AmazonAdBot
-Allow: /
-
-Sitemap: https://indianexpress.com/news-sitemap.xml
-
-Sitemap: https://indianexpress.com/video-sitemap.xml
-
-Sitemap: https://indianexpress.com/category-sitemap.xml
-
-Sitemap: https://indianexpress.com/allsitemap.xml
-
-Sitemap: https://indianexpress.com/aboutsitemapindex.xml
-
-Sitemap: https://indianexpress.com/webstories-sitemap.xml
-
-Sitemap: https://indianexpress.com/horoscope-sitemap.xml
-
-Sitemap: https://indianexpress.com/sitemap/today.xml
-
-Sitemap: https://indianexpress.com/sitemap/yesterday.xml
-
-Sitemap: https://indianexpress.com/liveblog-sitemap.xml
-
-# Sitemap archive
-Sitemap: https://indianexpress.com/sitemap.xml
-
+31,32,ukr.net,News,13.6M,-181.1K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
+Disallow: /*how_to_make_homepage/*
+Disallow: /news/*/page*.html
+Disallow: /menu.html
+Disallow: /search.html
+Disallow: /weather.html
+Disallow: /weather/*
+Disallow: /view/*
+Disallow: /currency.html
+Disallow: /currency/*
+Disallow: /fuels.html
+Disallow: /fuels/change_region.html*
+Disallow: /favorites.html
+Disallow: /market.html
+Disallow: /change_region.html
+Disallow: *?*
+Disallow:/views/main/*
+Disallow:/news/search/*
+Disallow:/news/subject.html
+Disallow:/book/rusnet.html
+Disallow:/news/politika/blogs.html
+Disallow:/book/vstuplenie.html
+Disallow:/dat/main/*
+Disallow: */news/img/base/*
+Disallow: */img/socials/*
+Disallow: */user/img/*
+Disallow: */img/logo_ukr.svg$
+Disallow: */images/menu/logo.svg$
+Disallow: */imgs/play-city.svg$
+Disallow: /_next/image
+Disallow: /wp-content/
+Disallow: /wp-includes/
+Disallow: /templates/
+Disallow: /static/
+Disallow: /misc/
+Disallow: /cdn-cgi/
+Disallow: /user/
+Disallow: /i/
+Disallow: /lib/
+Disallow: /wdc_mods/
+Disallow: /site/
+Disallow: /sites/
+Disallow: /themes/
+Disallow: /modules/
+Disallow: /vendor/
+Disallow: /orphus/
+Disallow: /jss/
+Disallow: /tpl/
+Disallow: /inc/
+Disallow: /dist/
+Disallow: /imgs/
+Disallow: /images/
+Disallow: /img/user-img/
+Disallow: /app-store-badge.svg
+Disallow: /google-play-badge.svg
+Disallow: /*.pagespeed.*$
+Allow: /*.js
+Allow: /*.css
+Allow: /*.js?*
+Allow: /*.css?*
+Allow: /resources/
+
+
+User-agent: facebookexternalhit
+Disallow:
+
+User-agent: Twitterbot
+Disallow:
+
+User-agent: Mediapartners-Google
+Disallow:
+
+User-Agent: MJ12bot
+Disallow:
+
+Sitemap: https://www.ukr.net/sitemap.xml
 "
-33,34,cnnbrasil.com.br,News,13M,-4.3M,"# Robots.txt
+32,33,indianexpress.com,News,13.4M,+2.6M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,
+33,34,cnnbrasil.com.br,News,13M,-4.3M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"# Robots.txt
 
 User-Agent: *
 
@@ -5253,8 +5023,8 @@ Disallow: /esportes/agenda/203
 Disallow: /esportes/agenda/204
 Disallow: /esportes/agenda/205
 
-# Atualizado em 14/07/2026"
-34,35,elmundo.es,News,12.8M,-576.3K,"User-agent: *
+# Atualizado em 14/08/2026"
+34,35,elmundo.es,News,12.8M,-576.3K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Disallow: /1998/
 Disallow: /2002/
 Disallow: /s/
@@ -5637,13 +5407,13 @@ Allow: /ofertas-regalos/
 
 User-agent: AmazonAdBot
 Allow: /"
-35,36,terra.com.br,News,12.5M,-5.5M,"user-agent: *
+35,36,terra.com.br,News,12.5M,-5.5M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"user-agent: *
 
 Disallow: /cengine/
 Disallow: /hotsites/email*
 Disallow: /hotsites/porteira*
 "
-36,37,sondakika.com,News,12.3M,+1.4M,"User-agent: *
+36,37,sondakika.com,News,12.3M,+1.4M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Allow: /
 
 Disallow: /ara/
@@ -5667,8 +5437,8 @@ Sitemap: https://www.sondakika.com/sitemaps/sitemap_sondakika_haberleri.aspx
 Sitemap: https://www.sondakika.com/sitemaps/sitemap_bir_haber.aspx
 Sitemap: https://www.sondakika.com/sitemaps/rss_newsstand.aspx
 Sitemap: https://www.sondakika.com/sitemaps/sitemap.aspx"
-37,38,news18.com,News,12.2M,+764.4K,
-38,39,elpais.com,News,11.4M,+768K,"User-agent: PetalBot
+37,38,news18.com,News,12.2M,+764.4K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,
+38,39,elpais.com,News,11.4M,+768K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: PetalBot
 Disallow: /
 
 # Bloque bots global confirmado 20260505
@@ -6190,7 +5960,7 @@ Disallow: /
 User-agent: ZyBORG
 Disallow: /
 "
-39,40,aajtak.in,News,11.2M,-1.4M,"User-Agent: *
+39,40,aajtak.in,News,11.2M,-1.4M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-Agent: *
 Allow: /
 Disallow: /get_graph_json.php
 Disallow: /live-score/seriesLiveList/
@@ -6228,7 +5998,7 @@ Sitemap: https://www.aajtak.in/rssfeeds/video-sitemap.xml
 Sitemap: https://www.aajtak.in/rssfeeds/image-sitemap.xml
 Sitemap: https://www.aajtak.in/visualstories/sitemap.xml
 "
-40,41,libero.it,News,11M,-7K,"User-agent: *
+40,41,libero.it,News,11M,-7K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Disallow: /temicaldi.php?*
 Disallow: /magazine/guida-tv/*?
 Disallow: /magazine/*ricerca/*
@@ -6436,7 +6206,7 @@ Sitemap: https://www.libero.it/magazine/sitemap/sitemap_magazine.xml
 Sitemap: https://www.libero.it/tv/sitemap/sitemap.xml
 
 "
-41,42,aljazeera.com,News,10.9M,+698.8K,"# Al Jazeera Media Network content is made available for your personal, non-commercial 
+41,42,aljazeera.com,News,10.9M,+698.8K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"# Al Jazeera Media Network content is made available for your personal, non-commercial 
 # use subject to our Terms and Conditions: 
 # https://www.aljazeera.com/terms-and-conditions/
 # Any other uses are not permitted, including but not limited to:
@@ -6507,7 +6277,7 @@ Sitemap: https://www.aljazeera.com/sitemaps/article-new.xml
 Sitemap: https://www.aljazeera.com/sitemaps/video-archive.xml
 Sitemap: https://www.aljazeera.com/sitemaps/video-new.xml
 "
-42,43,iltalehti.fi,News,10.9M,+62.2K,"User-agent: *
+42,43,iltalehti.fi,News,10.9M,+62.2K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Disallow: /preview
 
 User-agent: AI2Bot
@@ -6710,7 +6480,7 @@ Sitemap: https://www.iltalehti.fi/sitemap/categories.xml
 Sitemap: https://www.iltalehti.fi/sitemap/weather/index.xml
 Sitemap: https://www.iltalehti.fi/sitemap/telkku/index.xml
 "
-43,44,thairath.co.th,News,10.8M,-1.6M,"# Allow all user agents to access everything
+43,44,thairath.co.th,News,10.8M,-1.6M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"# Allow all user agents to access everything
 User-agent: *
 Disallow:
 
@@ -6727,7 +6497,7 @@ Crawl-Delay: 1
 
 # Provide a reference to your sitemap
 Sitemap: https://www.thairath.co.th/sitemap.xml"
-44,45,bhaskar.com,News,10.6M,-1.2M,"User-agent: *
+44,45,bhaskar.com,News,10.6M,-1.2M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Disallow: /journalism-fellowship
 Disallow: /account/*
 Disallow: /__api__/api/2.0/feed/category/*
@@ -6788,6 +6558,9 @@ Disallow: /
 User-agent: Meta-ExternalAgent
 Disallow: /
 
+User-agent: Meta-WebIndexer
+Disallow: /
+
 User-agent: Meta-ExternalFetcher
 Disallow: /
 
@@ -6825,7 +6598,7 @@ User-agent: Perplexity-User
 Disallow: /
 
 "
-45,46,thesun.co.uk,News,10.5M,-132.4K,"# This is the robots.txt file for thesun.co.uk
+45,46,thesun.co.uk,News,10.5M,-132.4K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"# This is the robots.txt file for thesun.co.uk
 # The Sun does not permit the unlicensed use of our content for large language models.
 # News Group Newspaper's Terms of Use may be found at
 # https://www.thesun.co.uk/terms-and-conditions/#website-and-services-terms-of-use
@@ -7007,7 +6780,7 @@ Disallow: /amp-tealium/
 Disallow: /archives/
 
 "
-46,47,n-tv.de,News,10.5M,-277.4K,"# robots.txt for n-tv.de
+46,47,n-tv.de,News,10.5M,-277.4K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"# robots.txt for n-tv.de
 
 
 
@@ -7029,6 +6802,8 @@ Allow: /online-sprachschule/
 Allow: /kreditvergleich/
 Allow: /broker-vergleich/
 Allow: /webtools-im-vergleich/
+Allow: /ratgeber/So-findest-du-den-Streamingdienst-der-wirklich-zu-deinem-Alltag-passt-id31165054.html
+Allow: /ratgeber/Welcher-Streamingdienst-passt-zu-dir-Warum-RTL-fuer-Fans-deutscher-Serien-Reality-und-Live-TV-ideal-ist-id31160570.html
 
 User-agent: Google-Extended
 Disallow: /
@@ -7040,6 +6815,8 @@ Allow: /online-sprachschule/
 Allow: /kreditvergleich/
 Allow: /broker-vergleich/
 Allow: /webtools-im-vergleich/
+Allow: /ratgeber/So-findest-du-den-Streamingdienst-der-wirklich-zu-deinem-Alltag-passt-id31165054.html
+Allow: /ratgeber/Welcher-Streamingdienst-passt-zu-dir-Warum-RTL-fuer-Fans-deutscher-Serien-Reality-und-Live-TV-ideal-ist-id31160570.html
 
 User-agent: CCBot
 Disallow: /
@@ -7051,12 +6828,14 @@ Allow: /online-sprachschule/
 Allow: /kreditvergleich/
 Allow: /broker-vergleich/
 Allow: /webtools-im-vergleich/
+Allow: /ratgeber/So-findest-du-den-Streamingdienst-der-wirklich-zu-deinem-Alltag-passt-id31165054.html
+Allow: /ratgeber/Welcher-Streamingdienst-passt-zu-dir-Warum-RTL-fuer-Fans-deutscher-Serien-Reality-und-Live-TV-ideal-ist-id31160570.html
 
 Sitemap: https://www.n-tv.de/sitemap.xml
 Sitemap: https://www.n-tv.de/sitemap-video.xml
 Sitemap: https://www.n-tv.de/sitemap/sitemap-sections.xml.gz
 Sitemap: https://www.n-tv.de/news.xml"
-47,48,nbcnews.com,News,10.5M,+933K,"User-agent: *
+47,48,nbcnews.com,News,10.5M,+933K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Disallow: /search
 Disallow: /pages/search/
 Disallow: /pages/news-connect
@@ -7074,6 +6853,18 @@ User-agent: Twitterbot
 Allow: /*?*canonicalCard=
 
 # Disallow Bots (Allow /select only)
+User-agent: AhrefsBot
+Disallow: /
+Allow: /select
+Allow: /select/
+Allow: /information/nbc-news-info/about-nbc-news-digital-n1232178
+Allow: /subscribe/supplemental-terms
+Allow: /information/nbc-news-info/contact-us-n1232521
+Allow: /news/us-news/nbc-news-digital-editors-n893846
+Allow: /tips
+Allow: /tips/
+Allow: /information/nbc-news-info/closed-captioning-n1307063
+
 User-agent: Amazonbot
 User-agent: AmazonBot
 Disallow: /
@@ -7111,6 +6902,18 @@ Allow: /tips
 Allow: /tips/
 Allow: /information/nbc-news-info/closed-captioning-n1307063
 
+User-agent: Archive.org_bot
+Disallow: /
+Allow: /select
+Allow: /select/
+Allow: /information/nbc-news-info/about-nbc-news-digital-n1232178
+Allow: /subscribe/supplemental-terms
+Allow: /information/nbc-news-info/contact-us-n1232521
+Allow: /news/us-news/nbc-news-digital-editors-n893846
+Allow: /tips
+Allow: /tips/
+Allow: /information/nbc-news-info/closed-captioning-n1307063
+
 User-agent: AwarioRssBot
 User-agent: AwarioSmartBot
 Disallow: /
@@ -7124,7 +6927,20 @@ Allow: /tips
 Allow: /tips/
 Allow: /information/nbc-news-info/closed-captioning-n1307063
 
+User-agent: Brightbot 1.0
+Disallow: /
+Allow: /select
+Allow: /select/
+Allow: /information/nbc-news-info/about-nbc-news-digital-n1232178
+Allow: /subscribe/supplemental-terms
+Allow: /information/nbc-news-info/contact-us-n1232521
+Allow: /news/us-news/nbc-news-digital-editors-n893846
+Allow: /tips
+Allow: /tips/
+Allow: /information/nbc-news-info/closed-captioning-n1307063
+
 User-agent: Bytespider
+User-agent: ByteSpider Desktop
 Disallow: /
 Allow: /select
 Allow: /select/
@@ -7211,6 +7027,18 @@ Allow: /tips/
 Allow: /information/nbc-news-info/closed-captioning-n1307063
 
 User-agent: Diffbot
+Disallow: /
+Allow: /select
+Allow: /select/
+Allow: /information/nbc-news-info/about-nbc-news-digital-n1232178
+Allow: /subscribe/supplemental-terms
+Allow: /information/nbc-news-info/contact-us-n1232521
+Allow: /news/us-news/nbc-news-digital-editors-n893846
+Allow: /tips
+Allow: /tips/
+Allow: /information/nbc-news-info/closed-captioning-n1307063
+
+User-agent: ExaBot
 Disallow: /
 Allow: /select
 Allow: /select/
@@ -7379,15 +7207,76 @@ Allow: /tips
 Allow: /tips/
 Allow: /information/nbc-news-info/closed-captioning-n1307063
 
+User-agent: Petalbot
+Disallow: /
+Allow: /select
+Allow: /select/
+Allow: /information/nbc-news-info/about-nbc-news-digital-n1232178
+Allow: /subscribe/supplemental-terms
+Allow: /information/nbc-news-info/contact-us-n1232521
+Allow: /news/us-news/nbc-news-digital-editors-n893846
+Allow: /tips
+Allow: /tips/
+Allow: /information/nbc-news-info/closed-captioning-n1307063
+
+User-agent: QuillBot
+User-agent: quillbot.com
+Disallow: /
+Allow: /select
+Allow: /select/
+Allow: /information/nbc-news-info/about-nbc-news-digital-n1232178
+Allow: /subscribe/supplemental-terms
+Allow: /information/nbc-news-info/contact-us-n1232521
+Allow: /news/us-news/nbc-news-digital-editors-n893846
+Allow: /tips
+Allow: /tips/
+Allow: /information/nbc-news-info/closed-captioning-n1307063
+
 User-agent: Scrapy
 Disallow: /
 Allow: /select
 Allow: /select/
 
+User-agent: ShapBot
+Disallow: /
+Allow: /select
+Allow: /select/
+Allow: /information/nbc-news-info/about-nbc-news-digital-n1232178
+Allow: /subscribe/supplemental-terms
+Allow: /information/nbc-news-info/contact-us-n1232521
+Allow: /news/us-news/nbc-news-digital-editors-n893846
+Allow: /tips
+Allow: /tips/
+Allow: /information/nbc-news-info/closed-captioning-n1307063
+
 User-agent: TurnitinBot
 Disallow: /
 Allow: /select
 Allow: /select/
+
+User-agent: ViennaTinyBot
+Disallow: /
+Allow: /select
+Allow: /select/
+Allow: /information/nbc-news-info/about-nbc-news-digital-n1232178
+Allow: /subscribe/supplemental-terms
+Allow: /information/nbc-news-info/contact-us-n1232521
+Allow: /news/us-news/nbc-news-digital-editors-n893846
+Allow: /tips
+Allow: /tips/
+Allow: /information/nbc-news-info/closed-captioning-n1307063
+
+User-agent: YouBot
+Disallow: /
+Allow: /select
+Allow: /select/
+Allow: /information/nbc-news-info/about-nbc-news-digital-n1232178
+Allow: /subscribe/supplemental-terms
+Allow: /information/nbc-news-info/contact-us-n1232521
+Allow: /news/us-news/nbc-news-digital-editors-n893846
+Allow: /tips
+Allow: /tips/
+Allow: /information/nbc-news-info/closed-captioning-n1307063
 
 # Sitemaps
 Sitemap: https://www.nbcnews.com/sitemap/nbcnews/sitemap-index
@@ -7396,7 +7285,7 @@ Sitemap: https://www.nbcnews.com/sitemap/nbcnews/sitemap-curations
 Sitemap: https://www.nbcnews.com/sitemap/nbcnews/sitemap-select.xml
 Sitemap: https://www.nbcnews.com/politics/election-results/sitemap.xml
 "
-48,49,asahi.com,News,10.5M,+1M,"User-Agent: *
+48,49,asahi.com,News,10.5M,+1M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-Agent: *
 Disallow: /travel/event/search/
 Disallow: /car/index.html
 Disallow: /housing/index.html
@@ -7419,6 +7308,7 @@ Disallow: /
 
 User-agent: OAI-SearchBot
 Disallow: /
+Allow: /ads/
 
 User-agent: ChatGPT-User
 Disallow: /
@@ -7539,7 +7429,7 @@ User-agent: AI2Bot
 Disallow: /
 
 sitemap: https://www.asahi.com/sitemap.xml"
-49,50,aol.com,News,10.5M,-141.6K,"User-agent: *
+49,50,aol.com,News,10.5M,-141.6K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Allow: /author/
 Disallow: /forward
 Disallow: /traffic
@@ -7644,23 +7534,13 @@ User-agent: YouBot
 Disallow: /
 User-agent: ZumBot
 Disallow: /
-Sitemap: https://www.aol.com/sitemaps/aolnews-sitemap_index_US_en-US.xml.gz
-Sitemap: https://www.aol.com/sitemaps/aolnews-sitemap_googlenewsindex_US_en-US.xml.gz
-Sitemap: https://www.aol.com/sitemaps/aolentertainment-sitemap_index_US_en-US.xml.gz
-Sitemap: https://www.aol.com/sitemaps/aolentertainment-sitemap_googlenewsindex_US_en-US.xml.gz
-Sitemap: https://www.aol.com/sitemaps/aolfinance-sitemap_index_US_en-US.xml.gz
-Sitemap: https://www.aol.com/sitemaps/aolfinance-sitemap_googlenewsindex_US_en-US.xml.gz
-Sitemap: https://www.aol.com/sitemaps/aollifestyle-sitemap_index_US_en-US.xml.gz
-Sitemap: https://www.aol.com/sitemaps/aollifestyle-sitemap_googlenewsindex_US_en-US.xml.gz
-Sitemap: https://www.aol.com/sitemaps/aolweather-sitemap_index_US_en-US.xml.gz
-Sitemap: https://www.aol.com/sitemaps/aolweather-sitemap_googlenewsindex_US_en-US.xml.gz
 Sitemap: https://www.aol.com/products/sitemap.xml
 Sitemap: https://www.aol.com/editorial/experience-manager/us/channel_xml/sitemap.xml
 Sitemap: https://www.aol.com/sitemaps/us/sitemap-index.xml.gz
 Sitemap: https://www.aol.com/sitemaps/us/news-sitemap-index.xml.gz
 Sitemap: https://www.aol.com/sitemaps/us/archive/seo-archive-sitemap-index.xml.gz
 "
-50,51,baomoi.com,News,10.1M,-780.5K,"User-agent: *
+50,51,baomoi.com,News,10.1M,-780.5K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Allow: /
 Disallow: /*?date=
 Disallow: /tim-kiem/
@@ -7673,7 +7553,7 @@ Sitemap: https://baomoi.com/sitemaps/sitemap.xml
 Sitemap: https://baomoi.com/sitemaps/tien-ich/sitemap.xml
 Sitemap: https://baomoi.com/sitemaps/bong-da/sitemap.xml
 "
-51,52,abril.com.br,News,10M,-1.2M,"Sitemap: https://abril.com.br/news-sitemap.xml
+51,52,abril.com.br,News,10M,-1.2M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"Sitemap: https://abril.com.br/news-sitemap.xml
 
 User-agent: *
 Disallow: /wp-admin/
@@ -7692,7 +7572,7 @@ User-agent: proximic
 Disallow: /ofertas/
 Disallow: /assinar/
 Disallow: /login/"
-52,53,t-online.de,News,9.8M,+745.3K,"User-agent: *
+52,53,t-online.de,News,9.8M,+745.3K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Disallow: /native/
 Disallow: /auth/
 Disallow: /?artid
@@ -7744,7 +7624,7 @@ Allow: /finanzen/versichern-und-vorsorgen/
 # t-online.de may, in its discretion, permit certain automated access to certain t-online.de pages,
 # If you would like to apply for permission to crawl t-online.de, collect or use data, please email t-online@stroeer.de
 "
-53,54,tagesschau.de,News,9.7M,+780.4K,"User-agent: *
+53,54,tagesschau.de,News,9.7M,+780.4K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Disallow: /ardimport/
 Disallow: /*~player.html
 Disallow: /suche2.html?*
@@ -7883,7 +7763,7 @@ Disallow: /
 # webmaster@tagesschau.de
 ############
 "
-54,55,kumparan.com,News,9.7M,-4.2M,"User-agent: ClaudeBot
+54,55,kumparan.com,News,9.7M,-4.2M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: ClaudeBot
 Allow: /
 
 User-agent: Claude-User
@@ -7941,7 +7821,7 @@ Sitemap: https://kumparan.com/sitemap_collection.xml
 User-agent: *
 Allow: /.well-known/amphtml/apikey.pub
 "
-55,56,nypost.com,News,9.5M,-320.8K,"# NOTICE: Collection of content and other data on nypost.com through
+55,56,nypost.com,News,9.5M,-320.8K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"# NOTICE: Collection of content and other data on nypost.com through
 # automated means is prohibited unless you have express written
 # permission from NYP Holdings, Inc. and may only be conducted for the
 # limited purpose contained in said permission.
@@ -8105,6 +7985,12 @@ User-agent: PerplexityBot
 Disallow: /
 
 User-agent: PiplBot
+Disallow: /
+
+User-agent: Shap-User
+Disallow: /
+
+User-agent: ShapBot
 Disallow: /
 
 User-agent: anthropic-ai
@@ -8290,7 +8176,7 @@ Sitemap: https://nypost.com/sitemap-nypost-pages.xml
 Sitemap: https://nypost.com/sitemap-nypost-sportstat.xml
 
 "
-56,57,spiegel.de,News,9.5M,-366.2K,"User-agent: *
+56,57,spiegel.de,News,9.5M,-366.2K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Allow: /
 Disallow: /*CR-Dokumentation.pdf$
 
@@ -8312,6 +8198,7 @@ Allow: /familie/
 Allow: /reise/
 Allow: /psychologie/
 Allow: /stil/
+Allow: /tests/
 Disallow: /
 
 # TLP-6507: Testweise Freischaltung der OpenAI-Suchcrawler fuer ausgewaehlte Bereiche
@@ -8323,107 +8210,229 @@ Allow: /familie/
 Allow: /reise/
 Allow: /psychologie/
 Allow: /stil/
+Allow: /tests/
 Disallow: /
 
-User-agent: cohere-ai
-Disallow: /
-
-User-agent: cohere-training-data-crawler
-Disallow: /
-
-User-agent: Webzio-Extended
-Disallow: /
-
-User-agent: YouBot
-Disallow: /
-
+# ==========================================
+# KI-CRAWLER & KI-TRAINING (SPERRE)
+# ==========================================
 User-agent: GPTBot
 Disallow: /
-
-User-agent: Applebot-Extended
-Disallow: /
-
-User-agent: CCBot
-Disallow: /
-
-User-agent: magpie-crawler
-Disallow: /
-
-User-agent: ia_archiver
-Disallow: /
-
-User-Agent: omgili
-Disallow: /
-
-User-Agent: omgilibot
-Disallow: /
-
-User-agent: Baiduspider
-Disallow: /
-
-User-agent: AhrefsBot
-Disallow: /
-
-User-agent: DataForSeoBot
-Disallow: /
-
-User-agent: Yeti
-Disallow: /
-
-User-agent: SemrushBot
-Disallow: /
-
-User-agent: sentibot
-Disallow: /
-
-User-agent: MJ12bot
-Disallow: /
-
-User-agent: Bytespider
-Disallow: /
-
-User-agent: SirdataBot
-Disallow: /
-
-User-agent: LCC
-Disallow: /
-
-User-agent: TurnitinBot
-Disallow: /
-
-User-agent: BLEXBot
-Disallow: /
-
-User-agent: dotbot
-Disallow: /
-
-User-Agent: ImagesiftBot
-Disallow: /
-
 User-agent: anthropic-ai
 Disallow: /
-
 User-agent: Claude-Web
 Disallow: /
-
 User-agent: ClaudeBot
 Disallow: /
-
-User-agent: Timpibot
+User-agent: Claude-SearchBot
 Disallow: /
-
+User-agent: Claude-User
+Disallow: /
+User-agent: CloudVertexBot
+Disallow: /
 User-agent: cohere-ai
 Disallow: /
-
+User-agent: cohere-training-data-crawler
+Disallow: /
+User-agent: cohere-training-data-collector
+Disallow: /
+User-agent: DeepSeekBot
+Disallow: /
+User-agent: DeepSeek
+Disallow: /
 User-agent: Meta-ExternalAgent
 Disallow: /
-
 User-agent: FacebookBot
 Disallow: /
-
-User-agent: Diffbot
+User-agent: Applebot-Extended
+Disallow: /
+User-agent: MistralAI-User
+Disallow: /
+User-agent: Amazonbot
+Disallow: /
+User-agent: AI2Bot
+Disallow: /
+User-agent: Kangaroo Bot
+Disallow: /
+User-agent: PanguBot
+Disallow: /
+User-agent: PetalBot
+Disallow: /
+User-agent: Devin
+Disallow: /
+User-agent: bigsur.ai
+Disallow: /
+User-agent: LinerBot
+Disallow: /
+User-agent: CCBot
+Disallow: /
+User-agent: YouBot
+Disallow: /
+User-agent: YouBot-Search
+Disallow: /
+User-agent: iaskspider
+Disallow: /
+User-agent: YoudaoBot
+Disallow: /
+User-agent: DeepL-Translate
+Disallow: /
+User-agent: DeepL-Bot
 Disallow: /
 
+# ==========================================
+# SEO-CRAWLER (SPERRE)
+# ==========================================
+User-agent: AhrefsBot
+Disallow: /
+User-agent: AhrefsSiteAudit
+Disallow: /
+User-agent: SemrushBot
+Disallow: /
+User-agent: SemrushBot-SA
+Disallow: /
+User-agent: SemrushBot-BA
+Disallow: /
+User-agent: SemrushBot-SI
+Disallow: /
+User-agent: SemrushBot-SWA
+Disallow: /
+User-agent: SiteAuditBot
+Disallow: /
+User-agent: SplitSignalBot
+Disallow: /
+User-agent: xovi
+Disallow: /
+User-agent: XoviBot
+Disallow: /
+User-agent: Seobility
+Disallow: /
+User-agent: SeobilityBot
+Disallow: /
+User-agent: RyteBot
+Disallow: /
+User-agent: SEOkicks
+Disallow: /
+User-agent: SEOkicks-Robot
+Disallow: /
+User-agent: Searchmetrics
+Disallow: /
+User-agent: SearchmetricsBot
+Disallow: /
+User-agent: audisto
+Disallow: /
+User-agent: audisto-essential
+Disallow: /
+User-agent: MJ12bot
+Disallow: /
+User-agent: dotbot
+Disallow: /
+User-agent: rogerbot
+Disallow: /
+User-agent: Ezooms
+Disallow: /
+User-agent: barkrowler
+Disallow: /
+User-agent: serpstatbot
+Disallow: /
+User-agent: BLEXBot
+Disallow: /
+User-agent: DataForSeoBot
+Disallow: /
+User-agent: MegaIndex
+Disallow: /
+User-agent: lumar
+Disallow: /
+User-agent: deepcrawl
+Disallow: /
+User-agent: oncrawl
+Disallow: /
+User-agent: sitebulb
+Disallow: /
+User-agent: botify
+Disallow: /
+User-agent: Siteimprove
+Disallow: /
+User-agent: Siteimprove Crawl
+Disallow: /
+User-agent: MozDotNet
+Disallow: /
+User-agent: Cocolyzebot
+Disallow: /
+User-agent: Raven
+Disallow: /
+
+# ==========================================
+# MEDIENBEOBACHTUNG, AGGREGATOREN & SCRAPER
+# ==========================================
+User-agent: Meltwater
+Disallow: /
+User-agent: NewsNow
+Disallow: /
+User-agent: Webzio-Extended
+Disallow: /
+User-agent: magpie-crawler
+Disallow: /
+User-agent: omgili
+Disallow: /
+User-agent: omgilibot
+Disallow: /
+User-agent: Baiduspider
+Disallow: /
+User-agent: Yeti
+Disallow: /
+User-agent: sentibot
+Disallow: /
+User-agent: Bytespider
+Disallow: /
+User-agent: SirdataBot
+Disallow: /
+User-agent: LCC
+Disallow: /
+User-agent: TurnitinBot
+Disallow: /
+User-agent: ImagesiftBot
+Disallow: /
+User-agent: Timpibot
+Disallow: /
+User-agent: Diffbot
+Disallow: /
+User-agent: Landau-Media-Spider
+Disallow: /
+
+
+# ==========================================
+# HISTORISCHE BOTS & MASSEN-DOWNLOADER
+# ==========================================
+User-agent: Bloodhound
+Disallow: /
+User-agent: cydralspider
+Disallow: /
+User-agent: downloadexpress
+Disallow: /
+User-agent: gammaSpider
+Disallow: /
+User-agent: ObjectsSearch
+Disallow: /
+User-agent: Pimptrain
+Disallow: /
+User-agent: wapspider
+Disallow: /
+User-agent: WebZinger
+Disallow: /
+User-agent: Fasterfox
+Disallow: /
+
+# ==========================================
+# SCRAPING FRAMEWORKS & UTILITIES
+# ==========================================
+User-agent: Scrapy
+Disallow: /
+User-agent: HTTPBannerDetection
+Disallow: /
+User-agent: Wget
+Disallow: /
+
+# Sitemaps
 Sitemap: https://www.spiegel.de/sitemaps/news-de.xml
 Sitemap: https://www.spiegel.de/sitemaps/videos/sitemap.xml
 Sitemap: https://www.spiegel.de/plus/sitemap.xml
@@ -8435,7 +8444,7 @@ Sitemap: https://www.spiegel.de/sitemap.xml
 # If you would like to apply for permission to crawl spiegel.de, collect or use data, please email syndication@spiegel.de
 
 "
-57,58,franceinfo.fr,News,9.4M,+1.3M,"User-agent: *
+57,58,franceinfo.fr,News,9.4M,+1.3M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Sitemap: https://www.franceinfo.fr/sitemap_news.xml
 Sitemap: https://www.franceinfo.fr/sitemap_index.xml
 Sitemap: https://www.franceinfo.fr/sitemap_video_index.xml
@@ -8538,7 +8547,7 @@ Disallow: /
 User-agent: AhrefsBot
 Disallow: /
 "
-58,59,aftonbladet.se,News,9.4M,+385K,"# All crawlers and Open AI Search BOT rules
+58,59,aftonbladet.se,News,9.4M,+385K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"# All crawlers and Open AI Search BOT rules
 User-agent: *
 User-agent: OAI-SearchBot
 Disallow: /sok*?*
@@ -8598,7 +8607,7 @@ Disallow: /
 Sitemap: https://www.aftonbladet.se/sitemaps/files/articles-48hrs.xml
 Sitemap: https://www.aftonbladet.se/sitemap.xml
 # End Sitemaps"
-59,60,sozcu.com.tr,News,9.4M,-2M,"User-agent: *
+59,60,sozcu.com.tr,News,9.4M,-2M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 User-agent: Mediapartners-Google
 Allow: /
 Sitemap: https://www.sozcu.com.tr/feeds/sitemapindex
@@ -8608,7 +8617,7 @@ Disallow: https://www.sozcu.com.tr/social-subs
 
 # For LLMS
 # https://www.sozcu.com.tr/llms.txt"
-60,61,abplive.com,News,9.3M,-3M,"User-agent: *
+60,61,abplive.com,News,9.3M,-3M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Allow: /
 Disallow: /wp-admin/
 Disallow: /search?s*
@@ -8642,7 +8651,7 @@ Sitemap: https://www.abplive.com/web-sitemap.xml
 Sitemap: https://www.abplive.com/amp-stories-sitemap.xml
 Sitemap: https://www.abplive.com/shortvideo-sitemap.xml
 "
-61,62,haber7.com,News,9.3M,+295.9K,"User-agent: *
+61,62,haber7.com,News,9.3M,+295.9K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Allow: /
 Disallow: /?ref=
 Disallow: /*?ref=
@@ -8655,7 +8664,7 @@ Disallow: /*print.php?id=
 User-agent: Yandex
 Clean-param: sfnsn
 Clean-param: s"
-62,63,ndr.de,News,9.3M,+738.2K,"Sitemap: https://www.ndr.de/news-102~news.xml
+62,63,ndr.de,News,9.3M,+738.2K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"Sitemap: https://www.ndr.de/news-102~news.xml
 Sitemap: https://www.ndr.de/index~sitemap.xml
 
 User-agent: *
@@ -8666,6 +8675,7 @@ Disallow: /*.json
 Disallow: /ratgeber/*?filter=
 Disallow: /*~ardplayer.html
 Disallow: /*.m3u8
+Disallow: /public/teletext/
 
 # Apple
 User-agent: applebot-extended
@@ -8776,7 +8786,7 @@ Disallow: /
 #
 ############
 "
-63,64,thehindu.com,News,9.2M,-791.7K,"User-agent: *
+63,64,thehindu.com,News,9.2M,-791.7K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Disallow: /cgi-bin/
 Disallow: /cdn-cgi/*
 Disallow: /config/
@@ -8894,7 +8904,7 @@ Allow: /sitemap/update/all.xml$
 Allow: /sitemap/update/section.xml$
 Allow: /sitemap/liveblog.xml$
 Allow: /sitemap/googlenews/all/all.xml$
-#Disallow: /*utm_*
+Disallow: /*utm_*
 Disallow: /*click_url*
 Disallow: /*theme/images/th-online/th-circle-white.svg
 #Blocking pagination
@@ -8943,7 +8953,7 @@ Sitemap: https://www.thehindu.com/shorts/feeder/default.rss
 Sitemap: https://www.thehindu.com/sport/feeder/default.rss
 Sitemap: https://www.thehindu.com/business/feeder/default.rss
 "
-64,65,cbsnews.com,News,9.2M,-507.7K,"# www.robotstxt.org/
+64,65,cbsnews.com,News,9.2M,-507.7K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"# www.robotstxt.org/
 # www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
 
 User-agent: *
@@ -8998,7 +9008,7 @@ Disallow: /
 User-agent: proximic
 Disallow:
 "
-65,66,okdiario.com,News,9M,+372K,"User-agent: *
+65,66,okdiario.com,News,9M,+372K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 
 #Directorios bloqueados
 Disallow: /buscador/
@@ -9135,7 +9145,7 @@ Sitemap: https://okdiario.com/sitemaps/okd-sitemaps-news-loteria-navidad.xml
 Sitemap: https://okdiario.com/techy/news-sitemap.xml
 Sitemap: https://okdiario.com/techy/en/news-sitemap.xml
 "
-66,67,bfmtv.com,News,8.9M,-2.2M,"User-agent: *
+66,67,bfmtv.com,News,8.9M,-2.2M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Disallow: /mon-compte/
 Disallow: /code-promo/interstitiel/*
 
@@ -9330,7 +9340,7 @@ Crawl-delay: 10
 User-agent: Screaming Frog SEO Spider
 Crawl-delay: 10
 "
-67,68,haberturk.com,News,8.7M,-112.8K,"User-agent: *
+67,68,haberturk.com,News,8.7M,-112.8K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Disallow: /Flash
 Disallow: /uyelik
 Disallow: /liste/sonhaberler
@@ -9425,7 +9435,7 @@ Sitemap: https://www.haberturk.com/sitemap_index_video.xml
 Sitemap: https://www.haberturk.com/sitemap_recentvideo.xml
 Sitemap: https://hthayat.haberturk.com/sitemap_google_news.xml
 "
-68,69,kapook.com,News,8.6M,-205.7K,"# Explicitly allow Mediapartners-Google 
+68,69,kapook.com,News,8.6M,-205.7K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"# Explicitly allow Mediapartners-Google 
 User-agent: Mediapartners-Google
 Allow: /
  
@@ -9442,7 +9452,7 @@ Disallow: /kweblink/
 # Sitemaps
 Sitemap: https://www.kapook.com/sitemap.xml
 "
-69,70,lemonde.fr,News,8.6M,+771.4K,"# 16/08/2019
+69,70,lemonde.fr,News,8.6M,+771.4K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"# 16/08/2019
 # Il est interdit d'utiliser des robots d'indexation Web ou d'autres méthodes automatiques de feuilletage ou de navigation sur ce site Web.
 # Nous interdisons de crawler notre site Web en utilisant un agent d'utilisateur volé qui ne correspond pas à votre identité.
 # « Violation du droit du producteur de base de données - article L 342-1 et suivant le Code de la propriété intellectuelle ».
@@ -10347,8 +10357,62 @@ Disallow: /
 
 User-agent: xAI-SearchBot
 Disallow: /
+
+User-agent: AIWebIndex
+Disallow: /
+
+User-agent: amazon-kendra
+Disallow: /
+
+User-agent: amazon-QBusiness
+Disallow: /
+
+User-agent: bedrockbot
+Disallow: /
+
+User-agent: Crawlspace
+Disallow: /
+
+User-agent: Doubaobot
+Disallow: /
+
+User-agent: ERNIEBot
+Disallow: /
+
+User-agent: KimiCrawler
+Disallow: /
+
+User-agent: micro-crawl
+Disallow: /
+
+User-agent: MoonshotBot
+Disallow: /
+
+User-agent: MoonSpider
+Disallow: /
+
+User-agent: Mozilla-Tabstack
+Disallow: /
+
+User-agent: QwenBot
+Disallow: /
+
+User-agent: SalamandraVLM
+Disallow: /
+
+User-agent: TongyiBot
+Disallow: /
+
+User-agent: YandexAdditional
+Disallow: /
+
+User-agent: YandexAdditionalBot
+Disallow: /
+
+User-agent: YiyanBot
+Disallow: /
 "
-70,71,youm7.com,News,8.5M,-346.7K,"User-agent: *
+70,71,youm7.com,News,8.5M,-346.7K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Disallow:
 
 User-agent: Googlebot
@@ -10397,7 +10461,7 @@ Allow: /
 # Sitemaps
 Sitemap: https://www.youm7.com/sitemap/SitemapNews
 "
-71,72,rbc.ru,News,8.1M,-2.7M,"User-Agent: *
+71,72,rbc.ru,News,8.1M,-2.7M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-Agent: *
 Disallow: /*?q=
 Disallow: /search/
 Disallow: /search?query=
@@ -10513,7 +10577,7 @@ Clean-param: bulkEmailRecipientId&ruid&__fd__&w&partner&nid&spm&slide&homescreen
 Clean-param: s&referrer&url_next&tab
 
 Sitemap: https://www.rbc.ru/sitemap_index.xml"
-72,73,protothema.gr,News,8M,+654.4K,"User-agent: *
+72,73,protothema.gr,News,8M,+654.4K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Allow: /llms.txt
 
 User-agent: facebookexternalhit
@@ -10540,7 +10604,7 @@ Sitemap: https://www.protothema.gr/sitemap/ArticleCategories/sitemap_index.xml
 Sitemap: https://www.protothema.gr/sitemap/Tags/sitemap_index.xml
 Sitemap: https://www.protothema.gr/sitemap/Bloggers/sitemap_index.xml
 "
-73,74,ntv.com.tr,News,8M,+998.4K,"User-Agent: *
+73,74,ntv.com.tr,News,8M,+998.4K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-Agent: *
 Allow: /
 Sitemap: https://www.ntv.com.tr/sitemaps/news-sitemap.xml
 Sitemap: https://www.ntv.com.tr/sitemaps
@@ -10579,7 +10643,7 @@ Disallow: /
 
 User-agent: QuillBot
 Disallow: /"
-74,75,estadao.com.br,News,8M,+1M,"# Support directories
+74,75,estadao.com.br,News,8M,+1M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"# Support directories
 User-agent: *
 Disallow: /ewok
 Disallow: /logs
@@ -10640,7 +10704,7 @@ Disallow: /
 
 User-agent: PetalBot
 Disallow: /"
-75,76,reuters.com,News,7.9M,-45.4K,"User-agent: AASA-Bot
+75,76,reuters.com,News,7.9M,-45.4K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: AASA-Bot
 User-agent: ADmantX
 User-agent: AdsBot-Google
 User-agent: AdsBot-Google-Mobile
@@ -10750,7 +10814,8 @@ Disallow: /es/
 Disallow: /pt/
 Disallow: /de/
 Disallow: /latam/
-Disallow: /account/subscribe/payment/
+Disallow: /jp/
+Disallow: /account/subscribe/payment
 
 # Block all other bots
 User-agent: *
@@ -10768,7 +10833,7 @@ SITEMAP: https://www.reuters.com/arc/outboundfeeds/topic-sitemap/?outputType=xml
 SITEMAP: https://www.reuters.com/arc/outboundfeeds/author-sitemap/?outputType=xml
 SITEMAP: https://www.reuters.com/arc/outboundfeeds/pressrelease-sitemap/?outputType=xml
 SITEMAP: https://www.reuters.com/arc/outboundfeeds/sitemap-ar-index/?outputType=xml"
-76,77,clarin.com,News,7.8M,-43.1K,"User-agent: *
+76,77,clarin.com,News,7.8M,-43.1K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Disallow: /api/
 Disallow: /redaccionfiler/*
 Disallow: /viafoura/*
@@ -10784,7 +10849,7 @@ Disallow: /agenda-deportiva/
 Sitemap: https://www.clarin.com/sitemaps/index.xml
 Sitemap: https://www.clarin.com/sitemaps/index_services.xml
 Sitemap: https://www.clarin.com/sitemaps/sitemap_google_news.xml"
-77,78,ensonhaber.com,News,7.8M,+1.1M,"User-agent: *
+77,78,ensonhaber.com,News,7.8M,+1.1M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Sitemap: https://www.ensonhaber.com/sitemaps/google-news.xml
 
 Disallow: /arama/
@@ -10802,8 +10867,14 @@ Disallow: /m/
 Disallow: /eshadmin__/
 Disallow: /sondakika/
 Disallow: /esh-login/*"
-78,79,tvn24.pl,News,7.7M,-494.5K,
-79,80,repubblica.it,News,7.6M,-1.4M,"User-agent: *
+78,79,tvn24.pl,News,7.7M,-494.5K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: GPTBot
+Disallow: /
+
+User-agent: *
+Disallow: /_e/p/playlist/*
+Disallow: *?page=*
+"
+79,80,repubblica.it,News,7.6M,-1.4M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Allow: 		/ 
 Disallow: 		/ultimora/24ore/nazionale/news-dettaglio/3688417 
 Disallow: 		/ultimora/24ore/AUTO-IN-CAMBIO-DI-DROGA-13-ARRESTI-DELLA-POLIZIA-DI-PESCARA-(2)/news-dettaglio/3746479 
@@ -10861,8 +10932,6 @@ Disallow: 		/mobile-rep/
 Disallow: 		/tv/ 
 Disallow: 		/static/__sdemo__/ 
 Disallow: 		/quotidiano 
-User-agent: Googlebot-News 
-Disallow: 		/la-zampa/ 
 # 
 Sitemap: 		https://www.repubblica.it/sitemap-n.xml 
 # 
@@ -11095,7 +11164,7 @@ Disallow: 		/
 User-agent: Applebot-Extended 
 Disallow: 		/ 
 "
-80,81,expressen.se,News,7.5M,+249.6K,"# All content on this website, including text, graphics, images, web design, film, sound 
+80,81,expressen.se,News,7.5M,+249.6K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"# All content on this website, including text, graphics, images, web design, film, sound 
 # and other content, is protected by the Swedish Copyright Act (1960:729) (hereinafter
 # ""the Copyright Act""), both in terms of copyright and related rights. Bonnier News AB and
 # its group companies (“Bonnier News”/”us”) reserve all rights to the content, including the
@@ -11253,13 +11322,10 @@ Disallow: /read-more-recommendations
 Sitemap: https://www.expressen.se/googlenews
 Sitemap: https://www.expressen.se/sitemap.xml
 "
-81,82,cnnturk.com,News,7.2M,-533.3K,"ï»¿User-agent: *
+81,82,cnnturk.com,News,7.2M,-533.3K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"ï»¿User-agent: *
 Allow: /
 Disallow: /hesap/
 Disallow: /api/
-Allow: /api/lazy/breakingnews
-Allow: /api/lazy/nextcontents
-Allow: /api/weather
 Disallow: /linkler/
 Disallow: /test-ana-sayfa/
 Disallow: /sm/
@@ -11310,13 +11376,11 @@ Disallow: /
 
 User-agent: AmazonAdBot
 Allow: /"
-82,83,20minutes.fr,News,7.1M,-219.6K,"User-agent: *
+82,83,20minutes.fr,News,7.1M,-219.6K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Disallow: /article/*/commentaires*
 Disallow: /resultats-examen/recherche/
 Disallow: /resultats-examen/candidat/
 Disallow: /embed/elections/resultats/
-Disallow: /v-ajax
-Disallow: /v-esi
 Disallow: /search
 
 User-agent: grapeshot
@@ -11326,6 +11390,12 @@ Crawl-delay: 2
 User-agent: ChatGPT-User
 User-agent: OAI-SearchBot
 User-agent: MistralAI-User
+User-agent: Claude-User
+User-agent: Claude-Web
+User-agent: Claude-SearchBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Gemini-Deep-Research
 Disallow: /
 Allow: /tempo/
 Allow: /high-tech/
@@ -11333,6 +11403,7 @@ Allow: /gaming/
 Allow: /vie-pro/
 Allow: /sport/
 Allow: /economie/auto/
+Allow: /guide-achat/
 
 # disallow indexing
 User-agent: GPTBot
@@ -11340,7 +11411,6 @@ User-agent: CCBot
 User-agent: Google-Extended
 User-agent: PerplexityBot
 User-agent: anthropic-ai
-User-agent: Claude-Web
 User-agent: ClaudeBot
 User-agent: cohere-ai
 User-agent: Applebot-Extended
@@ -11353,7 +11423,6 @@ Allow: /vie-pro/
 Allow: /sport/
 Allow: /production/
 Allow: /conso
-Allow: /guide-achat/
 Allow: /services/jeux
 Allow: /services/
 Allow: /horoscope/
@@ -11440,7 +11509,7 @@ Disallow: /
 
 Sitemap: https://www.20minutes.fr/sitemap-arbo.xml
 Sitemap: https://www.20minutes.fr/sitemap-news.xml"
-83,84,vietnamnet.vn,News,7M,+432.8K,"User-agent: * 
+83,84,vietnamnet.vn,News,7M,+432.8K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: * 
 Allow: /
 Disallow: /tim-kiem?
 Disallow: /tim-kiem-
@@ -11451,7 +11520,7 @@ Sitemap: https://vietnamnet.vn/sitemap-categories.xml
 Sitemap: https://vietnamnet.vn/sitemap-news.xml
 Sitemap: https://vietnamnet.vn/sitemap-image.xml
 Sitemap: https://vietnamnet.vn/sitemap-video.xml"
-84,85,abc.net.au,News,7M,-854.3K,"# robots.txt for http://www.abc.net.au/ -- ABC Online
+84,85,abc.net.au,News,7M,-854.3K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"# robots.txt for http://www.abc.net.au/ -- ABC Online
 User-agent: *
 Disallow: /classic/contact/concerts.htm
 Disallow: /classic/contact/default.htm
@@ -11584,7 +11653,7 @@ Disallow: /
 
 # sitemaps
 Sitemap: https://www.abc.net.au/sitemaps/sitemap-index.xml.gz"
-85,86,lanacion.com.ar,News,6.8M,+462K,"# Robots.txt (archivo)
+85,86,lanacion.com.ar,News,6.8M,+462K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"# Robots.txt (archivo)
 
 User-agent: TestBot
 Disallow: /
@@ -11634,8 +11703,8 @@ Sitemap: https://www.lanacion.com.ar/sitemap-index-historico.xml
 Sitemap: https://www.lanacion.com.ar/sitemap-articles-evergreen.xml
 Sitemap: https://www.lanacion.com.ar/sitemap-section-index.xml
 "
-86,87,ad.nl,News,6.6M,-416.9K,
-87,88,tribunnews.com,News,6.5M,-1.7M,"# Tribunnews.com - Minimal Robots.txt
+86,87,ad.nl,News,6.6M,-416.9K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,
+87,88,tribunnews.com,News,6.5M,-1.7M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"# Tribunnews.com - Minimal Robots.txt
 # Personal/non-commercial use only. See /terms
 # Updated: Mei 2026
 
@@ -11677,7 +11746,7 @@ User-agent: AhrefsBot
 Crawl-delay: 10
 
 Sitemap: https://www.tribunnews.com/sitemap.xml"
-88,89,npr.org,News,6.5M,+438.4K,"# robots.txt for www.npr.org
+88,89,npr.org,News,6.5M,+438.4K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"# robots.txt for www.npr.org
 # Changes are tracked in www-render
 
 User-agent: *
@@ -11879,7 +11948,7 @@ Sitemap: https://googlecrawl.npr.org/news/sitemap_news.xml
 Sitemap: https://googlecrawl.npr.org/video/sitemap_index.xml
 Sitemap: https://www.npr.org/live-updates/sitemap.xml
 "
-89,90,aktuality.sk,News,6.4M,-532.7K,"#Sitemap URLs
+89,90,aktuality.sk,News,6.4M,-532.7K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"#Sitemap URLs
 
 Sitemap: https://www.aktuality.sk/site-map/google-news/
 Sitemap: https://www.aktuality.sk/sitemap-topics.xml
@@ -11955,7 +12024,7 @@ Disallow: /
 User-agent: Googlebot
 Disallow: /*ptid
 "
-90,91,welt.de,News,6.3M,+836.2K,"# The Facebook Crawler
+90,91,welt.de,News,6.3M,+836.2K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"# The Facebook Crawler
 User-agent: Facebot
 Allow: /
 
@@ -12094,7 +12163,7 @@ Disallow: /assets/public/fonts/
 Sitemap: https://www.welt.de/sitemaps/newssitemap/newssitemap.xml
 Sitemap: https://www.welt.de/sitemaps/sitemap/sitemap.xml
 Sitemap: https://www.welt.de/sitemaps/videositemap/videositemap.xml"
-91,92,rambler.ru,News,6.3M,+25K,"User-agent: Yandex
+91,92,rambler.ru,News,6.3M,+25K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: Yandex
 Allow: /rss/yandex/
 Allow: /rss/yandex/*
 Disallow: /photo/
@@ -12183,12 +12252,12 @@ Disallow: /*/comments/*
 Sitemap: https://www.rambler.ru/pro/sitemap-index.xml
 Sitemap: https://www.rambler.ru/dom/sitemap-index.xml
 Sitemap: https://www.rambler.ru/eco/sitemap-index.xml"
-92,93,hln.be,News,6.3M,+64.4K,
-93,94,sindonews.com,News,6.2M,-568.3K,"User-agent: *
+92,93,hln.be,News,6.3M,+64.4K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,
+93,94,sindonews.com,News,6.2M,-568.3K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Disallow:
 
 Sitemap: https://www.sindonews.com/sitemap.xml"
-94,95,dw.com,News,6.2M,+617.4K,"User-agent: *
+94,95,dw.com,News,6.2M,+617.4K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Disallow: /search/
 Disallow: /*/search/
 Disallow: /overlay/
@@ -12374,7 +12443,7 @@ Allow: /
 # Sitemaps
 Sitemap: https://www.dw.com/sitemap.xml
 "
-95,96,indiatoday.in,News,6.2M,-881.3K,"Sitemap: https://www.indiatoday.in/sitemap.xml
+95,96,indiatoday.in,News,6.2M,-881.3K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"Sitemap: https://www.indiatoday.in/sitemap.xml
 Sitemap: https://www.indiatoday.in/news-it-sitemap.xml
  
 # Disallow directive
@@ -12500,7 +12569,7 @@ Disallow: /amp/node/
 
 User-agent: Mediapartners-Google
 Allow: /"
-96,97,cbc.ca,News,6.2M,-359K,"# robots, scram
+96,97,cbc.ca,News,6.2M,-359K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"# robots, scram
 User-agent: *
 Disallow:   /*index.html$
 Disallow:   /sports/includes/
@@ -12589,8 +12658,8 @@ Disallow: /
 User-agent: Claude-Web
 Disallow: /
 "
-97,98,nu.nl,News,6.2M,-287K,
-98,99,today.com,News,6.2M,-568.3K,"User-agent: *
+97,98,nu.nl,News,6.2M,-287K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,
+98,99,today.com,News,6.2M,-568.3K,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: *
 Disallow: /search*
 Disallow: /xml/today/SitemapToday*.xml
 Disallow: /ajax*
@@ -12599,6 +12668,17 @@ Disallow: /bentoapi/
 Disallow: /mynewsapi/
 
 # Disallow Bots (Allow /shop only)
+User-agent: AhrefsBot
+Disallow: /
+Allow: /shop
+Allow: /shop/
+Allow: /about/today/today-digital-masthead-rcna155416
+Allow: /about/today-rcna226078
+Allow: /information/join-today-live-plaza-t250868
+Allow: /start-today/app/supplemental-terms
+Allow: /information/closed-captioning-t215383
+Allow: /information/-us-send-today-your-questions-comments-t215381
+
 User-agent: Amazonbot
 User-agent: AmazonBot
 Disallow: /
@@ -12633,6 +12713,17 @@ Allow: /start-today/app/supplemental-terms
 Allow: /information/closed-captioning-t215383
 Allow: /information/-us-send-today-your-questions-comments-t215381
 
+User-agent: Archive.org_bot
+Disallow: /
+Allow: /shop
+Allow: /shop/
+Allow: /about/today/today-digital-masthead-rcna155416
+Allow: /about/today-rcna226078
+Allow: /information/join-today-live-plaza-t250868
+Allow: /start-today/app/supplemental-terms
+Allow: /information/closed-captioning-t215383
+Allow: /information/-us-send-today-your-questions-comments-t215381
+
 User-agent: AwarioRssBot
 User-agent: AwarioSmartBot
 Disallow: /
@@ -12645,7 +12736,19 @@ Allow: /start-today/app/supplemental-terms
 Allow: /information/closed-captioning-t215383
 Allow: /information/-us-send-today-your-questions-comments-t215381
 
+User-agent: Brightbot 1.0
+Disallow: /
+Allow: /shop
+Allow: /shop/
+Allow: /about/today/today-digital-masthead-rcna155416
+Allow: /about/today-rcna226078
+Allow: /information/join-today-live-plaza-t250868
+Allow: /start-today/app/supplemental-terms
+Allow: /information/closed-captioning-t215383
+Allow: /information/-us-send-today-your-questions-comments-t215381
+
 User-agent: Bytespider
+User-agent: ByteSpider Desktop
 Disallow: /
 Allow: /shop
 Allow: /shop/
@@ -12725,6 +12828,17 @@ Allow: /information/closed-captioning-t215383
 Allow: /information/-us-send-today-your-questions-comments-t215381
 
 User-agent: Diffbot
+Disallow: /
+Allow: /shop
+Allow: /shop/
+Allow: /about/today/today-digital-masthead-rcna155416
+Allow: /about/today-rcna226078
+Allow: /information/join-today-live-plaza-t250868
+Allow: /start-today/app/supplemental-terms
+Allow: /information/closed-captioning-t215383
+Allow: /information/-us-send-today-your-questions-comments-t215381
+
+User-agent: ExaBot
 Disallow: /
 Allow: /shop
 Allow: /shop/
@@ -12880,15 +12994,71 @@ Allow: /start-today/app/supplemental-terms
 Allow: /information/closed-captioning-t215383
 Allow: /information/-us-send-today-your-questions-comments-t215381
 
+User-agent: Petalbot
+Disallow: /
+Allow: /shop
+Allow: /shop/
+Allow: /about/today/today-digital-masthead-rcna155416
+Allow: /about/today-rcna226078
+Allow: /information/join-today-live-plaza-t250868
+Allow: /start-today/app/supplemental-terms
+Allow: /information/closed-captioning-t215383
+Allow: /information/-us-send-today-your-questions-comments-t215381
+
+User-agent: QuillBot
+User-agent: quillbot.com
+Disallow: /
+Allow: /shop
+Allow: /shop/
+Allow: /about/today/today-digital-masthead-rcna155416
+Allow: /about/today-rcna226078
+Allow: /information/join-today-live-plaza-t250868
+Allow: /start-today/app/supplemental-terms
+Allow: /information/closed-captioning-t215383
+Allow: /information/-us-send-today-your-questions-comments-t215381
+
 User-agent: Scrapy
 Disallow: /
 Allow: /shop
 Allow: /shop/
 
+User-agent: ShapBot
+Disallow: /
+Allow: /shop
+Allow: /shop/
+Allow: /about/today/today-digital-masthead-rcna155416
+Allow: /about/today-rcna226078
+Allow: /information/join-today-live-plaza-t250868
+Allow: /start-today/app/supplemental-terms
+Allow: /information/closed-captioning-t215383
+Allow: /information/-us-send-today-your-questions-comments-t215381
+
 User-agent: TurnitinBot
 Disallow: /
 Allow: /shop
 Allow: /shop/
+
+User-agent: ViennaTinyBot
+Disallow: /
+Allow: /shop
+Allow: /shop/
+Allow: /about/today/today-digital-masthead-rcna155416
+Allow: /about/today-rcna226078
+Allow: /information/join-today-live-plaza-t250868
+Allow: /start-today/app/supplemental-terms
+Allow: /information/closed-captioning-t215383
+Allow: /information/-us-send-today-your-questions-comments-t215381
+
+User-agent: YouBot
+Disallow: /
+Allow: /shop
+Allow: /shop/
+Allow: /about/today/today-digital-masthead-rcna155416
+Allow: /about/today-rcna226078
+Allow: /information/join-today-live-plaza-t250868
+Allow: /start-today/app/supplemental-terms
+Allow: /information/closed-captioning-t215383
+Allow: /information/-us-send-today-your-questions-comments-t215381
 
 # Sitemaps
 Sitemap: https://www.today.com/sitemap/today/sitemap-index
@@ -12896,7 +13066,7 @@ Sitemap: https://www.today.com/sitemap/today/sitemap-news
 Sitemap: https://www.today.com/sitemap/today/sitemap-curations
 Sitemap: https://www.today.com/sitemap/today/sitemap-shop.xml
 "
-99,100,newsnow.co.uk,News,6.1M,+1.8M,"User-agent: AhrefsBot
+99,100,newsnow.co.uk,News,6.1M,+1.8M,Watch↗ Get notified when this page changes and see exactly what's different. Free with Firehose. Learn more,"User-agent: AhrefsBot
 Disallow: /
 
 User-agent: SemrushBot
