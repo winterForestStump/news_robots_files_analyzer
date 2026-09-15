@@ -12,7 +12,7 @@ The syntax of a robots.txt file is straightforward. It typically includes the fo
 * *Allow* specifies exceptions to the disallow rules. For example, `Allow: /public/` permits access to the /public/ directory even if a broader disallow rule is in place.
 
 ## Findings
-A significant number of news websites disallow certain LLM agents from accessing their content: 75% now disallow at least one AI bot.
+A significant number of news websites disallow certain LLM agents from accessing their content: 72% now disallow at least one AI bot.
 
 Methodology: 
 1. Fetch robots.txt files for the top 100 news websites from *Ahrefs' News Rankings* (stored in `news_best_100.csv`) 
@@ -23,17 +23,17 @@ A predefined list (`list_ai.txt`) includs 42 AI-related crawlers (can be found a
 
 
 ## Results 
-- 75% of websites (45/60 unique domains) block at least one AI bot.  
-- 25% of All Disallowed Bots are AI-related (591/2348 entries in July_2026).  
+- 72% of websites (43/60 unique domains) block at least one AI bot.  
+- 24% of All Disallowed Bots are AI-related (535/2257 entries in August_2026).  
 
 ### Top blocked AI bots  
 | Disallowed Bot   |   Count |
 |:-----------------|--------:|
-| GPTBot           |      35 |
-| CCBot            |      31 |
-| anthropic-ai     |      31 |
-| ClaudeBot        |      31 |
-| cohere-ai        |      27 |
+| GPTBot           |      33 |
+| CCBot            |      30 |
+| anthropic-ai     |      29 |
+| ClaudeBot        |      28 |
+| Bytespider       |      24 |
 
 ### Most protective news websites  
 | Website      |   Count |
