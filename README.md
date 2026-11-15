@@ -12,7 +12,7 @@ The syntax of a robots.txt file is straightforward. It typically includes the fo
 * *Allow* specifies exceptions to the disallow rules. For example, `Allow: /public/` permits access to the /public/ directory even if a broader disallow rule is in place.
 
 ## Findings
-A significant number of news websites disallow certain LLM agents from accessing their content: 74% now disallow at least one AI bot.
+A significant number of news websites disallow certain LLM agents from accessing their content: 75% now disallow at least one AI bot.
 
 Methodology: 
 1. Fetch robots.txt files for the top 100 news websites from *Ahrefs' News Rankings* (stored in `news_best_100.csv`) 
@@ -23,26 +23,26 @@ A predefined list (`list_ai.txt`) includs 42 AI-related crawlers (can be found a
 
 
 ## Results 
-- 74% of websites (43/58 unique domains) block at least one AI bot.  
-- 23% of All Disallowed Bots are AI-related (523/2271 entries in October_2026).  
+- 75% of websites (46/61 unique domains) block at least one AI bot.  
+- 23% of All Disallowed Bots are AI-related (570/2523 entries in October_2026).  
 
 ### Top blocked AI bots  
 | Disallowed Bot   |   Count |
 |:-----------------|--------:|
-| GPTBot           |      33 |
-| CCBot            |      29 |
-| ClaudeBot        |      29 |
+| GPTBot           |      31 |
+| ClaudeBot        |      31 |
+| CCBot            |      28 |
 | anthropic-ai     |      26 |
-| Bytespider       |      24 |
+| cohere-ai        |      26 |
 
 ### Most protective news websites  
 | Website      |   Count |
 |:-------------|--------:|
-| usatoday.com |      33 |
+| usatoday.com |      32 |
 | iltalehti.fi |      30 |
+| corriere.it  |      26 |
 | nytimes.com  |      25 |
 | nypost.com   |      23 |
-| lemonde.fr   |      23 |
 
 
 ---  
